@@ -1,0 +1,7 @@
+*.log
+*.aux
+*.out
+*.pdf
+*.toc
+*.pyg
+_minted-*/

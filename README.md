@@ -1,2 +1,7 @@
-# bootcamp--week--01-02--html-and-css
+# Develop Me HTML & CSS Syllabus
+
 HTML &amp; CSS Syllabus for Developme
+
+More to follow...
+
+

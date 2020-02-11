@@ -1,0 +1,47 @@
+% setup the document
+\documentclass[b5paper,openany]{book}
+
+% setup variables ------------------------------
+
+% your name
+\newcommand\instructor{Ruth John}
+
+% the week number
+\newcommand\weekno{1}
+
+% week main title
+\newcommand\maintitle{HTML.}
+
+% week subtitle
+\newcommand\subtitle{HyperText Markup Language.}
+
+% link to notes - relative to github.com/develop-me/
+\newcommand\github{bootcamp--week--01-02--html-and-css/blob/master/notes/}
+
+% setup functions, styling, etc.
+\input{../../latex-templates/template.tex}
+
+% the structure of the document
+\begin{document}
+
+% render the title page (uses variables above)
+\tp
+
+\quotepage{Mistakes are: Expected, respected, inspected, corrected.}
+
+\tableofcontents
+
+\input{../../latex-templates/preface.tex}
+
+\chapter{HTML Intro & Basic Syntax}
+\input{01_html-intro/html-intro.tex}
+
+\chapter{HTML Content Elements}
+\input{02_html-content-els/html-content-els.tex}
+
+\nchapter{Glossary}
+\input{html-glossary.tex}
+
+\input{../../latex-templates/colophon.tex}
+
+\end{document}
