@@ -1,0 +1,77 @@
+% setup the document
+\documentclass[b5paper,openany]{book}
+
+% setup variables ------------------------------
+
+% your name
+\newcommand\instructor{Ruth John}
+
+% the week number
+\newcommand\weekno{1}
+
+% week main title
+\newcommand\maintitle{Web Theory}
+
+% week subtitle
+\newcommand\subtitle{General information \& guides about building things for the web.}
+
+% link to notes - relative to github.com/develop-me/
+\newcommand\github{bootcamp--week--01-02--html-and-css/blob/master/notes/}
+
+% setup functions, styling, etc.
+\input{../../latex-templates/template.tex}
+
+% the structure of the document
+\begin{document}
+
+% render the title page (uses variables above)
+\tp
+
+\quotepage{A flower does not think about competing with the flower next to it. It just blooms.}{Anonymous}
+
+\tableofcontents
+
+\input{../../latex-templates/preface.tex}
+
+\chapter{General}
+\input{web-theory/01_overview/overview.tex}
+
+\chapter{Assistive Techonologies}
+\input{web-theory/02_assistive/assistive.tex}
+
+\chapter{Devtools}
+\input{web-theory/03_devtools/devtools.tex}
+
+\chapter{Requirement Gathering}
+\input{web-theory/04_requirements/requirements.tex}
+
+\chapter{Sitemapping}
+\input{web-theory/05_sitemap/sitemap.tex}
+
+\chapter{Scamping}
+\input{web-theory/06_scamping/scamping.tex}
+
+\chapter{Wireframing}
+\input{web-theory/07_wireframing/wireframing.tex}
+
+\chapter{Design Handover}
+\input{web-theory/08_design-handover/design-handover.tex}
+
+\chapter{Design Breakdown}
+\input{web-theory/09_design-breakdown/design-breakdown.tex}
+
+\chapter{Accessibility}
+\input{web-theory/10_accessibility/accessibility.tex}
+
+\chapter{Upload to a server}
+\input{web-theory/11_upload/upload.tex}
+
+\chapter{Testing your website}
+\input{web-theory/12_testing/testing.tex}
+
+\nchapter{Glossary}
+\input{web-theory/glossary.tex}
+
+\input{../../latex-templates/colophon.tex}
+
+\end{document}

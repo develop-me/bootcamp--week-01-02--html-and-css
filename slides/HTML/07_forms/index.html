@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Forms</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<!-- read https://www.innoq.com/de/blog/html-forms/-->
+
+<section class="form-example">
+
+  <form action="" method="">
+    <fieldset>
+      <legend>Text style inputs</legend>
+
+      <label for="inputname">Name:</label>
+      <input type="text" id="inputname" name="username" />
+
+      <label for="inputemail">Email:</label>
+      <input type="email" id="inputemail" name="email" />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="" />
+
+      <label for="number">number:</label>
+      <input type="number" id="number" name="" />
+
+      <label for="tel">tel:</label>
+      <input type="tel" id="tel" name="" />
+
+      <label for="url">url:</label>
+      <input type="url" id="url" name="" />
+
+    </fieldset>
+
+    <fieldset>
+      <legend>Not written as input</legend>
+
+      <label for="dropdown">Select</label>
+      <select id="dropdown" name="dropdown">
+        <option value="opone">opt one</option>
+        <option value="optwo">opt two</option>
+        <option value="opthr">opt three</option>
+      </select>
+
+      <label for="message">Textarea</label>
+      <textarea id="message" value="message"></textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>Other input types</legend>
+
+      <!-- checkbox -->
+      <label for="incheck">Checkbox</label>
+      <input type="checkbox" name="checkin" id="incheck" />
+
+      <!-- radio -->
+      <div>
+        <label for="inradio">Radio</label>
+        <input type="radio" name="radioin" value="optone" id="inradio" /><span>Option one</span>
+        <input type="radio" name="radioin" value="optwo" /><span>Option Two</span>
+      </div>
+
+      <!-- date & time -->
+      <label for="indate">Date:</label>
+      <input type="date" name="datein" id="indate" />
+
+      <label for="indatetime">Datetime:</label>
+      <input type="datetime-local" name="datetimein" id="indatetime" />
+
+      <label for="inmonth">Month:</label>
+      <input type="month" name="monthin" id="inmonth" />
+
+      <label for="intime">Time:</label>
+      <input type="time" name="timein" id="intime" />
+
+      <label for="inweek">Week:</label>
+      <input type="week" name="weekin" id="inweek" />
+
+      <!-- file -->
+      <label for="infile">File</label>
+      <input type="file" name="filein" id="infile" />
+
+      <!-- search -->
+      <label for="insearch">Search</label>
+      <input type="search" name="searchin" id="insearch" />
+
+      <!-- hidden -->
+      <label for="inhidden">Hidden</label>
+      <input type="hidden" name="hiddenin" id="inhidden" />
+
+    </fieldset>
+
+    <fieldset>
+      <legend>Lesser used</legend>
+
+      <!-- range -->
+      <label for="inrange">Range</label>
+      <input type="range" name="rangein" id="inrange" min="0" max="10" step="1" />
+
+      <!-- colour -->
+      <label for="incolor">Colour</label>
+      <input type="color" name="colorin" id="incolor" />
+
+      <!-- No default behaviour -->
+      <input type="button" name="" />
+
+      <!-- I do not recommend -->
+      <input type="reset" name="" />
+
+    </fieldset>
+
+    <input type="submit" value="My Text Here" />
+    <!-- <button type="submit">Login</button> -->
+
+  </form>
+
+</section>
+
+</body>
+</html>

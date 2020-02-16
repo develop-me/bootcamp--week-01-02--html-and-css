@@ -11,7 +11,21 @@ tex := $(shell find . -type f -name "*.tex")
 # make sure to use a tab (not spaces) for the commands below
 html.pdf: $(templates) $(tex) $(source)
 	# build using xelatex
-	xelatex --halt-on-error --shell-escape html.tex
+	xelatex -file-line-error --halt-on-error --shell-escape html.tex
 
 	# open preview in the background
 	open -g html.pdf
+
+web-theory.pdf: $(templates) $(tex) $(source)
+	# build using xelatex
+	xelatex -file-line-error --halt-on-error --shell-escape web-theory.tex
+
+	# open preview in the background
+	open -g web-theory.pdf
+
+css.pdf: $(templates) $(tex) $(source)
+	# build using xelatex
+	xelatex -file-line-error --halt-on-error --shell-escape css.tex
+
+	# open preview in the background
+	open -g css.pdf

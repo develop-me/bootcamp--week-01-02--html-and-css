@@ -1,0 +1,110 @@
+% setup the document
+\documentclass[b5paper,openany]{book}
+
+% setup variables ------------------------------
+
+% your name
+\newcommand\instructor{Ruth John}
+
+% the week number
+\newcommand\weekno{1}
+
+% week main title
+\newcommand\maintitle{CSS}
+
+% week subtitle
+\newcommand\subtitle{Cascading Style Sheets. Styling the web.}
+
+% link to notes - relative to github.com/develop-me/
+\newcommand\github{bootcamp--week--01-02--html-and-css/blob/master/notes/}
+
+% setup functions, styling, etc.
+\input{../../latex-templates/template.tex}
+
+% the structure of the document
+\begin{document}
+
+% render the title page (uses variables above)
+\tp
+
+\quotepage{Have no fear of perfection; you'll never reach it.}{Anonymous}
+
+\tableofcontents
+
+\input{../../latex-templates/preface.tex}
+
+\chapter{CSS Intro \& Syntax}
+\input{CSS/01_intro-syntax/intro-syntax.tex}
+
+\chapter{CSS Basic Styles}
+\input{CSS/03_basic-styles/basic-styles.tex}
+
+\chapter{CSS Web Fonts}
+\input{CSS/03_web-fonts/web-fonts.tex}
+
+\chapter{CSS Box Model}
+\input{CSS/04_box-model/box-model.tex}
+
+\chapter{CSS Colours}
+\input{CSS/05_colours/colours.tex}
+
+\chapter{CSS Floats}
+\input{CSS/06_floats/floats.tex}
+
+\chapter{CSS Units}
+\input{CSS/07_units/units.tex}
+
+\chapter{CSS Flexbox}
+\input{CSS/08_flexbox/flexbox.tex}
+
+\chapter{CSS Media Queries}
+\input{CSS/09_media-queries/media-queries.tex}
+
+\chapter{CSS Grid}
+\input{CSS/10_grid/grid.tex}
+
+\chapter{CSS Frameworks}
+\input{CSS/11_frameworks/frameworks.tex}
+
+\chapter{CSS Design Systems}
+\input{CSS/12_design-systems/design-systems.tex}
+
+\chapter{CSS Atomic Design}
+\input{CSS/13_atomic-design/atomic-design.tex}
+
+\chapter{CSS Positioning & Transforms}
+\input{CSS/14_positioning/positioning.tex}
+
+\chapter{CSS Imports}
+\input{CSS/15_imports/imports.tex}
+
+\chapter{CSS Variables}
+\input{CSS/16_variables/variables.tex}
+
+\chapter{OOCSS}
+\input{CSS/17_OOCSS/OOCSS.tex}
+
+\chapter{CSS Effects}
+\input{CSS/18_effects/effects.tex}
+
+\chapter{BEM: Block Element Modifier}
+\input{CSS/19_BEM/BEM.tex}
+
+\chapter{Complex Selectors}
+\input{CSS/20_complex-selectors/complex-selectors.tex}
+
+\chapter{CSS Specificity}
+\input{CSS/21_specificity/specificity.tex}
+
+\chapter{CSS Animation}
+\input{CSS/22_animation/animation.tex}
+
+\chapter{Extra CSS}
+\input{CSS/23_extra/extra.tex}
+
+\nchapter{Glossary}
+\input{CSS/glossary.tex}
+
+\input{../../latex-templates/colophon.tex}
+
+\end{document}
