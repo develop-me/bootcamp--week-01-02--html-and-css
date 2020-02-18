@@ -1,5 +1,5 @@
 theme: moon
 logo : assets/devme.png
-footnote : "© 2018 Ruth John for DevelopMe_"
+footnote : "© 2020 Ruth John for DevelopMe_"
 theme-override : assets/presentation.css
 transition : fade

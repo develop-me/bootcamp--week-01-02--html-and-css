@@ -33,8 +33,10 @@ Order in the repo is as per category, not as per order in which you teach.
 
 *Suggested to be ommited from the part time course
 
+<!--https://gitpitch.com/develop-me/fellowship-wk1-beg-html-css-->
+
 - Intro & Class Rules
-	- [Slides](slides/PITCHME.md)
+	- [Slides](https://gitpitch.com/develop-me/bootcamp--week--01-02--html-and-css/slides/PITCHME.md)
 - Web Theory: General Overview
 	- [Slides](slides/web-theory/01_overview/PITCHME.md)
 - HTML: Intro & Syntax

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Cousine|Roboto');
+
+:root {
+	--devMeGreen: #00e6b8;
+	--devMeLgrey: #999;
+	--devMeDgrey: #4d4d4d;
+	--devMeWhite: #fefefe;
+	--devMeBlack: #111;
+
+	--devMeDecoFont: 'Cousine', monospace;
+	--devMeBodyFont: 'Roboto', sans-serif;
+}
+
+/* ------------------------ main partials */
+body {
+	background-color: var(--devMeDgrey);
+	color: var(--devMeWhite);
+	line-height: 1.3;
+}
+#gp-logo img {
+	display: block;
+	border: 2px solid var(--devMeGreen);
+}
+.reveal {
+	font-family: var(--devMeBodyFont);
+	color: var(--devMeWhite);
+}
+
+/* ------------------------ typography */
+/* headers */
+.reveal h1,
+.reveal h2,
+.reveal h3 {
+	font-family: var(--devMeDecoFont);
+	color: var(--devMeGreen);
+	line-height: 1.1;
+}
+
+.reveal h2,
+.reveal h3 {
+	text-transform: capitalize;
+	letter-spacing: -2px;
+}
+
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+	font-family: var(--devMeBodyFont);
+	color: var(--devMeGreen);
+}
+
+.reveal h1 {font-size: 3.2em;}
+.reveal h2 {font-size: 1.9em;}
+
+/* paras, lists, links etc... */
+.reveal p,
+.reveal li {
+	line-height: 1.3; letter-spacing: 0.5px;
+	margin-bottom: 0.5em;
+}
+
+.reveal ul ul {
+	list-style-type: circle;
+}
+
+.reveal a {
+	color: var(--devMeGreen);
+	text-decoration: underline;
+}
+.reveal a:hover {
+	color: var(--devMeWhite);
+	text-decoration: none;
+}
+
+/* code */
+.reveal code {
+	color: grey;
+  background-color: white;
+  padding: 8px;
+  font-size: 80%;
+}
+.reveal pre {
+	line-height: 1.4;
+}
+.reveal pre code {
+	padding:15px;
+	max-height: auto;
+	font-size: 100%;
+}
+
+/*
+Due to the nature of how pitchme works I have written it in plain ol CSS - however it is new shiny css - e.g. I use imports and custom vars. It will no doubt only work in Chrome
+
+However it would be easy to replace custom vars with sass
+
+I have imported the fonts directly into the stylesheet via google fonts. This doesn't give you much control over font loading I'm afraid.
+*/
