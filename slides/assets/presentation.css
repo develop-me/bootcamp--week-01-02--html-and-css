@@ -42,10 +42,10 @@ body {
 }
 
 /* snap overrides */
-.reveal div.north {margin-top: 40px;}
-.reveal div.east {margin-right: 40px;}
-.reveal div.south {margin-bottom: 40px;}
-.reveal div.west {margin-left: 40px;}
+.reveal div[class*="north"] {margin-top: 40px;}
+.reveal div[class*="east"] {margin-right: 40px;}
+.reveal div[class*="south"] {margin-bottom: 40px;}
+.reveal div[class*="west"] {margin-left: 40px;}
 
 /* ------------------------ typography */
 /* headers */
@@ -55,6 +55,7 @@ body {
 .reveal h4,
 .reveal h5,
 .reveal h6 {
+	padding: 0px 5vw;
 	color: var(--darkGreen);
 	font-weight: bold;
 	max-width: 90vw;
