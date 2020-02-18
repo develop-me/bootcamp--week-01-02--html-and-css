@@ -43,7 +43,7 @@ body {
 
 /* snap overrides */
 .reveal div[class*="north"] {margin-top: 40px;}
-.reveal div[class*="east"] {margin-right: 40px;}
+/* .reveal div[class*="east"] {margin-right: 40px;} */
 .reveal div[class*="south"] {margin-bottom: 40px;}
 .reveal div[class*="west"] {margin-left: 40px;}
 
@@ -91,6 +91,12 @@ body {
 	text-decoration: none;
 }
 
+/* quotes */
+.reveal blockquote p {
+	font-size: calc(var(--fontSize) * 1.6);
+	color: var(--pink);
+}
+
 /* code */
 .reveal code {
 	color: var(--lightGrey);
@@ -100,6 +106,8 @@ body {
 }
 .reveal pre {
 	line-height: 1.4;
+	width: 100%;
+	margin: 0px;
 }
 .reveal pre code {
 	padding: 15px;

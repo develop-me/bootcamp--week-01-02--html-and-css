@@ -17,7 +17,27 @@ This is a slide with one main point on
 
 ---
 
-### Slide with bullet points
+<!-- snap syntax goes a little like [direction width] ie [north-west span-30]-->
+
+@snap[west span-40]
+#### Code slide
+
+What is this code doing? Maybe that should be here in a paragraph or list
+@snapend
+
+@snap[east span-50]
+```css
+.then {
+	we: write;
+	some: code;
+}
+```
+@snapend
+
+---
+
+
+#### Slide with bullet points
 
 - Ruth John: 15 yrs experience ++
 - Class intros
@@ -41,25 +61,5 @@ Note:
 All units have exercises this is how it should be
 
 ---
-
-<!-- snap syntax goes a little like [direction width] ie [north-west span-30]-->
-
-@snap[west span-50]
-#### Code slide
-
-What is this code doing? Maybe that should be here in a paragraph or list
-@snapend
-
-@snap[east span-50]
-```css
-.then {
-	we: write;
-	some: code;
-}
-```
-@snapend
-
----
-
 
 
