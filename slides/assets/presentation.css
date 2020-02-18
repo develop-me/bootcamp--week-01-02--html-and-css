@@ -41,6 +41,12 @@ body {
 	box-sizing: border-box;
 }
 
+/* snap overrides */
+.reveal div.north {margin-top: 40px;}
+.reveal div.east {margin-right: 40px;}
+.reveal div.south {margin-bottom: 40px;}
+.reveal div.west {margin-left: 40px;}
+
 /* ------------------------ typography */
 /* headers */
 .reveal h1,
@@ -51,9 +57,14 @@ body {
 .reveal h6 {
 	color: var(--darkGreen);
 	font-weight: bold;
+	max-width: 90vw;
+	text-transform: capitalize;
 }
 
-.reveal h1 {font-size: calc(var(--fontSize) * 2);}
+.reveal h1 {
+	font-size: calc(var(--fontSize) * 2);
+	text-transform: uppercase;
+}
 .reveal h2 {
 	font-size: calc(var(--fontSize) * 1.6);
 }

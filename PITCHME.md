@@ -42,16 +42,20 @@ All units have exercises this is how it should be
 
 ---
 
+@snap[north-west span-50]
 #### Code slide
 
 What is this code doing? Maybe that should be here in a paragraph or list
+@snapend
 
+@snap[north-east span-50]
 ```css
 .then {
 	we: write;
 	some: code;
 }
 ```
+@snapend
 
 ---
 
