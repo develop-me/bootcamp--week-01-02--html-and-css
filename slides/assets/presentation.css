@@ -4,32 +4,22 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro&display=swap');
 
 :root {
-	--devMeGreen: #00f0c8; /*remove*/
 	--lightGreen: #00f0c8;
 
 	--green: #378E83;
 
 	--darkGreen: #335157;
 
-	--devMeLgrey: #999; /*remove*/
 	--lightGrey: #eef4f1;
 
 	--darkGrey: #575756;
-	--devMeDgrey: #4d4d4d; /*remove*/
 
 	--pink: #ff306a;
-
-
-	--devMeWhite: #fefefe; /*remove*/
-	--devMeBlack: #111; /*remove*/
-
-	--devMeDecoFont: 'Cousine', monospace;
-	--devMeBodyFont: 'Roboto', sans-serif;
 
 	--bodyFont: 'Source Sans Pro', sans-serif;
 	--codeFont: 'Source Code Pro', monospace;
 
-	--fontSize: 1.4rem;
+	--fontSize: 1.4em;
 }
 
 
@@ -42,11 +32,12 @@ body {
 	border: 2px solid var(--green);
 }
 .reveal {
-	border: 30px solid var(--lightGreen);
-
 	font-family: var(--bodyFont);
 	color: var(--darkGreen);
 	line-height: 1.2;
+}
+.backgrounds {
+	border: 30px solid var(--lightGreen);
 }
 
 /* ------------------------ typography */
