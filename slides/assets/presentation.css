@@ -34,7 +34,7 @@ body {
 .reveal {
 	font-family: var(--bodyFont);
 	color: var(--darkGreen);
-	line-height: 1.2;
+	line-height: 1.1;
 }
 .reveal .backgrounds {
 	border: 30px solid var(--lightGreen);
@@ -69,7 +69,7 @@ body {
 .reveal h2 {
 	font-size: calc(var(--fontSize) * 1.6);
 }
-.reveal h3 {font-size: calc(var(--fontSize) * 1.3);}
+.reveal h3 {font-size: calc(var(--fontSize) * 1.2);}
 
 /* paras, lists, links etc... */
 .reveal p,
@@ -93,7 +93,7 @@ body {
 
 /* quotes */
 .reveal blockquote p {
-	font-size: calc(var(--fontSize) * 1.6);
+	font-size: calc(var(--fontSize) * 1.2);
 	color: var(--pink);
 }
 
