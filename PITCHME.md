@@ -8,8 +8,9 @@ Note:
 This is a big hero slide for the beginning of presentations
 
 ---
-
+@snap[west span-70]
 ## Slide with a main point
+@snapend
 
 Note:
 This is a slide with one main point on
@@ -27,7 +28,10 @@ Title all bullet points
 ---
 
 >This is a quote, about a thing and a thing, whatever ok!
+
 You will have to cite like this
+
+---
 
 #### Exercise:
 

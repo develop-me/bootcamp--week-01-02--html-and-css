@@ -36,8 +36,9 @@ body {
 	color: var(--darkGreen);
 	line-height: 1.2;
 }
-.backgrounds {
+.reveal .backgrounds {
 	border: 30px solid var(--lightGreen);
+	box-sizing: border-box;
 }
 
 /* ------------------------ typography */
@@ -48,12 +49,14 @@ body {
 .reveal h4,
 .reveal h5,
 .reveal h6 {
+	color: var(--darkGreen);
 	font-weight: bold;
-	letter-spacing: -4px;
 }
 
 .reveal h1 {font-size: calc(var(--fontSize) * 2);}
-.reveal h2 {font-size: calc(var(--fontSize) * 1.6);}
+.reveal h2 {
+	font-size: calc(var(--fontSize) * 1.6);
+}
 .reveal h3 {font-size: calc(var(--fontSize) * 1.3);}
 
 /* paras, lists, links etc... */
