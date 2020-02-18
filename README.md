@@ -25,6 +25,9 @@ There are three categories taught in this course: HTML, CSS & Web Theory. The la
 
 Go through the repo - the slides folder especially. We teach in increments so you may feel valuable info is being ommited only to find it's being taught at a later stage. Don't overwhelm your students - remember you will have to lie until you can tell the truth.
 
+If you are adding content: Choose your unit, create/modify slides, notes & exercises content as per. Things you may find useful:
+- There is an example presentation in the root
+
 ## Suggested Course Structure
 
 Feel free to mix and match the syllabus order as you see fit. This is proposed so you can keep track of where you have been and where you go next.
@@ -35,8 +38,10 @@ Order in the repo is as per category, not as per order in which you teach.
 
 <!--https://gitpitch.com/develop-me/fellowship-wk1-beg-html-css-->
 
+
 - Intro & Class Rules
-	- [Slides](https://gitpitch.com/develop-me/bootcamp--week--01-02--html-and-css/slides/PITCHME.md)
+	- [Slides](https://gitpitch.com/develop-me/bootcamp--week--01-02--html-and-css/master/slides/PITCHME.md)
+https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides#/
 - Web Theory: General Overview
 	- [Slides](slides/web-theory/01_overview/PITCHME.md)
 - HTML: Intro & Syntax

@@ -1,25 +1,49 @@
-@import url('https://fonts.googleapis.com/css?family=Cousine|Roboto');
+
+@import url('https://fonts.googleapis.com/css?family=Cousine|Roboto'); /*remove*/
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro&display=swap');
 
 :root {
-	--devMeGreen: #00e6b8;
-	--devMeLgrey: #999;
-	--devMeDgrey: #4d4d4d;
-	--devMeWhite: #fefefe;
-	--devMeBlack: #111;
+	--devMeGreen: #00f0c8; /*remove*/
+	--lightGreen: #00f0c8;
+
+	--green: #378E83;
+
+	--darkGreen: #335157;
+
+	--devMeLgrey: #999; /*remove*/
+	--lightGrey: #eef4f1;
+
+	--darkGrey: #575756;
+	--devMeDgrey: #4d4d4d; /*remove*/
+
+	--pink: #ff306a;
+
+
+	--devMeWhite: #fefefe; /*remove*/
+	--devMeBlack: #111; /*remove*/
 
 	--devMeDecoFont: 'Cousine', monospace;
 	--devMeBodyFont: 'Roboto', sans-serif;
+
+	--bodyFont: 'Source Sans Pro', sans-serif;
+	--codeFont: 'Source Code Pro', monospace;
+
+	--fontSize: 1.4rem;
 }
+
 
 /* ------------------------ main partials */
 body {
-	background-color: var(--devMeDgrey);
-	color: var(--devMeWhite);
+	background-color: var(--lightGrey);
+	border: 20px solid var(--green);
+
+	color: var(--darkGreen);
 	line-height: 1.3;
 }
 #gp-logo img {
 	display: block;
-	border: 2px solid var(--devMeGreen);
+	border: 2px solid var(--green);
 }
 .reveal {
 	font-family: var(--devMeBodyFont);
