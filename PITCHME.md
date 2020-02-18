@@ -26,6 +26,9 @@ Title all bullet points
 
 ---
 
+>This is a quote, about a thing and a thing, whatever ok!
+You will have to cite like this
+
 #### Exercise:
 
 ### Do this thing with this thing ok thanks well done

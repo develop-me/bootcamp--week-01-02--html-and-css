@@ -36,78 +36,67 @@
 /* ------------------------ main partials */
 body {
 	background-color: var(--lightGrey);
-	border: 20px solid var(--green);
-
-	color: var(--darkGreen);
-	line-height: 1.3;
 }
 #gp-logo img {
 	display: block;
 	border: 2px solid var(--green);
 }
 .reveal {
-	font-family: var(--devMeBodyFont);
-	color: var(--devMeWhite);
+	border: 30px solid var(--lightGreen);
+
+	font-family: var(--bodyFont);
+	color: var(--darkGreen);
+	line-height: 1.2;
 }
 
 /* ------------------------ typography */
 /* headers */
 .reveal h1,
 .reveal h2,
-.reveal h3 {
-	font-family: var(--devMeDecoFont);
-	color: var(--devMeGreen);
-	line-height: 1.1;
-}
-
-.reveal h2,
-.reveal h3 {
-	text-transform: capitalize;
-	letter-spacing: -2px;
-}
-
+.reveal h3,
 .reveal h4,
 .reveal h5,
 .reveal h6 {
-	font-family: var(--devMeBodyFont);
-	color: var(--devMeGreen);
+	font-weight: bold;
+	letter-spacing: -4px;
 }
 
-.reveal h1 {font-size: 3.2em;}
-.reveal h2 {font-size: 1.9em;}
+.reveal h1 {font-size: calc(var(--fontSize) * 2);}
+.reveal h2 {font-size: calc(var(--fontSize) * 1.6);}
+.reveal h3 {font-size: calc(var(--fontSize) * 1.3);}
 
 /* paras, lists, links etc... */
 .reveal p,
 .reveal li {
-	line-height: 1.3; letter-spacing: 0.5px;
+	line-height: 1.3;
 	margin-bottom: 0.5em;
 }
 
-.reveal ul ul {
+.reveal ul * {
 	list-style-type: circle;
 }
 
 .reveal a {
-	color: var(--devMeGreen);
+	color: var(--green);
 	text-decoration: underline;
 }
 .reveal a:hover {
-	color: var(--devMeWhite);
+	color: var(--lightGreen);
 	text-decoration: none;
 }
 
 /* code */
 .reveal code {
-	color: grey;
-  background-color: white;
+	color: var(--lightGrey);
+  background-color: var(--darkGrey);
   padding: 8px;
-  font-size: 80%;
+	font-family: var(--codeFont);
 }
 .reveal pre {
 	line-height: 1.4;
 }
 .reveal pre code {
-	padding:15px;
+	padding: 15px;
 	max-height: auto;
 	font-size: 100%;
 }
