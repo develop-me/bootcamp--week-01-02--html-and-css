@@ -13,11 +13,11 @@
 
 ---
 
-@snap[west span-40]
+@snap[north-west span-40]
 Let's have a look at some HTML
 @snapend
 
-@snap[east span-50]
+@snap[east span-70]
 ```html
 <p class="lede">Here is some text</p>
 ```
@@ -29,11 +29,11 @@ Open angle brackets, write element, write any attributes, close angle bracket, w
 
 ---
 
-@snap[west span-40]
+@snap[north-west span-40]
 Another example: Self closing & multiple attributes
 @snapend
 
-@snap[east span-50]
+@snap[east span-70]
 ```html
 <img src="myimage.jpg" alt="A photo of a girl holding a book" />
 ```
@@ -46,11 +46,11 @@ There are all attr equals quotes parameter
 You can have more than one per element and we seperate them with a space
 
 ---
-@snap[west span-40]
+@snap[north-west span-40]
 You can put elements inside of elements
 @snapend
 
-@snap[east span-50]
+@snap[east span-70]
 ```html
 <p class="lede">
 	Here is some text
@@ -75,13 +75,13 @@ Spaces matter when you write HTML elements because you want to make sure attribu
 
 ---
 
-@snap[west span-40]
+@snap[north-west span-40]
 Comments are parts of a code file that are ignored by the program running it.
 @snapend
 
-@snap[east span-50]
+@snap[east span-70]
 ```html
-<!-- this is an HTML comment -->
+&lt;!-- this is an HTML comment -->
 ```
 @snapend
 
@@ -90,11 +90,11 @@ Comments are useful to describe what the code is doing, or to remind yourself of
 
 ---
 
-@snap[west span-40]
+@snap[north-west span-40]
 HTML document structure
 @snapend
 
-@snap[east span-50]
+@snap[east span-70]
 ```html
 <!DOCTYPE html>
 <html lang="en">
