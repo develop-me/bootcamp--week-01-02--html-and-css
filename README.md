@@ -34,18 +34,41 @@ Feel free to mix and match the syllabus order as you see fit. This is proposed s
 
 Order in the repo is as per category, not as per order in which you teach.
 
-*Suggested to be ommited from the part time course
+>I recommend printing off the table and making notes as you go as to what you have taught & amends
 
-<!--https://gitpitch.com/develop-me/fellowship-wk1-beg-html-css-->
+#### Part One
+
+| PT | FT | Title | Lesson | Slides | Exercise | Notes |
+|---|---|---|---|---|---|---|
+|  |  | Intro & Class Rules | [Lesson](https://gitpitch.com/develop-me/bootcamp--week--01-02--html-and-css/master/slides/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides#/) |   |   |
+|  |  | Web Theory: General Overview | [Lesson](slides/web-theory/01_overview/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/01_overview/#/) |  |  |
+|  |  | HTML: Intro & Syntax |  |  |  |  |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
+
+#### Part Two
+
+| PT | FT | Title | Lesson | Slides | Exercise | Notes |
+|---|---|---|---|---|---|---|
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
 
 
-- Intro & Class Rules
-	- [Slides](https://gitpitch.com/develop-me/bootcamp--week--01-02--html-and-css/master/slides/PITCHME.md)
-https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides#/
-- Web Theory: General Overview
-	- [Slides](slides/web-theory/01_overview/PITCHME.md)
-- HTML: Intro & Syntax
-	- [Slides](slides/HTML/01_intro-syntax/PITCHME.md)
+-
+	- [Lesson](slides/HTML/01_intro-syntax/PITCHME.md)
 	- [Exercises](exercises/HTML/01_intro-syntax)
 - HTML: Content Elements
 	- [Slides](slides/HTML/02_content-els/PITCHME.md)

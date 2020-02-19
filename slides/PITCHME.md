@@ -21,7 +21,7 @@ Get class to introduce themselves
 	- Be respectful & kind |
 	- Keep it clean |
 	- Timekeeping |
-- Daily
+- Daily |
 - Please take your breaks |
 - Please let me take my breaks. |
 
@@ -60,7 +60,6 @@ Notes: they will be provided but your format is the best format.
 	- [VS Code Text Editor](https://code.visualstudio.com/) |
 	- [Slack](https://slack.com/download) |
 	- Terminal or Bash |
-	- Chrome cast |
 
 ---
 

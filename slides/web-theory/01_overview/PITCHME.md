@@ -1,6 +1,6 @@
-@title[Web Developement Introduction]
+@title[Web Development Introduction]
 
-# Web Developement Introduction
+# Web Development Introduction
 
 ---
 
@@ -15,13 +15,12 @@ Describe how the web works. You go to a browser type in the address or url, this
 
 ### Server Languages aka Backend
 
-- Backend
-	- PHP |
-	- Ruby |
-	- Python |
-	- Java |
-	- C (C++ C# objectiveC) |
-	- JavaScript |
+- PHP |
+- Ruby |
+- Python |
+- Java |
+- C (C++ C# objectiveC) |
+- JavaScript |
 
 ---
 
@@ -94,8 +93,8 @@ These two weeks are focussed on HTML & CSS
 - Nail HTML & CSS |
 - Lots of practice exercises |
 - Individually on your machine |
-- Web Theory
-- Project process
+- Web Theory |
+- Project process |
 - Tools: Code editor (VS Code), browser (Chrome AND Firefox), pen & paper |
 - Project: Multipage website templates |
 

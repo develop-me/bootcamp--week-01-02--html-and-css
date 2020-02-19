@@ -1,80 +1,84 @@
-\section{A Section}
+HTML stands for Hypertext Markup Language. It's the code the describes the content you see on the World Wide Web.
 
-This is a paragraph. You need to end each one with two backslashes on the following line, otherwise you won't get a line break. I can't remember why I set it up like that.
-\\
+It's a \textit{markup} language, a data structure based on another language XML.
 
-You can do \textbf{bold} text and \textit{italic} text. You can also do \texttt{monospace} text.
-\\
-
-If you want to but smart quotes around something you can use ``two backticks to start and two apostrophes to finish''.
-\\
-
-If you want to include a big block of code then you use the \texttt{minted} command:
-
-% second curlies say what language to use for syntax highlighting
-% you should probably indent everything inside a minted section
-\begin{minted}{js}
-    let x = 10;
-    const z = n => n * n;
-
-    z(10); // blah blah blah
-\end{minted}
-
-Sometimes you'll want to put code in a separate file. This will automatically link to the file on GitHub as copying from a PDF is a bit awful.
-
-% \inputminted{js}{resources/example.js}
-
-% sometimes page breaks are necessary
-\pagebreak
-
-There's a special one for PHP, which starts on line 3 to remove the \texttt{<?php} tag from the top:
-
-% \phpinputminted{resources/example}
-
-\subsection{A Sub Section}
-
-You can also do sub-sections. Sub-sections will be included in the table of contents. And sub-sub-sections.
-
-\subsubsection{A Sub Sub Section}
-
-See. These won't be in the table of contents.
-\\
-
-I've also included a horizontal rule if you need a break of some sort.
-
-\hr
-
-Have a list:
-
-\begin{itemize}
-    \item Blah
-    \item \textit{Blah}
-    \item \textbf{Blah}
-\end{itemize}
-
-And a numbered one:
-
-\begin{enumerate}
-    \item Blah
-    \item \textit{Blah}
-    \item \textbf{Blah}
-\end{enumerate}
-
-\href{https://duckduckgo.com}{Links} can be useful. As can footnotes\footnote{Look at me, I'm a footnote!}
-\\
-
-\pagebreak
-
-Sometimes it's useful to pull out some information:
-
-\begin{infobox}{I'm an Infobox}
-    Here's some side information about a thing. Maybe some historical context or a rant.
+\begin{infobox}{HTML == Content}
+    HTML describes the content we see on a webpage, CSS is used to \textit{style} it, give it colours and placement. JavaScript is used for interactivity, like changing things when a user clicks.
 \end{infobox}
 
-\quoteinline{Sometimes it's nice to include a quote from someone}{Someone, 1985}
+\subsection{Let's take a look at the syntax:}
 
-It's also possible to include images:
+\begin{minted}{html}
+    <p class="lede">Here is some text</p>
+\end{minted}
 
-% width first, then filename, then bottom margin, then caption text
-% you can use most image types - vector based ones based for diagrams
-\img{12cm}{resources/diagram.eps}{1em}{A very handy caption}
+Here we write the element \texttt{<p>}, by opening angle brackets, writing the element and closing them. We write the content inside and \textit{close} the element by writing it again but adding a forward slash after the first angle bracket.
+
+\begin{infobox}{Closing Elements}
+    It's really important to close your HTML elements. Modern browsers will try to do this for you, however if there are multiple unclosed elements it can get confused and cause strange behavior.
+\end{infobox}
+
+There are some elements that close themselves, rather than writing the element again at the end:
+
+\begin{minted}{html}
+    <img src="myimage.jpg" alt="A photo of a girl holding a book" />
+\end{minted}
+
+\subsection{Attributes}
+
+Inside our elements we have \textit{attributes}; \texttt{class="lede"}, these give the program more information about the element.
+
+There are lots of these too and are written by writing the attribute name, followed by an equals sign, then opening up quotes and writing what we call the \textit{parameter} inside.
+
+You can have more than one attribute for an element so we separate them with a space.
+
+\subsection{Nesting elements}
+
+You can put elements inside of elements. This is often referred to as nesting.
+
+\begin{minted}{html}
+<p class="lede">
+    <img src="myimage.jpg" alt="A photo of a girl holding a book" />
+</p>
+\end{minted}
+
+Note:
+We add a tab to the inside element when we do this, so we can easily read it.
+When we put an element inside another element the one inside is called the child and the one containing the other element is called the parent.
+We can put as many elements inside as many elements as we like!
+
+\subsection{Whitespace}
+
+This is what we call the spaces in code, like the regular space or tabs at the beginning.
+Spaces matter when you write HTML elements because you want to make sure attributes don't merge into each other or the element.
+
+\subsection{Comments}
+
+Comments are parts of a code file that are ignored by the program running it.
+
+In HTML we write a comment like this:
+
+\begin{minted}{html}
+<!-- this is an HTML comment -->
+\end{minted}
+
+Comments are useful to describe what the code is doing, or to remind yourself of things. They can even be used for documentation.
+
+\subsection{Basic structure}
+
+This is the bare minimum you need in your HTML file:
+
+\begin{minted}{html}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <!--write the content here -->
+    </body>
+</html>
+\end{minted}
+
+There's a declaration at the top, then everything is inside \texttt{html} tags. The next section describes which we would write in the \texttt{head} element and we add all the content to be shown inside the \texttt{body} element. There can only be one of each of these per HTML document
+
