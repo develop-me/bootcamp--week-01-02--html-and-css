@@ -36,7 +36,6 @@ What is this code doing? Maybe that should be here in a paragraph or list
 
 ---
 
-
 #### Slide with bullet points
 
 - Ruth John: 15 yrs experience ++
