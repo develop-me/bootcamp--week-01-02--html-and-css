@@ -26,7 +26,7 @@ There are three categories taught in this course: HTML, CSS & Web Theory. The la
 Go through the repo - the slides folder especially. We teach in increments so you may feel valuable info is being ommited only to find it's being taught at a later stage. Don't overwhelm your students - remember you will have to lie until you can tell the truth.
 
 If you are adding content: Choose your unit, create/modify slides, notes & exercises content as per. Things you may find useful:
-- There is an example presentation in the root
+- There is an example presentation in the [root directory here]() I strongly recommend using that to create new presentations
 
 ## Suggested Course Structure
 
