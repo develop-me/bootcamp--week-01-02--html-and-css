@@ -16,7 +16,6 @@
 - Chrome & Firefox - CMD + Option + I |
 - Elements tab and Inspector to debug your HTML and styling |
 - Box Model, Grid + other useful tools |
-- Toolbar for device testing |
 
 ---
 
