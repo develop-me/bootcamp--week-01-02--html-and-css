@@ -16,6 +16,7 @@
 - Chrome & Firefox - CMD + Option + I |
 - Elements tab and Inspector to debug your HTML and styling |
 - Box Model, Grid + other useful tools |
+- Your changes will not be saved!
 
 ---
 
