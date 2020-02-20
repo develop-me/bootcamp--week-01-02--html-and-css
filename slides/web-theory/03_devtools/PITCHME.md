@@ -8,6 +8,7 @@
 - Live feedback |
 - Emulate different devices and constraints |
 - Quick metrics on accessibility, SEO etc |
+- Should always be open!
 
 ---
 
@@ -16,12 +17,13 @@
 - Chrome & Firefox - CMD + Option + I |
 - Elements tab and Inspector to debug your HTML and styling |
 - Box Model, Grid + other useful tools |
-- Your changes will not be saved!
+- Careful changes made in DevTools will not be saved!
 
 ---
 
-## Testing
+## Auditing and Testing
 
 - Audits tab for key metrics |
+- Toolbar for device testing |
 - Add constraints in Network tab |
-- Device toolbar for device testing |
+- Best practices
