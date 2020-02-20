@@ -43,7 +43,7 @@ Order in the repo is as per category, not as per order in which you teach.
 |  |  | Intro & Class Rules | [Lesson](https://gitpitch.com/develop-me/bootcamp--week--01-02--html-and-css/master/slides/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides#/) |   |   |
 |  |  | Web Theory: General Overview | [Lesson](slides/web-theory/01_overview/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/01_overview/#/) |  | web-theory.pdf 1.1 |
 |  |  | HTML: Intro & Syntax | [Lesson](slides/HTML/01_intro-syntax/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/HTML/01_intro-syntax#/) | [Exercise](exercises/HTML/01_intro-syntax) | html.pdf 1.1 |
-|  |  | HTML: Content Elements |  |  |  |  |
+|  |  | HTML: Content Elements | [Lesson](slides/HTML/02_content-els/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/HTML/02_content-els#/) | [Exercises](exercises/HTML/02_content-els) | html.pdf 2.1 |
 |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |
@@ -67,9 +67,6 @@ Order in the repo is as per category, not as per order in which you teach.
 |  |  |  |  |  |  |  |
 
 
-- HTML: Content Elements
-	- [Slides](slides/HTML/02_content-els/PITCHME.md)
-	- [Exercises](exercises/HTML/02_content-els)
 - Web Theory: Assistive Technologies
 	- [Slides](slides/web-theory/02_assistive/PITCHME.md)
 - HTML: Sectioning Elements
