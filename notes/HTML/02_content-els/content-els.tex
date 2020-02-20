@@ -1,80 +1,23 @@
-\section{A Section}
+\begin{description}
+	\item[h1 - h6] \texttt{<h3>My Heading</h3>} Headings for different parts of the webpage
+	\item[p] \texttt{<p>My sentence here</p>} For paragraphs and lines of text
+	\item[ol] \texttt{<ol>...</ol>} Ordered list (numbered)
+	\item[ul] \texttt{<ul>...</ul>} Unordered list (numbered)
+	\item[li] \texttt{<li>List item content</li>} List item, only direct children of \texttt{ol} and \texttt{ul}
+	\item[dl] \texttt{<dl>...</dl>} Description list
+	\item[dt] \texttt{<dt>Term here</dt>} Description term
+	\item[dd] \texttt{<dd>Definition here</dd>} Definition
+	\item[a] \texttt{<a href="http://webaddress.com">Link Text</a>} Anchor or link; takes you somewhere \& needs \texttt{href} attribute
+	\item[button] \texttt{<button>Do something</button>} Button for interactivity
+	\item[img] \texttt{<img src="example.png" alt="A photo of a girl holding a book" />} Image. Don't forget the attributes.
+	\item[blockquote] \texttt{<blockquote cite="">...</blockquote>} To add a quote, optional cite attribute
+	\item[cite] \texttt{<cite>...</cite>} Citation
+	\item[details] \texttt{<details>...</details>} Details
+	\item[summary] \texttt{<summary>...</summary>} Summary for details (this is what is shown)
+\end{description}
 
-This is a paragraph. You need to end each one with two backslashes on the following line, otherwise you won't get a line break. I can't remember why I set it up like that.
-\\
-
-You can do \textbf{bold} text and \textit{italic} text. You can also do \texttt{monospace} text.
-\\
-
-If you want to but smart quotes around something you can use ``two backticks to start and two apostrophes to finish''.
-\\
-
-If you want to include a big block of code then you use the \texttt{minted} command:
-
-% second curlies say what language to use for syntax highlighting
-% you should probably indent everything inside a minted section
-\begin{minted}{js}
-    let x = 10;
-    const z = n => n * n;
-
-    z(10); // blah blah blah
-\end{minted}
-
-Sometimes you'll want to put code in a separate file. This will automatically link to the file on GitHub as copying from a PDF is a bit awful.
-
-% \inputminted{js}{resources/example.js}
-
-% sometimes page breaks are necessary
-\pagebreak
-
-There's a special one for PHP, which starts on line 3 to remove the \texttt{<?php} tag from the top:
-
-% \phpinputminted{resources/example}
-
-\subsection{A Sub Section}
-
-You can also do sub-sections. Sub-sections will be included in the table of contents. And sub-sub-sections.
-
-\subsubsection{A Sub Sub Section}
-
-See. These won't be in the table of contents.
-\\
-
-I've also included a horizontal rule if you need a break of some sort.
-
-\hr
-
-Have a list:
-
-\begin{itemize}
-    \item Blah
-    \item \textit{Blah}
-    \item \textbf{Blah}
-\end{itemize}
-
-And a numbered one:
-
-\begin{enumerate}
-    \item Blah
-    \item \textit{Blah}
-    \item \textbf{Blah}
-\end{enumerate}
-
-\href{https://duckduckgo.com}{Links} can be useful. As can footnotes\footnote{Look at me, I'm a footnote!}
-\\
-
-\pagebreak
-
-Sometimes it's useful to pull out some information:
-
-\begin{infobox}{I'm an Infobox}
-    Here's some side information about a thing. Maybe some historical context or a rant.
+\begin{infobox}{Lorem Ipsum}
+    \textbf{Lorem Ipsum} is latin. We use blocks of latin text as \textit{placeholders} when we are building websites, before real content is added. It's a good language as it doesn't mean much to us, but is still representative of how westernised languages would appear in blocks \& sentences.
+    To get \textbf{Lorem Ipsum} you can type \textit{Lorem} followed by enter into vscode, or find a \href{https://www.lipsum.com/}{generator online here}.
 \end{infobox}
 
-\quoteinline{Sometimes it's nice to include a quote from someone}{Someone, 1985}
-
-It's also possible to include images:
-
-% width first, then filename, then bottom margin, then caption text
-% you can use most image types - vector based ones based for diagrams
-\img{12cm}{resources/diagram.eps}{1em}{A very handy caption}

@@ -1,159 +1,146 @@
-# Lesson 01: Basic HTML
+# Content Elements
+
+Found in html.pdf, 2.1
 
 ---
 
-## HTML is a data structure
+@snap[north-west span-40]
+#### Headings
 
-- Hypertext Markup Language (sometimes referred to as just 'markup' or 'marking something up') |
-- Based on XML |
-- Gives the browser (environment) data (information) |
-- Content layer |
-	- CSS: Style layer
-	- JavaScript: Interaction layer
+Contain heading text. Can have multiple per document, weight of heading not order.
+@snapend
 
----
-
-## Let's have a look at some HTML
-
-```
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<title></title>
-</head>
-<body>
-
-</body>
-</html>
-```
-
----
-
-## A closer look
-
+@snap[east span-70]
 ```html
-<html lang="en">
+<h1>Heading level 1</h1>
+<h2>Heading level 2</h2>
+...
+<h6>Heading level 6</h6>
 ```
-
-- open angle bracket |
-- element |
-- attribute |
-- double quotes |
-- param |
+@snapend
 
 ---
 
-- close quotes |
-- more attributes? |
-- close angle bracket |
-- content |
+@snap[north-west span-40]
+#### Paragraphs
 
----
+For all lines & blocks of text
+@snapend
 
+@snap[east span-70]
 ```html
-<p class="article" id="about-me">Some amazing things here</p>
-```
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at justo egestas, imperdiet nulla vitae, ultrices ante.</p>
 
-- open angle bracket |
-- forward slash |
-- element |
-- close angle bracket |
+```
+@snapend
 
 ---
 
-## Your turn
+@snap[north-west span-40]
+#### Lists
 
+ordered, unordered & description
+List items can only be the direct children of ol & ul
+@snapend
+
+@snap[east span-70]
 ```html
-<a href="http://www.google.com">Google</a>
+<ol>
+	<li>First list item</li>
+	<li>List item two</li>
+	<li>Another list item</li>
+</ol>
+
+<ul>
+	<li>First list item</li>
+	<li>List item two</li>
+	<li>Another list item</li>
+</ul>
+
+<dl>
+	<dt>Description term</dt>
+	<dd>Description definition</dd>
+
+	<dt>Description term</dt>
+	<dd>Description definition</dd>
+	<dd>Another definition</dd>
+</dl>
+
 ```
+@snapend
 
 ---
 
-## And again
+@snap[north-west span-40]
+#### Anchors
 
+aka links: These go places
+@snapend
+
+@snap[east span-70]
 ```html
-<input type="text" name="firstname" />
+<a href="http://webaddress.com">Taking me some place else</a>
 ```
+@snapend
 
 ---
 
-## Let's have a go
+@snap[north-west span-40]
+#### Buttons
 
-DEMO
+NOT links
+@snapend
 
-Let's look around Sublime...
-
-Note:
-Look around Sublime
-Start a basic html file with the whole class
-
----
-
-## There's a finite amount of elements
-
-[https://developer.mozilla.org/en-US/docs/Web/HTML/Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
-
-Note:
-I'm not going to teach them all to you - I'm going to go over the ones you are going to use on a day to day basis
-
----
-
-## Why is it important?
-
-You're describing content.
-
-The browser does magic things!
-
-Note:
-We'll go over this in more detail later, but suffice to say there's loads of benefits to using the right element for the right content.
-
----
-
-## HTML Sectioning Elements
-
-- `<body>` Contains all content (Can only be one)
-- `<header>`, `<footer>`, `<article>`, `<aside>`, `<nav>`, `<main>`
-- `<div>`, `<section>`
-
-Note:
-article: a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). Examples include: a forum post, a magazine or newspaper article, or a blog entry.
-aside: a portion of a document whose content is only indirectly related to the document's main content.
-section: a standalone section — which doesn't have a more specific semantic element to represent it
-div: generic container for flow content. It has no effect on the content or layout until styled using CSS
-
----
-
-## Some HTML Content Elements
-
-- `<h1`...`<h#>`
-- `<p>`
-- `<ul>`,`<ol>`,`<dl>`
-- `<a>` needs `href` attr
-- `<blockquote>`, should have a `cite` attr, `<q>`, `<cite>`
----
-
-- `<details>`, `<summary>`
-- `<img>` needs a `src` *and* an `alt` attr
-- `<button>`
-
----
-
-## The data structure
-
-- Tree structure
-- Parents and children
-
+@snap[east span-70]
+```html
+<button>Do a thing</button>
 ```
-<article>
-	<header>
-		<h1>My Website</h1>
-	</header>
-</article>
-```
+@snapend
 
 ---
 
-## Your turn
+@snap[north-west span-40]
+#### Images
 
-- Exercise one
+Invalid without attributes (remember your alts)
+@snapend
 
+@snap[east span-70]
+```html
+<img src="example.png" alt="A photo of a girl holding a book" />
+```
+@snapend
+
+---
+@snap[north-west span-40]
+#### Quotes
+
+Can use cite element or/and cite attribute
+@snapend
+
+@snap[east span-70]
+```html
+<blockquote cite="Someone, 2020">
+	<p>Someone said this amazing thing</p>
+	<cite>Someone, 2020</cite>
+</blockquote>
+```
+@snapend
+
+---
+
+@snap[north-west span-40]
+#### Details & Summary
+
+@snapend
+
+@snap[east span-70]
+```html
+<details>
+	<summary>How do you do a thing?</summary>
+	<p>This is how you do a thing</p>
+</details>
+```
+@snapend
+
+---
