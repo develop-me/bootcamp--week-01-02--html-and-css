@@ -1,80 +1,29 @@
-\section{A Section}
+\begin{minted}{html}
+<head>
+    <!-- character set -->
+    <meta charset="utf-8">
 
-This is a paragraph. You need to end each one with two backslashes on the following line, otherwise you won't get a line break. I can't remember why I set it up like that.
-\\
+    <!-- use ie edge if available -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-You can do \textbf{bold} text and \textit{italic} text. You can also do \texttt{monospace} text.
-\\
+    <!-- ignore retina pixels -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-If you want to but smart quotes around something you can use ``two backticks to start and two apostrophes to finish''.
-\\
+    <!-- title and description -->
+    <title></title>
+    <meta name="description" content="">
 
-If you want to include a big block of code then you use the \texttt{minted} command:
+    <!-- icons -->
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
 
-% second curlies say what language to use for syntax highlighting
-% you should probably indent everything inside a minted section
-\begin{minted}{js}
-    let x = 10;
-    const z = n => n * n;
+    <!-- CSS files -->
+    <link rel="stylesheet" href="css/main.css">
 
-    z(10); // blah blah blah
+    <!-- JS files, might not be here -->
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
 \end{minted}
 
-Sometimes you'll want to put code in a separate file. This will automatically link to the file on GitHub as copying from a PDF is a bit awful.
+Here is a \href{link to the code for HTML5 Boilerplate}{https://github.com/h5bp/html5-boilerplate/blob/master/src/index.html} which is maintained to the latest standard.
 
-% \inputminted{js}{resources/example.js}
-
-% sometimes page breaks are necessary
-\pagebreak
-
-There's a special one for PHP, which starts on line 3 to remove the \texttt{<?php} tag from the top:
-
-% \phpinputminted{resources/example}
-
-\subsection{A Sub Section}
-
-You can also do sub-sections. Sub-sections will be included in the table of contents. And sub-sub-sections.
-
-\subsubsection{A Sub Sub Section}
-
-See. These won't be in the table of contents.
-\\
-
-I've also included a horizontal rule if you need a break of some sort.
-
-\hr
-
-Have a list:
-
-\begin{itemize}
-    \item Blah
-    \item \textit{Blah}
-    \item \textbf{Blah}
-\end{itemize}
-
-And a numbered one:
-
-\begin{enumerate}
-    \item Blah
-    \item \textit{Blah}
-    \item \textbf{Blah}
-\end{enumerate}
-
-\href{https://duckduckgo.com}{Links} can be useful. As can footnotes\footnote{Look at me, I'm a footnote!}
-\\
-
-\pagebreak
-
-Sometimes it's useful to pull out some information:
-
-\begin{infobox}{I'm an Infobox}
-    Here's some side information about a thing. Maybe some historical context or a rant.
-\end{infobox}
-
-\quoteinline{Sometimes it's nice to include a quote from someone}{Someone, 1985}
-
-It's also possible to include images:
-
-% width first, then filename, then bottom margin, then caption text
-% you can use most image types - vector based ones based for diagrams
-\img{12cm}{resources/diagram.eps}{1em}{A very handy caption}
