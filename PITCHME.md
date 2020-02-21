@@ -19,13 +19,13 @@ This is a slide with one main point on
 
 <!-- snap syntax goes a little like [direction width] ie [north-west span-30]-->
 
-@snap[west span-40]
+@snap[north-west span-40]
 #### Code slide
 
 What is this code doing? Maybe that should be here in a paragraph or list
 @snapend
 
-@snap[east span-50]
+@snap[east span-70]
 ```css
 .then {
 	we: write;
@@ -35,7 +35,6 @@ What is this code doing? Maybe that should be here in a paragraph or list
 @snapend
 
 ---
-
 
 #### Slide with bullet points
 

@@ -19,7 +19,7 @@
 	--bodyFont: 'Source Sans Pro', sans-serif;
 	--codeFont: 'Source Code Pro', monospace;
 
-	--fontSize: 1.4em;
+	--fontSize: 1.3em;
 }
 
 
@@ -108,12 +108,16 @@ body {
 	line-height: 1.4;
 	width: 100%;
 	margin: 0px;
+	white-space: pre-wrap;
 }
 .reveal pre code {
 	padding: 15px;
 	max-height: auto;
 	font-size: 100%;
 }
+
+/* remove final slide */
+.reveal .text-ubuntu {display: none;}
 
 /*
 Due to the nature of how pitchme works I have written it in plain ol CSS - however it is new shiny css - e.g. I use imports and custom vars. It will no doubt only work in Chrome

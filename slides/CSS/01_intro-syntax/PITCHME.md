@@ -1,203 +1,53 @@
-# CSS
+# CSS: Cascading Style Sheets
 
+Note:
+For styling the html. Style sheets, we'll cover the cascade more as we go through
 ---
 
-## Cascading Style Sheets
+### We do this by
 
----
-
-## Style
-our page
-
----
-
-- Select the HTML element we want to style
+- Selecting the HTML element we want to style
 - In a variety of ways |
 - And add defined properties |
+- Give these properties a value |
 
----
-
-### About 438 properties & counting
-
+Note:
+About 438 properties & counting
 Maintained list here: [https://meiert.com/en/indices/css-properties/](https://meiert.com/en/indices/css-properties/)
 
 ---
 
-Give these properties a value
+@snap[north-west span-40]
+#### Let's take a look
 
----
+A standalone piece of content (always has header)
+@snapend
 
-```
+@snap[east span-70]
+```css
+body {
+	background-color: red;
+}
+
 selector {
 	property: value;
 }
 ```
+@snapend
 
----
-
+Note:
 Every character makes a difference
 
 ---
 
-```
-selector {
-	property: value;
-}
-```
+#### Selectors
 
----
+- elements
+- classes
+- ids
 
-```
-body {
-	background-color: red;
-}
-```
-
----
-
-```
-p {
-	font-size: 1em;
-}
-```
-
----
-
-```
-.myclass {
-	display: block;
-	width: 50%;
-	padding: 20px;
-}
-```
-
----
-
-## Selectors can be:
-
-- element
-- class
-- id
-- complex selectors
-
----
-
-## Let's look at some basic styles
-
----
-
-- `background`
-- `border`
-- `box-shadow`
-- `border-radius`
-
----
-
-### There's lots!
-
-```css
-.myClass {
-	background-color: transparent;
-	background-image: url('myimage.png');
-	background-repeat: no-repeat;
-	background-position: top left;
-}
-```
----
-### `background` is shorthand
-
-```css
-.myClass {
-	background: transparent url('myimage.png') no-repeat top left;
-}
-```
-
-This is common - lot's of properties have shorthand
-
----
-
-```css
-\* scrolling *\
-background-attachment: scroll;
-
-\* background bounds *\
-background-clip: padding-box;
-```
-
----
-
-### Let's have a go
-
----
-
-- Copy the first lesson from yesterday
-- Make sure it has the correct metadata
-- Create a `main.css` file in the same folder
-- Style something with a background
-
----
-
-You can have a gradient as a background image
-
-```css
-background-image: linear-gradient(0deg, yellowgreen, palegreen);
-```
-
----
-
-## `border` also shorthand
-
----
-
-```
-border: 1px solid red;
-
-border-width: 1px;
-border-style: solid;
-border-color: red;
-```
-
----
-
-## `box-shadow` is not shorthand
-
-```
-box-shadow: 1px 1px 1px 0px grey;
-```
-
----
-
-## `border-radius` is
-you will get used to it 🤓
-
----
-
-```
-border-radius: 10px;
-
-border-top-left-radius: 10px;
-border-top-right-radius: 10px;
-border-bottom-right-radius: 10px;
-border-bottom-left-radius: 10px;
-```
-
----
-
-```
-border-radius: 10px 20px 30px 40px;
-
-border-radius: 20px 40px;
-
-border-radius: 5px 0px 30px;
-```
-
----
-
-### Selectors (again)
-
-- element
-- class
-- id
+Note:
+Explain all - we tend to use classes. Only one id per page
 
 ---
 
@@ -221,11 +71,34 @@ article p {
 
 ---
 
-### Exercise!
+#### Where CSS?
 
-- Use background
-- Use border
-- Use box-shadow
-- Use border-radius
+- inline
+- in a `<style>` element
+- in a separate file
+
+Note:
+Show all. We'll be putting it in a file. &lt;link rel="stylesheet" href="css/main.css">
+
+---
+@snap[west span-70]
+## Whitespace matters in values
+@snapend
+
+Note:
+But no where else
+
+---
+
+@snap[north-west span-40]
+#### Comments
+
+@snapend
+
+@snap[east span-70]
+```css
+/* This is a comment */
+```
+@snapend
 
 ---

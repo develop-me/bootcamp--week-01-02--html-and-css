@@ -1,59 +1,102 @@
-# Lesson 02: More HTML
+# Media Elements
+
+Found in html.pdf, 2.3
 
 ---
 
-## HTML text elements
+@snap[north-west span-40]
+#### Video
 
-- `<b>`, `<strong>`, `<em>`, `<i>`
-- `<span>`
-- `<sup>`, `<sub>`
-- `<time>`
-- `<pre>`, `<code>`
+Include a video
+@snapend
 
----
-
-## HTML media elements
-
-- `<img>`, `<video>`, `<audio>`
-- `<picture>`
-- `<source>`
-- `<figure>`, `<figcaption>`
-- `<canvas>`
-
----
-
-## HTML tables
-
-To display data! NOT for layout!
-
+@snap[east span-70]
+```html
+<video src="myvideo.mp4"
+	poster="firstimage.jpg"
+	controls></video>
 ```
-<table>
-	<tr>
-		<th>Dessert</th>
-		<th>Calories</th>
-		<th>Fat</th>
-		<th>Carbs</th>
-	</tr>
-	<tr>
-		<td>Frozen yogurt</td>
-		<td>159</td>
-		<td>6.0</td>
-		<td>24</td>
-	</tr>
-	<tr>
-		<td>Ice cream sandwich</td>
-		<td>237</td>
-		<td>9.0</td>
-		<td>37</td>
-	</tr>
-	<tr>
-		<td>Eclair</td>
-		<td>262</td>
-		<td>16.0</td>
-		<td>24</td>
-	</tr>
-</table>
-```
+@snapend
+
+
 ---
 
-## Exercise
+@snap[north-west span-40]
+#### Audio
+
+Include an audio track
+@snapend
+
+@snap[east span-70]
+```html
+<audio src="myaudio.mp3" controls></audio>
+```
+@snapend
+
+---
+
+@snap[north-west span-40]
+#### Source
+
+Add inside audio or video to load different file types
+@snapend
+
+@snap[east span-70]
+```html
+<source src="/media/examples/flower.webm" type="video/webm">
+
+<source src="/media/examples/flower.mp4" type="video/mp4">
+```
+@snapend
+
+---
+
+@snap[north-west span-40]
+#### Picture
+
+Use to load different image sizes and types (with source)
+@snapend
+
+@snap[east span-70]
+```html
+<picture>
+    <source srcset="/media/examples/surfer-240-200.jpg"
+            media="(min-width: 800px)">
+    <img src="/media/examples/painted-hand-298-332.jpg" />
+</picture>
+```
+@snapend
+
+---
+
+@snap[north-west span-40]
+#### Figure
+
+Usually a figure is an image, illustration, diagram, code snippet.
+@snapend
+
+@snap[east span-70]
+```html
+<figure>
+    <img src="/media/examples/elephant-660-480.jpg"
+         alt="Elephant at sunset">
+    <figcaption>An elephant at sunset</figcaption>
+</figure>
+```
+@snapend
+
+---
+
+@snap[north-west span-40]
+#### Figcaption
+
+A caption or legend describing the rest of the figure contents
+@snapend
+
+@snap[east span-70]
+```html
+<figcaption>An elephant at sunset</figcaption>
+```
+@snapend
+
+---

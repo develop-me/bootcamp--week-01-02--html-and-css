@@ -1,80 +1,106 @@
-\section{A Section}
+\subsection{Intro \& Syntax}
 
-This is a paragraph. You need to end each one with two backslashes on the following line, otherwise you won't get a line break. I can't remember why I set it up like that.
-\\
+CSS stands for Cascading Style Sheets. It's a specific language created to style HTML.
 
-You can do \textbf{bold} text and \textit{italic} text. You can also do \texttt{monospace} text.
-\\
+You style HTML elements by specifying the element and adding property/value pairs to define how it will look and where it will be placed.
 
-If you want to but smart quotes around something you can use ``two backticks to start and two apostrophes to finish''.
-\\
 
-If you want to include a big block of code then you use the \texttt{minted} command:
+\begin{minted}{css}
+    body {
+        background-color: red;
+    }
 
-% second curlies say what language to use for syntax highlighting
-% you should probably indent everything inside a minted section
-\begin{minted}{js}
-    let x = 10;
-    const z = n => n * n;
-
-    z(10); // blah blah blah
+    /* called */
+    selector {
+        property: value;
+    }
 \end{minted}
 
-Sometimes you'll want to put code in a separate file. This will automatically link to the file on GitHub as copying from a PDF is a bit awful.
-
-% \inputminted{js}{resources/example.js}
-
-% sometimes page breaks are necessary
-\pagebreak
-
-There's a special one for PHP, which starts on line 3 to remove the \texttt{<?php} tag from the top:
-
-% \phpinputminted{resources/example}
-
-\subsection{A Sub Section}
-
-You can also do sub-sections. Sub-sections will be included in the table of contents. And sub-sub-sections.
-
-\subsubsection{A Sub Sub Section}
-
-See. These won't be in the table of contents.
-\\
-
-I've also included a horizontal rule if you need a break of some sort.
-
-\hr
-
-Have a list:
-
-\begin{itemize}
-    \item Blah
-    \item \textit{Blah}
-    \item \textbf{Blah}
-\end{itemize}
-
-And a numbered one:
-
-\begin{enumerate}
-    \item Blah
-    \item \textit{Blah}
-    \item \textbf{Blah}
-\end{enumerate}
-
-\href{https://duckduckgo.com}{Links} can be useful. As can footnotes\footnote{Look at me, I'm a footnote!}
-\\
-
-\pagebreak
-
-Sometimes it's useful to pull out some information:
-
-\begin{infobox}{I'm an Infobox}
-    Here's some side information about a thing. Maybe some historical context or a rant.
+\begin{infobox}{Syntax}
+    Every character is important. The curly braces, the colons and semicolons. Computers can't read CSS properly without these things in the correct place.
 \end{infobox}
 
-\quoteinline{Sometimes it's nice to include a quote from someone}{Someone, 1985}
+\subsection{Selectors}
 
-It's also possible to include images:
+There are various ways to \textit{select} the html element you want to write styles for in CSS. Below are the most common, however check out the Complex Selectors section for more.
 
-% width first, then filename, then bottom margin, then caption text
-% you can use most image types - vector based ones based for diagrams
-\img{12cm}{resources/diagram.eps}{1em}{A very handy caption}
+\subsubsection{Element}
+
+You can write the element itself
+
+\begin{minted}{css}
+    p {
+        font-size: 1.2rem;
+    }
+\end{minted}
+
+\subsubsection{Class}
+
+There is a \texttt{class} attribute in HTML. We can add this attribute to elements and use it as a selector in out CSS. We have to remember to add a fullstop (period) at the beginning.
+
+\begin{minted}{css}
+    .myclass {
+        width: 50%;
+    }
+\end{minted}
+
+\subsubsection{id}
+
+There is also an \texttt{id} attribute in HTML and we can use that in much the same way as a class. However we add a hash at the beginning instead.
+
+\begin{minted}{css}
+    #myid {
+        padding: 20px;
+    }
+\end{minted}
+
+
+\subsection{Where do we write CSS?}
+
+Where we include CSS is important.
+
+\subsubsection{inline}
+
+We can add it as an attribute to an element
+
+\begin{minted}{html}
+<p style="font-size:1.2rem;">Some text here</p>
+\end{minted}
+
+\subsubsection{style element}
+
+We can put it inside a \texttt{style} element within our HTML
+
+\begin{minted}{html}
+<style>
+    .myclass {
+        width: 50%;
+    }
+</style>
+\end{minted}
+
+\subsubsection{CSS file}
+
+We can create a CSS file and write CSS in that. We link to it in the \texttt{head} of our html document.
+
+\begin{minted}{html}
+<link rel="stylesheet" href="css/main.css">
+\end{minted}
+
+
+\begin{infobox}{Where is best?}
+    All three places have their advantages and drawbacks. The most common is to create a separate CSS file. This keeps our CSS together and means we can affect more than one HTML page at a time, by including the same CSS file in them.
+\end{infobox}
+
+\subsection{Whitespace}
+
+Whitespace matters when you write values in CSS, the part after the colon. But it doesn't affect anything else. However you should structure your CSS like the examples as this is industry standard.
+
+\subsection{Comments}
+
+We write a CSS comment like so:
+
+\begin{minted}{css}
+/* This is a CSS comment */
+\end{minted}
+

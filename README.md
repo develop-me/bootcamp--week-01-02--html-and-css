@@ -26,7 +26,7 @@ There are three categories taught in this course: HTML, CSS & Web Theory. The la
 Go through the repo - the slides folder especially. We teach in increments so you may feel valuable info is being ommited only to find it's being taught at a later stage. Don't overwhelm your students - remember you will have to lie until you can tell the truth.
 
 If you are adding content: Choose your unit, create/modify slides, notes & exercises content as per. Things you may find useful:
-- There is an example presentation in the root
+- There is an example presentation in the [root directory here]() I strongly recommend using that to create new presentations
 
 ## Suggested Course Structure
 
@@ -34,47 +34,54 @@ Feel free to mix and match the syllabus order as you see fit. This is proposed s
 
 Order in the repo is as per category, not as per order in which you teach.
 
-*Suggested to be ommited from the part time course
+>I recommend printing off the table and making notes as you go as to what you have taught & amends
 
-<!--https://gitpitch.com/develop-me/fellowship-wk1-beg-html-css-->
+#### Part One
+
+| PT | FT | Title | Lesson | Slides | Exercise | Notes |
+|---|---|---|---|---|---|---|
+|  |  | Intro & Class Rules | [Lesson](https://gitpitch.com/develop-me/bootcamp--week--01-02--html-and-css/master/slides/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides#/) |   |   |
+|  |  | Web Theory: General Overview | [Lesson](slides/web-theory/01_overview/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/01_overview/#/) |  | web-theory.pdf 1.1 |
+|  |  | HTML: Intro & Syntax | [Lesson](slides/HTML/01_intro-syntax/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/HTML/01_intro-syntax#/) | [Exercise](exercises/HTML/01_intro-syntax) | html.pdf 1.1 |
+|  |  | HTML: Content Elements | [Lesson](slides/HTML/02_content-els/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/HTML/02_content-els#/) | [Exercises](exercises/HTML/02_content-els) | html.pdf 2.1 |
+|  |  |  |  |  |  |  |
+|  |  | HTML: Sectioning Elements | [Lesson](slides/HTML/03_sectioning-els/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/HTML/03_sectioning-els#/) | [Exercises](exercises/HTML/03_sectioning-els) | html.pdf 2.2 |
+|  |  |  |  |  |  |  |
+|  |  | HTML: Media Elements | [Lesson](slides/HTML/04_media-els/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/HTML/04_media-els#/) | [Exercises](exercises/HTML/04_media-els) |  |
+|  |  | CSS: Intro & Syntax | [Lesson](slides/CSS/01_intro-syntax/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/01_intro-syntax#/) | [Exercise](exercises/CSS/01_intro-syntax) | css.pdf 1.1 |
+|  |  | CSS: Basic Styles | [Lesson](slides/CSS/02_basic-styles/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/02_basic-styles#/) | [Exercises](exercises/CSS/02_basic-styles) | css.pdf 2.1 |
+|  |  | HTML: Metadata | [Lesson](slides/HTML/05_metadata/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/HTML/05_metadata#/) | [Exercises](exercises/HTML/05_metadata) | html.pdf 1.2 |
+| * | * |<td colspan="5">Go over everything we have done, organise your files and notes, remember to shut down your text editor when you do
+|  |  | HTML: Text Elements | [Lesson](slides/HTML/06_text-els/PITCHME.md) |  | [Exercises](exercises/HTML/06_text-els) | html.pdf 2.2 |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
+
+#### Part Two
+
+| PT | FT | Title | Lesson | Slides | Exercise | Notes |
+|---|---|---|---|---|---|---|
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
 
 
-- Intro & Class Rules
-	- [Slides](https://gitpitch.com/develop-me/bootcamp--week--01-02--html-and-css/master/slides/PITCHME.md)
-https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides#/
-- Web Theory: General Overview
-	- [Slides](slides/web-theory/01_overview/PITCHME.md)
-- HTML: Intro & Syntax
-	- [Slides](slides/HTML/01_intro-syntax/PITCHME.md)
-	- [Exercises](exercises/HTML/01_intro-syntax)
-- HTML: Content Elements
-	- [Slides](slides/HTML/02_content-els/PITCHME.md)
-	- [Exercises](exercises/HTML/02_content-els)
 - Web Theory: Assistive Technologies
 	- [Slides](slides/web-theory/02_assistive/PITCHME.md)
-- HTML: Sectioning Elements
-	- [Slides](slides/HTML/03_sectioning-els/PITCHME.md)
-	- [Exercises](exercises/HTML/03_sectioning-els)
+
 - Web Theory: Devtools
 	- [Slides](slides/web-theory/03_devtools/PITCHME.md)
-- HTML: Media Elements
-	- [Slides](slides/HTML/04_media-els/PITCHME.md)
-	- [Exercises](exercises/HTML/04_media-els)
-- CSS: Intro & Syntax
-	- [Slides](slides/CSS/01_intro-syntax/PITCHME.md)
-	- [Exercises](exercises/CSS/01_intro-syntax)
-- CSS: Basic Styles
-	- [Slides](slides/CSS/02_basic-styles/PITCHME.md)
-	- [Exercises](exercises/CSS/02_basic-styles)
-- HTML: Metadata
-	- [Slides](slides/HTML/05_metadata/PITCHME.md)
-	- [Exercises](exercises/HTML/05_metadata)
 
->Homework: Go over everything we have done, organise your files and notes, remember to shut down your text editor when you do
 
-- HTML: Text Elements
-	- [Slides](slides/HTML/06_text-els/PITCHME.md)
-	- [Exercises](exercises/HTML/06_text-els)
 - CSS: Web Fonts
 	- [Slides](slides/CSS/03_web-fonts/PITCHME.md)
 	- [Exercises](exercises/CSS/03_web-fonts)

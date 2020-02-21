@@ -1,8 +1,8 @@
-# Lesson 01: Basic HTML
+# HTML Introduction
 
 ---
 
-## HTML is a data structure
+### HTML is a data structure
 
 - Hypertext Markup Language (sometimes referred to as just 'markup' or 'marking something up') |
 - Based on XML |
@@ -13,147 +13,115 @@
 
 ---
 
-## Let's have a look at some HTML
+@snap[north-west span-40]
+Let's have a look at some HTML
+@snapend
 
+@snap[east span-70]
+```html
+<p class="lede">Here is some text</p>
 ```
+@snapend
+
+Note:
+Element, attribute, contents
+Open angle brackets, write element, write any attributes, close angle bracket, write content, open angle brackets, FORWARD SLASH, write element again
+
+---
+
+@snap[north-west span-40]
+Another example: Self closing & multiple attributes
+@snapend
+
+@snap[east span-70]
+```html
+<img src="myimage.jpg" alt="A photo of a girl holding a book" />
+```
+@snapend
+
+Note:
+Sometimes we self close elements - rare
+Let's talk about attributes. There are attributes that you must put on elements, that you can and those that you can define yourself.
+There are all attr equals quotes parameter
+You can have more than one per element and we seperate them with a space
+
+---
+@snap[north-west span-40]
+You can put elements inside of elements
+@snapend
+
+@snap[east span-70]
+```html
+<p class="lede">
+	Here is some text
+	<img src="myimage.jpg" alt="A photo of a girl holding a book" />
+</p>
+```
+@snapend
+
+Note:
+We add a tab to the inside element when we do this, so we can easily read it.
+When we put an element inside another element the one inside is called the child and the one containing the other element is called the parent.
+We can put as many elements inside as many elements as we like!
+
+---
+@snap[west span-70]
+## Whitespace
+@snapend
+
+Note:
+This is what we call the spaces in code, like the regular space or tabs at the beginning.
+Spaces matter when you write HTML elements because you want to make sure attributes don't merge into each other or the element.
+
+---
+
+@snap[north-west span-40]
+Comments are parts of a code file that are ignored by the program running it.
+@snapend
+
+@snap[east span-70]
+```html
+&lt;!-- this is an HTML comment -->
+```
+@snapend
+
+Note:
+Comments are useful to describe what the code is doing, or to remind yourself of things. They can even be used for documentation.
+
+---
+
+@snap[north-west span-40]
+HTML document structure
+@snapend
+
+@snap[east span-70]
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<title></title>
 </head>
 <body>
-
+	<!--write the content here -->
 </body>
 </html>
 ```
+@snapend
 
----
 
-## A closer look
-
-```html
-<html lang="en">
-```
-
-- open angle bracket |
-- element |
-- attribute |
-- double quotes |
-- param |
-
----
-
-- close quotes |
-- more attributes? |
-- close angle bracket |
-- content |
-
----
-
-```html
-<p class="article" id="about-me">Some amazing things here</p>
-```
-
-- open angle bracket |
-- forward slash |
-- element |
-- close angle bracket |
-
----
-
-## Your turn
-
-```html
-<a href="http://www.google.com">Google</a>
-```
-
----
-
-## And again
-
-```html
-<input type="text" name="firstname" />
-```
-
----
-
-## Let's have a go
-
-DEMO
-
-Let's look around Sublime...
 
 Note:
-Look around Sublime
-Start a basic html file with the whole class
+There's a declaration at the top, then everything is inside \texttt{html} tags. The next section descirbes which we would write in the \texttt{head} element and we add all the content to be shown inside the \texttt{body} element. There can only be one of each of these per HTML document
 
 ---
 
-## There's a finite amount of elements
+#### Exercise:
 
-[https://developer.mozilla.org/en-US/docs/Web/HTML/Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+### Let's create an HTML document together
 
 Note:
-I'm not going to teach them all to you - I'm going to go over the ones you are going to use on a day to day basis
+Create a new file and add in the minimum structure
 
 ---
 
-## Why is it important?
-
-You're describing content.
-
-The browser does magic things!
-
-Note:
-We'll go over this in more detail later, but suffice to say there's loads of benefits to using the right element for the right content.
-
----
-
-## HTML Sectioning Elements
-
-- `<body>` Contains all content (Can only be one)
-- `<header>`, `<footer>`, `<article>`, `<aside>`, `<nav>`, `<main>`
-- `<div>`, `<section>`
-
-Note:
-article: a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). Examples include: a forum post, a magazine or newspaper article, or a blog entry.
-aside: a portion of a document whose content is only indirectly related to the document's main content.
-section: a standalone section — which doesn't have a more specific semantic element to represent it
-div: generic container for flow content. It has no effect on the content or layout until styled using CSS
-
----
-
-## Some HTML Content Elements
-
-- `<h1`...`<h#>`
-- `<p>`
-- `<ul>`,`<ol>`,`<dl>`
-- `<a>` needs `href` attr
-- `<blockquote>`, should have a `cite` attr, `<q>`, `<cite>`
----
-
-- `<details>`, `<summary>`
-- `<img>` needs a `src` *and* an `alt` attr
-- `<button>`
-
----
-
-## The data structure
-
-- Tree structure
-- Parents and children
-
-```
-<article>
-	<header>
-		<h1>My Website</h1>
-	</header>
-</article>
-```
-
----
-
-## Your turn
-
-- Exercise one
 

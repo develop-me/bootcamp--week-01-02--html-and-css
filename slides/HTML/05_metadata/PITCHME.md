@@ -2,74 +2,123 @@
 
 ---
 
+@snap[west span-70]
 ## All the stuff in the `<head>`
+@snapend
+
 
 ---
 ```html
 <!doctype html>
-<html class="no-js" lang="">
+<html lang="">
 	<head>
-	  <meta charset="utf-8">
+		<meta charset="utf-8">
 	  <meta http-equiv="x-ua-compatible" content="ie=edge">
-	  <title></title>
-	  <meta name="description" content="">
-	  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	  <link rel="manifest" href="site.webmanifest">
-	  <link rel="apple-touch-icon" href="icon.png">
-	  <!-- Place favicon.ico in the root directory -->
+		<title></title>
+		<meta name="description" content="">
 
-	  <link rel="stylesheet" href="css/normalize.css">
-	  <link rel="stylesheet" href="css/main.css">
+		<link rel="apple-touch-icon" href="icon.png">
+		<!-- Place favicon.ico in the root directory -->
+
+		<link rel="stylesheet" href="css/main.css">
 	</head>
 ```
 ---
 
+@snap[west span-70]
 ## HTML5 Boilerplate
 
-Up to date
 https://html5boilerplate.com/
-
-https://github.com/h5bp/html5-boilerplate/blob/master/src/index.html
+@snapend
 
 ---
 
-```
-<meta charset="utf-8">
+@snap[north-west span-40]
+#### Character Set
+
 Character set of file - different types
 
-<meta http-equiv="x-ua-compatible" content="ie=edge">
-<!--Use IE edge is available-->
+@snapend
 
-<title></title>
-<!--Put title of page in here-->
+@snap[east span-70]
+```html
+<meta charset="utf-8">
+```
+@snapend
+
+---
+
+@snap[north-west span-40]
+#### Use IE Edge in available
+
+@snapend
+
+@snap[east span-70]
+```html
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+```
+@snapend
+
+---
+
+@snap[north-west span-40]
+#### Ignore retina screens
+
+@snapend
+
+@snap[east span-70]
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1">
+```
+@snapend
+
+---
+
+@snap[north-west span-40]
+#### Title & Description
+
+@snapend
+
+@snap[east span-70]
+```html
+<title>Website page title</title>
 
 <meta name="description" content="">
-<!--Description of page goes in content quotes-->
 ```
+@snapend
+
 
 ---
 
-```
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--Make sure pixel == pixel on retina and zoom works on touch-->
+@snap[north-west span-40]
+#### Icons
 
+There are lots of these
+@snapend
+
+@snap[east span-70]
+```html
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <!-- Place favicon.ico in the root directory -->
-<!--Website icons-->
-
-<link rel="stylesheet" href="css/main.css">
-<!--External files - this one is css-->
-
-<script src="js/vendor/modernizr-2.8.3.min.js"></script>
-<!--External javascript - not usually here!-->
 ```
+@snapend
 
 ---
 
-## Exercise
+@snap[north-west span-40]
+#### Include Files
 
-Go through everything you've done and add metadata
+@snapend
+
+@snap[east span-70]
+```html
+<link rel="stylesheet" href="css/main.css">
+
+<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+```
+@snapend
 
 ---
 

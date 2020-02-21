@@ -1,59 +1,115 @@
-# Lesson 02: More HTML
+# Text Elements
 
 ---
 
-## HTML text elements
+@snap[north-west span-40]
+#### Important & Emphasis
 
-- `<b>`, `<strong>`, `<em>`, `<i>`
-- `<span>`
-- `<sup>`, `<sub>`
-- `<time>`
-- `<pre>`, `<code>`
+@snapend
 
----
+@snap[east span-70]
+```html
+<strong>This is important</strong>
 
-## HTML media elements
-
-- `<img>`, `<video>`, `<audio>`
-- `<picture>`
-- `<source>`
-- `<figure>`, `<figcaption>`
-- `<canvas>`
+<em>This is emphasised</em>
+```
+@snapend
 
 ---
 
-## HTML tables
+@snap[north-west span-40]
+#### Styling
 
-To display data! NOT for layout!
+No _semantic_ value
+
+@snapend
+
+@snap[east span-70]
+```html
+<b>This is bold</b>
+
+<i>This is italic</i>
+```
+@snapend
+
+---
+
+@snap[north-west span-40]
+#### Span
+
+Like a div for text
+
+@snapend
+
+@snap[east span-70]
+```html
+<span>This text has an element around it</span>
+```
+@snapend
+
+---
+
+@snap[north-west span-40]
+#### Sup & Sub
+
+@snapend
+
+@snap[east span-70]
+```html
+<sup>This is small and raised</sup>
+
+<sub>This is small and lowered</sub>
+```
+@snapend
+
+---
+
+@snap[north-west span-40]
+#### Time
+
+Any date or/and time
+
+@snapend
+
+@snap[east span-70]
+```html
+<time datetime="2020-07-21">21st July</time>
 
 ```
-<table>
-	<tr>
-		<th>Dessert</th>
-		<th>Calories</th>
-		<th>Fat</th>
-		<th>Carbs</th>
-	</tr>
-	<tr>
-		<td>Frozen yogurt</td>
-		<td>159</td>
-		<td>6.0</td>
-		<td>24</td>
-	</tr>
-	<tr>
-		<td>Ice cream sandwich</td>
-		<td>237</td>
-		<td>9.0</td>
-		<td>37</td>
-	</tr>
-	<tr>
-		<td>Eclair</td>
-		<td>262</td>
-		<td>16.0</td>
-		<td>24</td>
-	</tr>
-</table>
-```
+@snapend
+
 ---
 
-## Exercise
+@snap[north-west span-40]
+#### Inline quote
+
+@snapend
+
+@snap[east span-70]
+```html
+<q>Someone said this</q>
+
+```
+@snapend
+
+Note:
+Explain what inline means as we've seen blockquote
+
+---
+
+@snap[north-west span-40]
+#### Code
+
+@snapend
+
+@snap[east span-70]
+```html
+<code>Inline</code>
+
+<pre><code>
+	A block of code
+</code></pre>
+```
+@snapend
+
+---

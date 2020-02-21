@@ -1,119 +1,22 @@
-# Lesson 01: Basic HTML
+# Sectioning Elements
+
+Found in html.pdf, 2.2
 
 ---
 
-## HTML is a data structure
+@snap[north-west span-40]
+#### Header
 
-- Hypertext Markup Language (sometimes referred to as just 'markup' or 'marking something up') |
-- Based on XML |
-- Gives the browser (environment) data (information) |
-- Content layer |
-	- CSS: Style layer
-	- JavaScript: Interaction layer
+Header of the part of the document
+@snapend
 
----
-
-## Let's have a look at some HTML
-
-```
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<title></title>
-</head>
-<body>
-
-</body>
-</html>
-```
-
----
-
-## A closer look
-
+@snap[east span-70]
 ```html
-<html lang="en">
+<header>
+	<h1>Heading level 1</h1>
+</header>
 ```
-
-- open angle bracket |
-- element |
-- attribute |
-- double quotes |
-- param |
-
----
-
-- close quotes |
-- more attributes? |
-- close angle bracket |
-- content |
-
----
-
-```html
-<p class="article" id="about-me">Some amazing things here</p>
-```
-
-- open angle bracket |
-- forward slash |
-- element |
-- close angle bracket |
-
----
-
-## Your turn
-
-```html
-<a href="http://www.google.com">Google</a>
-```
-
----
-
-## And again
-
-```html
-<input type="text" name="firstname" />
-```
-
----
-
-## Let's have a go
-
-DEMO
-
-Let's look around Sublime...
-
-Note:
-Look around Sublime
-Start a basic html file with the whole class
-
----
-
-## There's a finite amount of elements
-
-[https://developer.mozilla.org/en-US/docs/Web/HTML/Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
-
-Note:
-I'm not going to teach them all to you - I'm going to go over the ones you are going to use on a day to day basis
-
----
-
-## Why is it important?
-
-You're describing content.
-
-The browser does magic things!
-
-Note:
-We'll go over this in more detail later, but suffice to say there's loads of benefits to using the right element for the right content.
-
----
-
-## HTML Sectioning Elements
-
-- `<body>` Contains all content (Can only be one)
-- `<header>`, `<footer>`, `<article>`, `<aside>`, `<nav>`, `<main>`
-- `<div>`, `<section>`
+@snapend
 
 Note:
 article: a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). Examples include: a forum post, a magazine or newspaper article, or a blog entry.
@@ -123,37 +26,112 @@ div: generic container for flow content. It has no effect on the content or layo
 
 ---
 
-## Some HTML Content Elements
+@snap[north-west span-40]
+#### Footer
 
-- `<h1`...`<h#>`
-- `<p>`
-- `<ul>`,`<ol>`,`<dl>`
-- `<a>` needs `href` attr
-- `<blockquote>`, should have a `cite` attr, `<q>`, `<cite>`
----
+Footer of the part of the document
+@snapend
 
-- `<details>`, `<summary>`
-- `<img>` needs a `src` *and* an `alt` attr
-- `<button>`
-
----
-
-## The data structure
-
-- Tree structure
-- Parents and children
-
+@snap[east span-70]
+```html
+<footer>
+	<p>Copyright DevMe</p>
+</footer>
 ```
-<article>
-	<header>
-		<h1>My Website</h1>
-	</header>
-</article>
-```
+@snapend
 
 ---
 
-## Your turn
+@snap[north-west span-40]
+#### Main
 
-- Exercise one
+Main unique content, can only be one per page
+@snapend
+
+@snap[east span-70]
+```html
+<main> ... </main>
+```
+@snapend
+
+---
+
+@snap[north-west span-40]
+#### Aside
+
+Related, but not main, content.
+@snapend
+
+@snap[east span-70]
+```html
+<aside>...</aside>
+```
+@snapend
+
+---
+
+@snap[north-west span-40]
+#### Nav
+
+Site related navigation
+@snapend
+
+@snap[east span-70]
+```html
+<nav>
+	<ul>
+		<li><a href="about.html">About</a></li>
+		<li><a href="contact.html">Contact</a></li>
+	</ul>
+</nav>
+
+<nav>
+	<a href="about.html">About</a>
+	<a href="contact.html">Contact</a>
+</nav>
+```
+@snapend
+
+---
+
+@snap[north-west span-40]
+#### Article
+
+A standalone piece of content (always has header)
+@snapend
+
+@snap[east span-70]
+```html
+<article>...</article>
+```
+@snapend
+
+---
+@snap[north-west span-40]
+#### Section
+
+Part of a piece of content
+@snapend
+
+@snap[east span-70]
+```html
+<section>...</section>
+```
+@snapend
+
+---
+
+@snap[north-west span-40]
+#### Div
+
+For design purposes only
+@snapend
+
+@snap[east span-70]
+```html
+<div>...</div>
+```
+@snapend
+
+---
 
