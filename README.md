@@ -48,6 +48,13 @@ Order in the repo is as per category, not as per order in which you teach.
 |  |  | HTML: Sectioning Elements | [Lesson](slides/HTML/03_sectioning-els/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/HTML/03_sectioning-els#/) | [Exercises](exercises/HTML/03_sectioning-els) | html.pdf 2.2 |
 |  |  |  |  |  |  |  |
 |  |  | HTML: Media Elements | [Lesson](slides/HTML/04_media-els/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/HTML/04_media-els#/) | [Exercises](exercises/HTML/04_media-els) |  |
+|  |  | CSS: Intro & Syntax | [Lesson](slides/CSS/01_intro-syntax/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/01_intro-syntax#/) | [Exercise](exercises/CSS/01_intro-syntax) | css.pdf 1.1 |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |
@@ -74,10 +81,6 @@ Order in the repo is as per category, not as per order in which you teach.
 	- [Slides](slides/web-theory/03_devtools/PITCHME.md)
 
 
-
-- CSS: Intro & Syntax
-	- [Slides](slides/CSS/01_intro-syntax/PITCHME.md)
-	- [Exercises](exercises/CSS/01_intro-syntax)
 - CSS: Basic Styles
 	- [Slides](slides/CSS/02_basic-styles/PITCHME.md)
 	- [Exercises](exercises/CSS/02_basic-styles)

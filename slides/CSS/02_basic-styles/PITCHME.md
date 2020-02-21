@@ -1,178 +1,88 @@
-# CSS
+# Backgrounds & Borders
 
 ---
 
-## Cascading Style Sheets
+@snap[north-west span-40]
+#### Backgrounds
 
----
+@snapend
 
-## Style
-our page
-
----
-
-- Select the HTML element we want to style
-- In a variety of ways |
-- And add defined properties |
-
----
-
-### About 438 properties & counting
-
-Maintained list here: [https://meiert.com/en/indices/css-properties/](https://meiert.com/en/indices/css-properties/)
-
----
-
-Give these properties a value
-
----
-
-```
-selector {
-	property: value;
-}
-```
-
----
-
-Every character makes a difference
-
----
-
-```
-selector {
-	property: value;
-}
-```
-
----
-
-```
-body {
-	background-color: red;
-}
-```
-
----
-
-```
-p {
-	font-size: 1em;
-}
-```
-
----
-
-```
-.myclass {
-	display: block;
-	width: 50%;
-	padding: 20px;
-}
-```
-
----
-
-## Selectors can be:
-
-- element
-- class
-- id
-- complex selectors
-
----
-
-## Let's look at some basic styles
-
----
-
-- `background`
-- `border`
-- `box-shadow`
-- `border-radius`
-
----
-
-### There's lots!
-
+@snap[east span-70]
 ```css
 .myClass {
 	background-color: transparent;
 	background-image: url('myimage.png');
 	background-repeat: no-repeat;
 	background-position: top left;
+	background-size: 100px 200px;
 }
 ```
----
-### `background` is shorthand
+@snapend
 
+---
+
+@snap[north-west span-40]
+#### Shorthand
+
+@snapend
+
+@snap[east span-70]
 ```css
 .myClass {
 	background: transparent url('myimage.png') no-repeat top left;
 }
 ```
+@snapend
 
+Note:
 This is common - lot's of properties have shorthand
 
 ---
 
+@snap[north-west span-40]
+#### Border
+
+@snapend
+
+@snap[east span-70]
 ```css
-\* scrolling *\
-background-attachment: scroll;
-
-\* background bounds *\
-background-clip: padding-box;
-```
-
----
-
-### Let's have a go
-
----
-
-- Copy the first lesson from yesterday
-- Make sure it has the correct metadata
-- Create a `main.css` file in the same folder
-- Style something with a background
-
----
-
-You can have a gradient as a background image
-
-```css
-background-image: linear-gradient(0deg, yellowgreen, palegreen);
-```
-
----
-
-## `border` also shorthand
-
----
-
-```
 border: 1px solid red;
 
 border-width: 1px;
 border-style: solid;
 border-color: red;
 ```
+@snapend
+
+Note:
+You can also have border right, left etc...
 
 ---
 
-## `box-shadow` is not shorthand
+@snap[north-west span-40]
+#### Box shadow
 
-```
+Not shorthand
+@snapend
+
+@snap[east span-70]
+```css
 box-shadow: 1px 1px 1px 0px grey;
 ```
+@snapend
+
+Note:
+hor, vert, blur, spread, colour
 
 ---
 
-## `border-radius` is
-you will get used to it 🤓
+@snap[north-west span-40]
+#### Border Radius
+Rounded corners
+@snapend
 
----
-
-```
+@snap[east span-70]
+```css
 border-radius: 10px;
 
 border-top-left-radius: 10px;
@@ -180,52 +90,9 @@ border-top-right-radius: 10px;
 border-bottom-right-radius: 10px;
 border-bottom-left-radius: 10px;
 ```
+@snapend
 
----
-
-```
-border-radius: 10px 20px 30px 40px;
-
-border-radius: 20px 40px;
-
-border-radius: 5px 0px 30px;
-```
-
----
-
-### Selectors (again)
-
-- element
-- class
-- id
-
----
-
-### Style two the same: comma
-
-```
-.header-main, section {
-	background-color: lightgreen;
-}
-```
-
----
-
-### Target a child: space
-
-```
-article p {
-	border-bottom: 2px solid grey;
-}
-```
-
----
-
-### Exercise!
-
-- Use background
-- Use border
-- Use box-shadow
-- Use border-radius
+Note:
+If they are ready go through shorthand
 
 ---
