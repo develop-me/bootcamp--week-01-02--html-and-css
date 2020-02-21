@@ -45,9 +45,9 @@ Order in the repo is as per category, not as per order in which you teach.
 |  |  | HTML: Intro & Syntax | [Lesson](slides/HTML/01_intro-syntax/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/HTML/01_intro-syntax#/) | [Exercise](exercises/HTML/01_intro-syntax) | html.pdf 1.1 |
 |  |  | HTML: Content Elements | [Lesson](slides/HTML/02_content-els/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/HTML/02_content-els#/) | [Exercises](exercises/HTML/02_content-els) | html.pdf 2.1 |
 |  |  |  |  |  |  |  |
+|  |  | HTML: Sectioning Elements | [Lesson](slides/HTML/03_sectioning-els/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/HTML/03_sectioning-els#/) | [Exercises](exercises/HTML/03_sectioning-els) | html.pdf 2.2 |
 |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |
+|  |  | HTML: Media Elements | [Lesson](slides/HTML/04_media-els/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/HTML/04_media-els#/) | [Exercises](exercises/HTML/04_media-els) |  |
 |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |
@@ -69,14 +69,12 @@ Order in the repo is as per category, not as per order in which you teach.
 
 - Web Theory: Assistive Technologies
 	- [Slides](slides/web-theory/02_assistive/PITCHME.md)
-- HTML: Sectioning Elements
-	- [Slides](slides/HTML/03_sectioning-els/PITCHME.md)
-	- [Exercises](exercises/HTML/03_sectioning-els)
+
 - Web Theory: Devtools
 	- [Slides](slides/web-theory/03_devtools/PITCHME.md)
-- HTML: Media Elements
-	- [Slides](slides/HTML/04_media-els/PITCHME.md)
-	- [Exercises](exercises/HTML/04_media-els)
+
+
+
 - CSS: Intro & Syntax
 	- [Slides](slides/CSS/01_intro-syntax/PITCHME.md)
 	- [Exercises](exercises/CSS/01_intro-syntax)

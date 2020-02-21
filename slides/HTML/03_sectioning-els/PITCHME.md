@@ -1,6 +1,6 @@
-# Content Elements
+# Sectioning Elements
 
-Found in html.pdf, 2.1
+Found in html.pdf, 2.2
 
 ---
 
