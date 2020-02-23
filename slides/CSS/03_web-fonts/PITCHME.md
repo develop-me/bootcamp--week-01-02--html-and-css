@@ -39,7 +39,7 @@ Fonts that come installed on your system - system fonts - websites usually have 
 - Find those fonts: |
 	- Ask the designer |
 	- Google |
-	- Use [What The Font](https://www.myfonts.com/WhatTheFont/) |
+	- [What The Font](https://www.myfonts.com/WhatTheFont/) |
 
 ---
 
@@ -72,7 +72,7 @@ Load them all in with the same name and specify the style, like weight bold and 
 ### Serving yourself
 
 - Pro: You are in control
-- Con: It's a hassle
+- Con: It's a hassle |
 
 ---
 
@@ -102,7 +102,7 @@ Google fonts example
 ### Using a third party
 
 - Pro: Less hassle
-- Con: You are not in control
+- Con: You are not in control |
 
 ---
 
@@ -151,7 +151,6 @@ body {
 @snap[north-west span-40]
 #### Worth a mention
 
-Go mad!
 @snapend
 
 @snap[east span-70]

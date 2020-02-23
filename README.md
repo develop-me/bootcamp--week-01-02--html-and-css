@@ -46,14 +46,24 @@ Order in the repo is as per category, not as per order in which you teach.
 |  |  | HTML: Content Elements | [Lesson](slides/HTML/02_content-els/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/HTML/02_content-els#/) | [Exercises](exercises/HTML/02_content-els) | html.pdf 2.1 |
 |  |  |  |  |  |  |  |
 |  |  | HTML: Sectioning Elements | [Lesson](slides/HTML/03_sectioning-els/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/HTML/03_sectioning-els#/) | [Exercises](exercises/HTML/03_sectioning-els) | html.pdf 2.2 |
-|  |  |  |  |  |  |  |
+|  |  | Web Theory: Devtools | [Lesson](slides/web-theory/03_devtools/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/03_devtools#/) | [Exercises](exercises/HTML/05_devtools) | web-theory.pdf |
 |  |  | HTML: Media Elements | [Lesson](slides/HTML/04_media-els/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/HTML/04_media-els#/) | [Exercises](exercises/HTML/04_media-els) |  |
 |  |  | CSS: Intro & Syntax | [Lesson](slides/CSS/01_intro-syntax/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/01_intro-syntax#/) | [Exercise](exercises/CSS/01_intro-syntax) | css.pdf 1.1 |
 |  |  | CSS: Basic Styles | [Lesson](slides/CSS/02_basic-styles/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/02_basic-styles#/) | [Exercises](exercises/CSS/02_basic-styles) | css.pdf 2.1 |
 |  |  | HTML: Metadata | [Lesson](slides/HTML/05_metadata/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/HTML/05_metadata#/) | [Exercises](exercises/HTML/05_metadata) | html.pdf 1.2 |
-| * | * |<td colspan="5">Go over everything we have done, organise your files and notes, remember to shut down your text editor when you do
+| * | * |<td colspan="5">Go over everything we have done, organise your files and notes, remember to shut down your text editor when you do</td>
 |  |  | HTML: Text Elements | [Lesson](slides/HTML/06_text-els/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/HTML/06_text-els#/) | [Exercises](exercises/HTML/06_text-els) | html.pdf 2.4 |
-|  |  | CSS: Web Fonts | [Lessons](slides/CSS/03_web-fonts/PITCHME.md) | [Slides]() | [Exercises](exercises/CSS/03_web-fonts) | css.pdf 2.3 |
+|  |  | CSS: Web Fonts | [Lessons](slides/CSS/03_web-fonts/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/03_web-fonts#/) | [Exercises](exercises/CSS/03_web-fonts) | css.pdf 2.3 |
+|  |  | CSS: Box Model |  |  |  |  |
+|  |  | Web Theory: Devtools | [Lesson](slides/web-theory/03_devtools/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/03_devtools#/) | [Exercises](exercises/HTML/05_devtools) | web-theory.pdf |
+|  |  | CSS Colours |  |  |  |  |
+| * |  |<td colspan="5">The button exercise</td>
+|  |  | CSS Floats |  |  |  |  |
+|  |  | CSS Units |  |  |  |  |
+|  | * |<td colspan="5">Flexbox Froggy</td>
+|  |  | HTML Forms |  |  |  |  |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |
@@ -78,18 +88,12 @@ Order in the repo is as per category, not as per order in which you teach.
 - Web Theory: Assistive Technologies
 	- [Slides](slides/web-theory/02_assistive/PITCHME.md)
 
-- Web Theory: Devtools
-	- [Slides](slides/web-theory/03_devtools/PITCHME.md)
 
-
--
-	-
-	-
 - CSS: Box Model
 	- [Slides](slides/CSS/04_box-model/PITCHME.md)
 	- [Exercises](exercises/CSS/04_box-model)
-- Web Theory: Devtools
-	- [Slides](slides/web-theory/03_devtools/PITCHME.md)
+<!--- Web Theory: Devtools
+	- [Slides](slides/web-theory/03_devtools/PITCHME.md) -->
 - CSS: Colours
 	- [Slides](slides/CSS/05_colours/PITCHME.md)
 	- [Exercises](exercises/CSS/05_colours)
