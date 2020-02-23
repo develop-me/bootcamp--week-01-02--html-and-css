@@ -56,7 +56,7 @@ Order in the repo is as per category, not as per order in which you teach.
 |  |  | CSS: Web Fonts | [Lessons](slides/CSS/03_web-fonts/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/03_web-fonts#/) | [Exercises](exercises/CSS/03_web-fonts) | css.pdf 2.3 |
 |  |  | CSS: Box Model |  |  |  |  |
 |  |  | Web Theory: Devtools | [Lesson](slides/web-theory/03_devtools/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/03_devtools#/) | [Exercises](exercises/HTML/05_devtools) | web-theory.pdf |
-|  |  | CSS Colours |  |  |  |  |
+|  |  | CSS Colours | [Lesson](slides/CSS/05_colours/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/05_colours#/9) | [Exercises](exercises/CSS/05_colours) | css.pdf 2.2 |
 | * |  |<td colspan="5">The button exercise</td>
 |  |  | CSS Floats |  |  |  |  |
 |  |  | CSS Units |  |  |  |  |
@@ -92,11 +92,6 @@ Order in the repo is as per category, not as per order in which you teach.
 - CSS: Box Model
 	- [Slides](slides/CSS/04_box-model/PITCHME.md)
 	- [Exercises](exercises/CSS/04_box-model)
-<!--- Web Theory: Devtools
-	- [Slides](slides/web-theory/03_devtools/PITCHME.md) -->
-- CSS: Colours
-	- [Slides](slides/CSS/05_colours/PITCHME.md)
-	- [Exercises](exercises/CSS/05_colours)
 
 >Homework (evening): The button exercise
 

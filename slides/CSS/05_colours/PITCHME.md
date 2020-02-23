@@ -42,8 +42,8 @@ Each single or pair represent R G or B channel
 
 Each value 0-255 represents red, green or blue channel
 
-- `rgb(255, 255, 255)`
-- `rgb(0, 255, 0)`
+- `rgb(255, 255, 255)` |
+- `rgb(0, 255, 0)` |
 
 ---
 
@@ -51,8 +51,8 @@ Each value 0-255 represents red, green or blue channel
 
 Same as rgb but with alpha (opacity/transparency) channel 0-1
 
-- `rgba(255, 255, 255, 1)`
-- `rgba(0, 255, 0, 0.5)`
+- `rgba(255, 255, 255, 1)` |
+- `rgba(0, 255, 0, 0.5)` |
 
 ---
 
@@ -62,7 +62,7 @@ Like rgb, but each value represents *hue*, *saturation* and *lightness* rather t
 
 Hue on the colour wheel 0-360, saturation & lightness percentage
 
-- `hsl(100, 50%, 50%)`
+- `hsl(100, 50%, 50%)` |
 
 ---
 
@@ -70,7 +70,7 @@ Hue on the colour wheel 0-360, saturation & lightness percentage
 
 Same as before but with alpha channel
 
-- `hsla(200, 20%, 20%, 1)`
-- `hsla(0, 80%, 90%, 0.5)`
+- `hsla(200, 20%, 20%, 1)` |
+- `hsla(0, 80%, 90%, 0.5)` |
 
 ---

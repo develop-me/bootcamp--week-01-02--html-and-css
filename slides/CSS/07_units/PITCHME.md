@@ -1,76 +1,111 @@
 # CSS Sizing Units
 
 ---
+@snap[north-west span-40]
+#### Anything requiring a size
+
+@snapend
+
+@snap[east span-70]
+```css
+article {
+	width: 50%;
+}
+```
+@snapend
+
+---
 
 ### Used as value
-
-Anything that requires a size
 
 Heights, widths, padding, margins, media, borders, background size...
 
 ---
+@snap[north-west span-40]
+#### Pixels
 
-### Pixels
+Absolute/fixed
 
-Screens work in pixels: 1px = 1 screen pixel
-(Not quite with retina screens but workaround)
+@snapend
 
+@snap[east span-70]
+```css
+article {
+	margin: 10px;
+}
 ```
-margin: 10px;
-```
+@snapend
 
-ABSOLUTE / FIXED
+Note: screens work in pixels
 
 ---
+@snap[north-west span-40]
+#### Percentage
 
-### Percentage
+Responsive, taken from parent
 
-Percentage of container
-NB always a width, maybe not height as height is set by content
+@snapend
 
+@snap[east span-70]
+```css
+article {
+	width: 50%;
+}
 ```
-div {width: 50%;}
-```
+@snapend
 
-RESPONDS
 
 ---
+@snap[north-west span-40]
+#### Viewport
 
-### em
+@snapend
 
+@snap[east span-70]
+```css
+article {
+	width: 50vw;
+}
+```
+@snapend
+
+---
+### Viewport
+
+- 1vw = 1% of viewport width |
+- 1vh = 1% of viewport height |
+- 1vmin = 1vw or 1vh, whichever is smaller |
+- 1vmax = 1vw or 1vh, whichever is larger |
+
+
+---
+@snap[north-west span-40]
+#### em
 Font measurement - relative to parent
+@snapend
 
+@snap[east span-70]
 ```css
 body {font-size: 16px;} /* default */
 p {font-size: 1.2em;} /* 16 x 1.2 */
 p a {font-size: 1.2em;} /* 16 x 1.2 x 1.2 */
 ```
+@snapend
 
 ---
-
-### rem
-
+@snap[north-west span-40]
+#### rem
 Like em but always relative to `root`
 
+@snapend
+
+@snap[east span-70]
 ```css
 body {font-size: 1rem;}
 p {font-size: 1.2rem;}
 p a {font-size: 1.2rem;}
 ```
----
-
-### Viewport
-
-- 1vw = 1% of viewport width
-- 1vh = 1% of viewport height
-- 1vmin = 1vw or 1vh, whichever is smaller
-- 1vmax = 1vw or 1vh, whichever is larger
-
-```
-section {height: 100vh;}
-```
-
-RESPONDS
+@snapend
 
 ---
 
