@@ -5,3 +5,4 @@
 *.toc
 *.pyg
 _minted-*/
+**/.DS_Store
