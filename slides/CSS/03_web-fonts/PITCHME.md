@@ -2,94 +2,173 @@
 
 ---
 
-## Web Fonts
+@snap[north-west span-40]
+#### Change a font in CSS
 
-- System fonts
-	- Whatever is on the users computer
-- Custom fonts
-	- Served as a file with the website
-	- or
-	- Used as a 'web font' - loaded via an external resource, like Google Fonts
+@snapend
 
-You’re responsible for making sure users can see custom fonts
+@snap[east span-70]
+```css
+body {
+	font-family: 'Helvetica', "Arial", sans-serif;
+}
+```
+@snapend
+
+Note:
+Go through syntax - fonts affect child elements - this goes & finds a font file. Font's are files just like images, there are different formats
+
+---
+
+@snap[west span-70]
+## But what if the user doesn't have that font file?
+@snapend
+
+Note:
+Fonts that come installed on your system - system fonts - websites usually have different fonts
+
+---
+
+>You are responsible for making sure a user can see a custom font
 
 ---
 
 ### You need
 
 - Font files
-- Find those fonts:
-	- Ask the designer
-	- Google
-	- Use 'What The Font'...
+- Find those fonts: |
+	- Ask the designer |
+	- Google |
+	- Use [What The Font](https://www.myfonts.com/WhatTheFont/) |
 
 ---
 
-### What the font
+@snap[north-west span-40]
+#### Load fonts into CSS
 
-Upload an image of the font
+@snapend
 
-[https://www.myfonts.com/WhatTheFont/](https://www.myfonts.com/WhatTheFont/)
-
----
-
-## Serve yourself
-
----
-
-### Add the file
-
-- index.html
-	- css
-	- js
-	- images
-	- <mark>fonts</mark>
-
----
-
-### Include it in your CSS
-
+@snap[east span-70]
 ```css
 @font-face {
-  font-family: 'Gotham';
+	font-family: 'Gotham';
   font-weight: normal;
   src: url("fonts/gotham-book.otf") format("opentype");
 }
 ```
+@snapend
 
 ---
 
-## Web Font
+@snap[west span-70]
+## Same font, different style?
+@snapend
+
+Note:
+Load them all in with the same name and specify the style, like weight bold and style italic
 
 ---
 
-### Include the given link
+### Serving yourself
 
+- Pro: You are in control
+- Con: It's a hassle
+
+---
+
+@snap[west span-70]
+## Web Font Services
+@snapend
+
+Note:
+Google fonts example
+
+---
+
+@snap[north-west span-40]
+#### Load fonts as per
+
+@snapend
+
+@snap[east span-70]
 ```html
+<!-- Google font example -->
 <link href="https://fonts.googleapis.com/css?family=Gotham" rel="stylesheet">
 ```
-
-### And then use it as per
-
-```css
-h1 { font-family: 'Gotham', Arial, sans-serif; }
-```
-
-> Don't forget a system backup
+@snapend
 
 ---
 
-### System fonts
+### Using a third party
 
-The fonts available for you to use by default are those installed on the user’s machine
+- Pro: Less hassle
+- Con: You are not in control
 
-You don’t know what fonts they have, although certain fonts are common
+---
 
-This is why CSS defines fallbacks:
+@snap[north-west span-40]
+#### Same CSS
 
+@snapend
+
+@snap[east span-70]
 ```css
-h1 {font-family: 'Gotham', Helvetica, Arial, sans-serif;}
+body {
+	font-family: 'Gotham', "Arial", sans-serif;
+}
 ```
+@snapend
+
+---
+
+> Don't forget a system backup & keyword!
+
+---
+@snap[north-west span-40]
+#### Styling
+
+Go mad!
+@snapend
+
+@snap[east span-70]
+```css
+body {
+	font-family: 'Gotham', "Arial", sans-serif;
+	font-size: 1em;
+	color: #666;
+	text-align: right;
+
+	line-height: 1.6;
+	letter-spacing: 1px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px black;
+}
+```
+@snapend
+
+---
+@snap[north-west span-40]
+#### Worth a mention
+
+Go mad!
+@snapend
+
+@snap[east span-70]
+```css
+body {
+	text-indent: 2em;
+	text-overflow: fade(10px);
+
+	word-spacing: 5px;
+
+	word-break: break-all;
+	overflow-wrap: break-word;
+	white-space: nowrap;
+
+}
+```
+@snapend
 
 ---
 
@@ -100,64 +179,5 @@ h1 {font-family: 'Gotham', Helvetica, Arial, sans-serif;}
 [https://css-tricks.com/snippets/css/system-font-stack/](https://css-tricks.com/snippets/css/system-font-stack/)
 
 ---
-
-## To serve or not to serve
-
-> What is a CDN?
-
----
-
-## Styling
-
----
-
-### Go mad!
-
-```css
-p {
-	font-size: 1em;
-	color: #666;
-
-	line-height: 1.6;
-	letter-spacing: 1px;
-	word-spacing: 5px;
-
-	text-decoration: underline;
-	text-transform: uppercase;
-	text-shadow: 1px 1px 1px black;
-
-	text-align: right;
-	justify-content: justify;
-	text-indent: 2em;
-
-	word-break: break-all;
-	overflow-wrap: break-word;
-	white-space: nowrap;
-
-
-}
-```
-
----
-
-### I mean really mad!
-
-```css
-p {
-	font-stretch: expanded;
-	font-variant-caps: petite-caps;
-	font-variant-ligatures: common-ligatures;
-	font-size-adjust: 0.5;
-	font-variant-numeric: slashed-zero;
-	text-overflow: fade(10px);
-	font-kerning: none;
-}
-```
-
----
-
-
-
-
 
 

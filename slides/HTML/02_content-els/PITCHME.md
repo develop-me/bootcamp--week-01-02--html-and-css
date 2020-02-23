@@ -145,11 +145,14 @@ Can use cite element or/and cite attribute
 
 ---
 
-## HTML tables
+@snap[north-west span-40]
+#### Tables
 
-To display data! NOT for layout!
+Display data
+@snapend
 
-```
+@snap[east span-70]
+```html
 <table>
 	<tr>
 		<th>Dessert</th>
@@ -177,5 +180,7 @@ To display data! NOT for layout!
 	</tr>
 </table>
 ```
+@snapend
+
 ---
 

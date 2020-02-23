@@ -52,8 +52,8 @@ Order in the repo is as per category, not as per order in which you teach.
 |  |  | CSS: Basic Styles | [Lesson](slides/CSS/02_basic-styles/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/02_basic-styles#/) | [Exercises](exercises/CSS/02_basic-styles) | css.pdf 2.1 |
 |  |  | HTML: Metadata | [Lesson](slides/HTML/05_metadata/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/HTML/05_metadata#/) | [Exercises](exercises/HTML/05_metadata) | html.pdf 1.2 |
 | * | * |<td colspan="5">Go over everything we have done, organise your files and notes, remember to shut down your text editor when you do
-|  |  | HTML: Text Elements | [Lesson](slides/HTML/06_text-els/PITCHME.md) |  | [Exercises](exercises/HTML/06_text-els) | html.pdf 2.2 |
-|  |  |  |  |  |  |  |
+|  |  | HTML: Text Elements | [Lesson](slides/HTML/06_text-els/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/HTML/06_text-els#/) | [Exercises](exercises/HTML/06_text-els) | html.pdf 2.4 |
+|  |  | CSS: Web Fonts | [Lessons](slides/CSS/03_web-fonts/PITCHME.md) | [Slides]() | [Exercises](exercises/CSS/03_web-fonts) | css.pdf 2.3 |
 |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |
@@ -82,9 +82,9 @@ Order in the repo is as per category, not as per order in which you teach.
 	- [Slides](slides/web-theory/03_devtools/PITCHME.md)
 
 
-- CSS: Web Fonts
-	- [Slides](slides/CSS/03_web-fonts/PITCHME.md)
-	- [Exercises](exercises/CSS/03_web-fonts)
+-
+	-
+	-
 - CSS: Box Model
 	- [Slides](slides/CSS/04_box-model/PITCHME.md)
 	- [Exercises](exercises/CSS/04_box-model)

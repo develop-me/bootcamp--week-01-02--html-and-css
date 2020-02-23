@@ -1,80 +1,80 @@
-\section{A Section}
+When a website loads it needs to show the same fonts as the design.
 
-This is a paragraph. You need to end each one with two backslashes on the following line, otherwise you won't get a line break. I can't remember why I set it up like that.
-\\
-
-You can do \textbf{bold} text and \textit{italic} text. You can also do \texttt{monospace} text.
-\\
-
-If you want to but smart quotes around something you can use ``two backticks to start and two apostrophes to finish''.
-\\
-
-If you want to include a big block of code then you use the \texttt{minted} command:
-
-% second curlies say what language to use for syntax highlighting
-% you should probably indent everything inside a minted section
-\begin{minted}{js}
-    let x = 10;
-    const z = n => n * n;
-
-    z(10); // blah blah blah
+\begin{minted}{css}
+    body {
+	    font-family: 'Helvetica', "Arial", sans-serif;
+    }
 \end{minted}
 
-Sometimes you'll want to put code in a separate file. This will automatically link to the file on GitHub as copying from a PDF is a bit awful.
+We all have different computers with different fonts on, these are called \textit{system fonts} and although there are common fonts, it's highly unlikely all users will have the custom font from the design.
 
-% \inputminted{js}{resources/example.js}
+We need to make sure the font used in the design loads with the website. We need to serve the font files.
 
-% sometimes page breaks are necessary
-\pagebreak
-
-There's a special one for PHP, which starts on line 3 to remove the \texttt{<?php} tag from the top:
-
-% \phpinputminted{resources/example}
-
-\subsection{A Sub Section}
-
-You can also do sub-sections. Sub-sections will be included in the table of contents. And sub-sub-sections.
-
-\subsubsection{A Sub Sub Section}
-
-See. These won't be in the table of contents.
-\\
-
-I've also included a horizontal rule if you need a break of some sort.
-
-\hr
-
-Have a list:
-
-\begin{itemize}
-    \item Blah
-    \item \textit{Blah}
-    \item \textbf{Blah}
-\end{itemize}
-
-And a numbered one:
-
-\begin{enumerate}
-    \item Blah
-    \item \textit{Blah}
-    \item \textbf{Blah}
-\end{enumerate}
-
-\href{https://duckduckgo.com}{Links} can be useful. As can footnotes\footnote{Look at me, I'm a footnote!}
-\\
-
-\pagebreak
-
-Sometimes it's useful to pull out some information:
-
-\begin{infobox}{I'm an Infobox}
-    Here's some side information about a thing. Maybe some historical context or a rant.
+\begin{infobox}{Finding font files}
+    The website designer should provide you with any font files they used in the design. You can google if you know the font name, or there is href\{https://www.myfonts.com/WhatTheFont}{this website (also an app) called What The Font}, which allows you to upload an image of a font and find it for yourself.
 \end{infobox}
 
-\quoteinline{Sometimes it's nice to include a quote from someone}{Someone, 1985}
+\subsection{Loading Fonts}
 
-It's also possible to include images:
+\subsubsection{Yourself}
 
-% width first, then filename, then bottom margin, then caption text
-% you can use most image types - vector based ones based for diagrams
-\img{12cm}{resources/diagram.eps}{1em}{A very handy caption}
+\begin{minted}{css}
+    @font-face {
+	    font-family: 'Gotham';
+        font-weight: normal;
+        src: url("fonts/gotham-book.otf") format("opentype");
+    }
+\end{minted}
+
+Remember if the font has different styles to include them under the same name with the style specified (ie \texttt{font-weight: bold;}).
+
+\subsubsection{Webfont service}
+
+\begin{minted}{html}
+<link href="https://fonts.googleapis.com/css?family=Gotham" rel="stylesheet">
+\end{minted}
+
+\subsection{Font Styling}
+
+If a property starts with \texttt{font} by and large it affects children as well.
+
+Common:
+
+\begin{minted}{css}
+    body {
+        font-family: 'Gotham', "Arial", sans-serif;
+        font-size: 1em;
+        color: #666;
+        text-align: right;
+
+        line-height: 1.6;
+        letter-spacing: 1px;
+        text-decoration: underline;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 1px black;
+    }
+\end{minted}
+
+Worth noting:
+
+\begin{minted}{css}
+    body {
+        text-indent: 2em;
+        text-overflow: fade(10px);
+
+        word-spacing: 5px;
+
+        word-break: break-all;
+        overflow-wrap: break-word;
+        white-space: nowrap;
+    }
+\end{minted}
+
+\subsection{Further Reading}
+
+href{https://css-tricks.com/guides/opentype-variable-fonts/}{CSS Tricks articles on variable fonts}
+
+href{https://css-tricks.com/fout-foit-foft/}(Loading fonts performantly)
+
+href{https://css-tricks.com/snippets/css/system-font-stack/}(System fonts)
+

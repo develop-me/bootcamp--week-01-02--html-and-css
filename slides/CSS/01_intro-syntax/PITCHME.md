@@ -50,24 +50,33 @@ Note:
 Explain all - we tend to use classes. Only one id per page
 
 ---
+@snap[north-west span-40]
+#### Style two the same: comma
 
-### Style two the same: comma
+@snapend
 
-```
+@snap[east span-70]
+```css
 .header-main, section {
 	background-color: lightgreen;
 }
 ```
+@snapend
 
 ---
+@snap[north-west span-40]
+#### Target a child: space
 
-### Target a child: space
+@snapend
 
-```
+@snap[east span-70]
+```css
 article p {
 	border-bottom: 2px solid grey;
 }
 ```
+@snapend
+
 
 ---
 
