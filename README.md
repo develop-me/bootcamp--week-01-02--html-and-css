@@ -78,8 +78,8 @@ Order in the repo is as per category, not as per order in which you teach.
 |  |  | Wireframes | [Lesson](slides/web-theory/07_wireframing/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/07_wireframing#/) | [Exercises](exercises/web-theory/07_wireframing) | web-theory 4.4 |
 | x |  | CSS Framworks | [Lesson](slides/CSS/11_frameworks/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/11_frameworks#/) | [Exercise](exercises/CSS/11_frameworks) | css.pdf 4.4 |
 |  | * |<td colspan="5">Homework: Prototype with Bootstrap</td>
-|  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |
+|  |  | Design Systems | [Lesson](slides/CSS/12_design-systems/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/12_design-systems#/) | [Exercise](exercises/CSS/12_design-systems) | css.pdf 5.1 |
+|  |  | Atomic Design | [Lesson](slides/CSS/13_atomic-design/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/13_atomic-design#/) |  | [Exercise](exercises/CSS/13_atomic-design) |
 |  |  |  |  |  |  |  |
 
 #### Part Two
@@ -126,12 +126,6 @@ Order in the repo is as per category, not as per order in which you teach.
 
 
 
-- CSS: Design Systems
-	- [Slides](slides/CSS/12_design-systems/PITCHME.md)
-	- [Exercises](exercises/CSS/12_design-systems)
-- CSS: Atomic Design
-	- [Slides](slides/CSS/13_atomic-design/PITCHME.md)
-	- [Exercises](exercises/CSS/13_atomic-design)
 - Web Theory: Design Handover
 	- [Slides](slides/web-theory/08_design-handover/PITCHME.md)
 	- [Exercises](exercises/web-theory/08_design-handover)
@@ -142,6 +136,7 @@ Order in the repo is as per category, not as per order in which you teach.
 - CSS: Positioning & Transforms
 	- [Slides](slides/CSS/14_positioning/PITCHME.md)
 	- [Exercises](exercises/CSS/14_positioning)
+
 - CSS: Imports
 	- [Slides](slides/CSS/15_imports/PITCHME.md)
 	- [Exercises](exercises/CSS/15_imports)

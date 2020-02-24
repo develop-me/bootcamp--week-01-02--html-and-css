@@ -1,80 +1,40 @@
-\section{A Section}
+\subsection{Figma}
 
-This is a paragraph. You need to end each one with two backslashes on the following line, otherwise you won't get a line break. I can't remember why I set it up like that.
-\\
 
-You can do \textbf{bold} text and \textit{italic} text. You can also do \texttt{monospace} text.
-\\
+\subsubsection{Pages \& Layers}
 
-If you want to but smart quotes around something you can use ``two backticks to start and two apostrophes to finish''.
-\\
+Make sure sizes seem ok, have responsive designs
 
-If you want to include a big block of code then you use the \texttt{minted} command:
+\subsubsection{Tools \& Menus at top}
 
-% second curlies say what language to use for syntax highlighting
-% you should probably indent everything inside a minted section
-\begin{minted}{js}
-    let x = 10;
-    const z = n => n * n;
+Use select tool
 
-    z(10); // blah blah blah
-\end{minted}
+\subsubsection{Select a layer}
 
-Sometimes you'll want to put code in a separate file. This will automatically link to the file on GitHub as copying from a PDF is a bit awful.
+See information on right. NB check sub-layers. Things are grouped.
 
-% \inputminted{js}{resources/example.js}
+\subsubsection{Export panel \& different image types}
 
-% sometimes page breaks are necessary
-\pagebreak
+Select layer and see bottom right
 
-There's a special one for PHP, which starts on line 3 to remove the \texttt{<?php} tag from the top:
+\subsection{Different image types}
 
-% \phpinputminted{resources/example}
-
-\subsection{A Sub Section}
-
-You can also do sub-sections. Sub-sections will be included in the table of contents. And sub-sub-sections.
-
-\subsubsection{A Sub Sub Section}
-
-See. These won't be in the table of contents.
-\\
-
-I've also included a horizontal rule if you need a break of some sort.
-
-\hr
-
-Have a list:
+\subsubsection{Raster (Bitmap)}
 
 \begin{itemize}
-    \item Blah
-    \item \textit{Blah}
-    \item \textbf{Blah}
+    \item \textbf{png} Has transparency, good compression, can be big
+    \item \textbf{jpg} No transparency but smaller than png
+    \item \textbf{tiff} No place on the web really
+    \item \textbf{gif} Transparency, animation, small file size, incredibly big file size
 \end{itemize}
 
-And a numbered one:
+\subsubsection{Vector based}
 
-\begin{enumerate}
-    \item Blah
-    \item \textit{Blah}
-    \item \textbf{Blah}
-\end{enumerate}
+\begin{itemize}
+    \item \textbf{svg} Scalable (and actually code!)
+\end{itemize}
 
-\href{https://duckduckgo.com}{Links} can be useful. As can footnotes\footnote{Look at me, I'm a footnote!}
-\\
-
-\pagebreak
-
-Sometimes it's useful to pull out some information:
-
-\begin{infobox}{I'm an Infobox}
-    Here's some side information about a thing. Maybe some historical context or a rant.
+\begin{infobox}{Blueprint}
+    A blueprint is your own sketch of the site. It should include any information you might need in coding, such as fonts, colours and spacings
 \end{infobox}
 
-\quoteinline{Sometimes it's nice to include a quote from someone}{Someone, 1985}
-
-It's also possible to include images:
-
-% width first, then filename, then bottom margin, then caption text
-% you can use most image types - vector based ones based for diagrams
-\img{12cm}{resources/diagram.eps}{1em}{A very handy caption}
