@@ -78,3 +78,9 @@ input {
 ```
 @snapend
 ---
+
+#### Exercise
+
+### Create a settings.css file and create some variables to use in your CSS. Don't forget to add it to your main CSS
+
+---

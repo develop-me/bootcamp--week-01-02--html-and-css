@@ -87,9 +87,9 @@ Order in the repo is as per category, not as per order in which you teach.
 |  |  | Atomic Design | [Lesson](slides/CSS/13_atomic-design/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/13_atomic-design#/) |  | [Exercise](exercises/CSS/13_atomic-design) |
 |  |  | Design Handover | [Lesson](slides/web-theory/08_design-handover/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/08_design-handover#/) | [Exercises](exercises/web-theory/08_design-handover) | web-theory.pdf 3.5 |
 |  |  | Design Breakdown | [Lesson](slides/web-theory/09_design-breakdown/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/09_design-breakdown#/) | [Exercises](exercises/web-theory/09_design-breakdown) | web-theory.pdf 3.6 |
-|  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |
+|  |  | Positioning & Transforms |  |  |  |  |
+|  |  | Imports | [Lesson](slides/CSS/15_imports/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/15_imports#/2) | [Exercises](exercises/CSS/15_imports) | css.pdf 4.1 |
+|  |  | Variables | [Lesson](slides/CSS/16_variables/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/16_variables#/4) | [Exercises](exercises/CSS/16_variables) | css.pdf 4.2 |
 |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |
@@ -127,12 +127,6 @@ Order in the repo is as per category, not as per order in which you teach.
 
 
 
-- CSS: Imports
-	- [Slides](slides/CSS/15_imports/PITCHME.md)
-	- [Exercises](exercises/CSS/15_imports)
-- CSS: Variables
-	- [Slides](slides/CSS/16_variables/PITCHME.md)
-	- [Exercises](exercises/CSS/16_variables)
 - Web Theory: Accessibility
 	- [Slides](slides/web-theory/10_accessibility/PITCHME.md)
 	- [Exercises](exercises/web-theory/10_accessibility)

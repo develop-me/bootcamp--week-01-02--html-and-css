@@ -14,7 +14,7 @@ We import all smaller CSS files into one file and use **that** one file in our H
 
 CSS knows to go and get all the CSS in the other files
 
-----
+---
 
 @snap[north-west span-40]
 #### @import example
