@@ -76,7 +76,7 @@ Order in the repo is as per category, not as per order in which you teach.
 |  |  | Scamps | [Lesson](slides/web-theory/06_scamping/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/06_scamping#/) | [Exercises](exercises/web-theory/06_scamping) | web-theory 4.3 |
 |  | * |<td colspan="5">Quiz & 1-1s</td>
 |  |  | Wireframes | [Lesson](slides/web-theory/07_wireframing/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/07_wireframing#/) | [Exercises](exercises/web-theory/07_wireframing) | web-theory 4.4 |
-| x |  | CSS Framworks | [Lesson](slides/CSS/11_frameworks/PITCHME.md) | [Slides]() | [Exercise](exercises/CSS/11_frameworks) | css.pdf 4.4 |
+| x |  | CSS Framworks | [Lesson](slides/CSS/11_frameworks/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/11_frameworks#/) | [Exercise](exercises/CSS/11_frameworks) | css.pdf 4.4 |
 |  | * |<td colspan="5">Homework: Prototype with Bootstrap</td>
 |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |
@@ -125,12 +125,6 @@ Order in the repo is as per category, not as per order in which you teach.
 
 
 
-
-- CSS: Frameworks*
-	-
-	-
-
->Homework (fulltime): Use the starter codepen to create an interactive prototype of your wireframed page using bootstrap
 
 - CSS: Design Systems
 	- [Slides](slides/CSS/12_design-systems/PITCHME.md)

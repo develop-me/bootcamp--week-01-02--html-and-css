@@ -1,26 +1,29 @@
 # Design Systems
 
 ---
+>A design system is a collection of reusable components, guided by clear standards, that can be assembled together to build any number of applications.
 
-# Styleguides & Pattern Libraries
+cite: [https://www.invisionapp.com/inside-design/guide-to-design-systems/](https://www.invisionapp.com/inside-design/guide-to-design-systems/)
+
+---
+
+### Usually consists of Styleguides & Pattern Libraries
 
 ---
 
 ### Style Guide
 
-How you write something - can be tone of voice:
-
-[https://alistapart.com/about/style-guide](https://alistapart.com/about/style-guide)
-
-Or code style guide
-
-[https://css-tricks.com/sass-style-guide/](https://css-tricks.com/sass-style-guide/)
+- Branding
+- Tone of voice
+- Photography
+- Style
 
 ---
 
 ### Pattern Library
 
-Collection of elements you’d use in your website
+- Collection of digital elements you’d use in your product
+- With code
 
 [http://ux.mailchimp.com/patterns/dialogs](http://ux.mailchimp.com/patterns/dialogs)
 
@@ -34,11 +37,16 @@ Find three common patterns/repeated elements within this site
 
 ---
 
-### Styleguide
+### Pattern Library
 
 [http://style.bristol.gov.uk/](http://style.bristol.gov.uk/)
 
-They could use a pattern library
+
+---
+
+### Why is this important
+
+Because that's how we approach writing HTML & CSS for a product
 
 ---
 
