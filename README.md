@@ -44,14 +44,14 @@ Order in the repo is as per category, not as per order in which you teach.
 |  |  | Web Theory: General Overview | [Lesson](slides/web-theory/01_overview/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/01_overview/#/) |  | web-theory.pdf 1.1 |
 |  |  | HTML: Intro & Syntax | [Lesson](slides/HTML/01_intro-syntax/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/HTML/01_intro-syntax#/) | [Exercise](exercises/HTML/01_intro-syntax) | html.pdf 1.1 |
 |  |  | HTML: Content Elements | [Lesson](slides/HTML/02_content-els/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/HTML/02_content-els#/) | [Exercises](exercises/HTML/02_content-els) | html.pdf 2.1 |
-|  |  |  |  |  |  |  |
+|  |  | Web Theory: Assistive Technologies |  | [Lesson](slides/web-theory/02_assistive/PITCHME.md) |  |  |
 |  |  | HTML: Sectioning Elements | [Lesson](slides/HTML/03_sectioning-els/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/HTML/03_sectioning-els#/) | [Exercises](exercises/HTML/03_sectioning-els) | html.pdf 2.2 |
 |  |  | Web Theory: Devtools | [Lesson](slides/web-theory/03_devtools/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/03_devtools#/) | [Exercises](exercises/HTML/05_devtools) | web-theory.pdf |
 |  |  | HTML: Media Elements | [Lesson](slides/HTML/04_media-els/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/HTML/04_media-els#/) | [Exercises](exercises/HTML/04_media-els) |  |
 |  |  | CSS: Intro & Syntax | [Lesson](slides/CSS/01_intro-syntax/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/01_intro-syntax#/) | [Exercise](exercises/CSS/01_intro-syntax) | css.pdf 1.1 |
 |  |  | CSS: Basic Styles | [Lesson](slides/CSS/02_basic-styles/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/02_basic-styles#/) | [Exercises](exercises/CSS/02_basic-styles) | css.pdf 2.1 |
 |  |  | HTML: Metadata | [Lesson](slides/HTML/05_metadata/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/HTML/05_metadata#/) | [Exercises](exercises/HTML/05_metadata) | html.pdf 1.2 |
-| * | * |<td colspan="5">Go over everything we have done, organise your files and notes, remember to shut down your text editor when you do</td>
+| * | * |<td colspan="5">Go over everything we have done, organise your files and notes, remember to shut down your text editor when you do. Sit somewhere different tomorrow</td>
 |  |  | HTML: Text Elements | [Lesson](slides/HTML/06_text-els/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/HTML/06_text-els#/) | [Exercises](exercises/HTML/06_text-els) | html.pdf 2.4 |
 |  |  | CSS: Web Fonts | [Lessons](slides/CSS/03_web-fonts/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/03_web-fonts#/) | [Exercises](exercises/CSS/03_web-fonts) | css.pdf 2.3 |
 |  |  | CSS: Box Model |  |  |  |  |
@@ -59,13 +59,17 @@ Order in the repo is as per category, not as per order in which you teach.
 |  |  | CSS Colours | [Lesson](slides/CSS/05_colours/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/05_colours#/9) | [Exercises](exercises/CSS/05_colours) | css.pdf 2.2 |
 | * |  |<td colspan="5">The button exercise</td>
 |  |  | CSS Floats |  |  |  |  |
-|  |  | CSS Units |  |  |  |  |
+|  |  | CSS Units | [Lesson](slides/CSS/07_units/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/07_units#/) | [Exercises](exercises/CSS/07_units) |  |
 |  | * |<td colspan="5">Flexbox Froggy</td>
 |  |  | HTML Forms |  |  |  |  |
-|  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |
+| * |  |<td colspan="5">Flexbox Froggy & Form Exercise</td>
+|  |  | CSS Flexbox |  |  |  |  |
+|  |  | Responsive Design |  |  |  |  |
+| * |  |<td colspan="5">Finish flexbox & media query exercises.</td>
+|  | * |<td colspan="5">Play Grid Garden</td>
+|  |  | CSS Grid Part 1 |  |  |  |  |
+|  |  | CSS Grid Part 2 |  |  |  |  |
+|  | * |<td colspan="5">Revise for quiz tomorrow</td>
 |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |
@@ -85,41 +89,22 @@ Order in the repo is as per category, not as per order in which you teach.
 |  |  |  |  |  |  |  |
 
 
-- Web Theory: Assistive Technologies
-	- [Slides](slides/web-theory/02_assistive/PITCHME.md)
-
 
 - CSS: Box Model
 	- [Slides](slides/CSS/04_box-model/PITCHME.md)
 	- [Exercises](exercises/CSS/04_box-model)
-
->Homework (evening): The button exercise
-
 - CSS: Floats
 	- [Slides](slides/CSS/06_floats/PITCHME.md)
 	- [Exercises](exercises/CSS/06_floats)
-- CSS: Units
-	- [Slides](slides/CSS/07_units/PITCHME.md)
-	- [Exercises](exercises/CSS/07_units)
-
->Homework (fulltime): Flexbox Froggy
-
 - HTML: Forms
 	- [Slides](slides/HTML/07_forms/PITCHME.md)
 	- [Exercises](exercises/HTML/07_forms)
-
->Homework (evening): Flexbox Froggy & form exercise
-
 - CSS: Flexbox
 	- [Slides](slides/CSS/08_flexbox/PITCHME.md)
 	- [Exercises](exercises/CSS/08_flexbox)
 - CSS: Media Queries
 	- [Slides](slides/CSS/09_media-queries/PITCHME.md)
 	- [Exercises](exercises/CSS/09_media-queries)
-
->Homework (evening): Finish flexbox & media query exercises. Play Grid Garden
->Homework (fulltime): Play Grid Garden
-
 - CSS: Grid Part One
 	- [Slides](slides/CSS/10-grid-1/PITCHME.md)
 	- [Exercises](exercises/CSS/10-grid-1)
@@ -127,9 +112,7 @@ Order in the repo is as per category, not as per order in which you teach.
 	- [Slides](slides/CSS/10-grid-2/PITCHME.md)
 	- [Exercises](exercises/CSS/10-grid-2)
 
->Homework (fulltime): Revise for the quiz tomorrow
-
-- Web Theory: Requirement Gathering
+- Web Theory: Requirements Gathering
 	- [Slides](slides/web-theory/04_requirements/PITCHME.md)
 	- [Exercises](exercises/web-theory/04_requirements)
 - Web Theory: Sitemapping

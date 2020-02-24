@@ -1,80 +1,32 @@
-\section{A Section}
+A wirefrmae is a representation of what is there and how it works.
 
-This is a paragraph. You need to end each one with two backslashes on the following line, otherwise you won't get a line break. I can't remember why I set it up like that.
-\\
+Crucially, a way of thinking about the content and behaviour \textbf{before visual design is considered.}
 
-You can do \textbf{bold} text and \textit{italic} text. You can also do \texttt{monospace} text.
-\\
+That’s why wireframes will look \textbf{bland and grey.}
 
-If you want to but smart quotes around something you can use ``two backticks to start and two apostrophes to finish''.
-\\
+We want to \textbf{focus on the function} of the site before we start thinking about style.
 
-If you want to include a big block of code then you use the \texttt{minted} command:
-
-% second curlies say what language to use for syntax highlighting
-% you should probably indent everything inside a minted section
-\begin{minted}{js}
-    let x = 10;
-    const z = n => n * n;
-
-    z(10); // blah blah blah
-\end{minted}
-
-Sometimes you'll want to put code in a separate file. This will automatically link to the file on GitHub as copying from a PDF is a bit awful.
-
-% \inputminted{js}{resources/example.js}
-
-% sometimes page breaks are necessary
-\pagebreak
-
-There's a special one for PHP, which starts on line 3 to remove the \texttt{<?php} tag from the top:
-
-% \phpinputminted{resources/example}
-
-\subsection{A Sub Section}
-
-You can also do sub-sections. Sub-sections will be included in the table of contents. And sub-sub-sections.
-
-\subsubsection{A Sub Sub Section}
-
-See. These won't be in the table of contents.
-\\
-
-I've also included a horizontal rule if you need a break of some sort.
-
-\hr
-
-Have a list:
+It will be given to:
 
 \begin{itemize}
-    \item Blah
-    \item \textit{Blah}
-    \item \textbf{Blah}
+    \item clients.
+    \item designers.
+    \item developers \& sys admins.
 \end{itemize}
 
-And a numbered one:
-
-\begin{enumerate}
-    \item Blah
-    \item \textit{Blah}
-    \item \textbf{Blah}
-\end{enumerate}
-
-\href{https://duckduckgo.com}{Links} can be useful. As can footnotes\footnote{Look at me, I'm a footnote!}
-\\
-
-\pagebreak
-
-Sometimes it's useful to pull out some information:
-
-\begin{infobox}{I'm an Infobox}
-    Here's some side information about a thing. Maybe some historical context or a rant.
+\begin{infobox}{Educate the client}
+    Clients can sometimes be unfamiliar with digital processes. When sending a wireframe link to a client you should include an explanation of what a wireframe is for, what feedback is useful, and what isn’t.
+    Clients will circulate a wireframe link within the organisation, often without your helpful explanation of what a wireframe is for so add a note to the wireframe saying what it is.
 \end{infobox}
 
-\quoteinline{Sometimes it's nice to include a quote from someone}{Someone, 1985}
+\subsubsection{Wireframe Software}
 
-It's also possible to include images:
+\begin{itemize}
+    \item Balsamiq: \href{https://balsamiq.com/products/}{https://balsamiq.com/products/}
+    \item Moqups: \href{https://moqups.com/}{https://moqups.com/}
+    \item UXPin: \href{https://www.uxpin.com/}{https://www.uxpin.com/}
+    \item AdobeXD: \href{https://www.adobe.com/uk/products/xd.html}{https://www.adobe.com/uk/products/xd.html}
+    \item \href{List on Creative Bloc here}{https://www.creativebloq.com/wireframes/top-wireframing-tools-11121302}
+    \item Any design software too
+\end{itemize}
 
-% width first, then filename, then bottom margin, then caption text
-% you can use most image types - vector based ones based for diagrams
-\img{12cm}{resources/diagram.eps}{1em}{A very handy caption}
