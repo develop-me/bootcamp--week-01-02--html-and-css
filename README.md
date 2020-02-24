@@ -23,10 +23,10 @@ There are three categories taught in this course: HTML, CSS & Web Theory. The la
 
 ### Notes for new tutors
 
-Go through the repo - the slides folder especially. We teach in increments so you may feel valuable info is being ommited only to find it's being taught at a later stage. Don't overwhelm your students - remember you will have to lie until you can tell the truth.
+Go through the repo - the slides folder especially. We teach in increments so you may feel valuable info is being omitted only to find it's being taught at a later stage. Don't overwhelm your students - remember you will have to lie until you can tell the truth.
 
 If you are adding content: Choose your unit, create/modify slides, notes & exercises content as per. Things you may find useful:
-- There is an example presentation in the [root directory here]() I strongly recommend using that to create new presentations
+- There is an example presentation in the [root directory here](PITCHME.md) I strongly recommend using that to create new presentations
 
 ## Suggested Course Structure
 
@@ -78,16 +78,15 @@ Order in the repo is as per category, not as per order in which you teach.
 |  |  | Wireframes | [Lesson](slides/web-theory/07_wireframing/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/07_wireframing#/) | [Exercises](exercises/web-theory/07_wireframing) | web-theory 4.4 |
 | x |  | CSS Framworks | [Lesson](slides/CSS/11_frameworks/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/11_frameworks#/) | [Exercise](exercises/CSS/11_frameworks) | css.pdf 4.4 |
 |  | * |<td colspan="5">Homework: Prototype with Bootstrap</td>
-|  |  | Design Systems | [Lesson](slides/CSS/12_design-systems/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/12_design-systems#/) | [Exercise](exercises/CSS/12_design-systems) | css.pdf 5.1 |
-|  |  | Atomic Design | [Lesson](slides/CSS/13_atomic-design/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/13_atomic-design#/) |  | [Exercise](exercises/CSS/13_atomic-design) |
-|  |  |  |  |  |  |  |
 
 #### Part Two
 
 | PT | FT | Title | Lesson | Slides | Exercise | Notes |
 |---|---|---|---|---|---|---|
-|  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |
+|  |  | Design Systems | [Lesson](slides/CSS/12_design-systems/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/12_design-systems#/) | [Exercise](exercises/CSS/12_design-systems) | css.pdf 5.1 |
+|  |  | Atomic Design | [Lesson](slides/CSS/13_atomic-design/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/13_atomic-design#/) |  | [Exercise](exercises/CSS/13_atomic-design) |
+|  |  | Design Handover | [Lesson](slides/web-theory/08_design-handover/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/08_design-handover#/) | [Exercises](exercises/web-theory/08_design-handover) | web-theory.pdf 3.5 |
+|  |  | Design Breakdown | [Lesson](slides/web-theory/09_design-breakdown/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/09_design-breakdown#/) | [Exercises](exercises/web-theory/09_design-breakdown) | web-theory.pdf 3.6 |
 |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |
@@ -122,20 +121,11 @@ Order in the repo is as per category, not as per order in which you teach.
 - CSS: Grid Part Two*
 	- [Slides](slides/CSS/10-grid-2/PITCHME.md)
 	- [Exercises](exercises/CSS/10-grid-2)
-
-
-
-
-- Web Theory: Design Handover
-	- [Slides](slides/web-theory/08_design-handover/PITCHME.md)
-	- [Exercises](exercises/web-theory/08_design-handover)
-- Web Theory: Design Breakdown
-	- [Slides](slides/web-theory/09_design-breakdown/PITCHME.md)
-	- [Exercises](exercises/web-theory/09_design-breakdown)
-
 - CSS: Positioning & Transforms
 	- [Slides](slides/CSS/14_positioning/PITCHME.md)
 	- [Exercises](exercises/CSS/14_positioning)
+
+
 
 - CSS: Imports
 	- [Slides](slides/CSS/15_imports/PITCHME.md)

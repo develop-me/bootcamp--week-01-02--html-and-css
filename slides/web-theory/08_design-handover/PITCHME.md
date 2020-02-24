@@ -62,3 +62,9 @@ Programme files: PS Will have layers to turn on and off access different element
 > We'll take about image formats later
 
 ---
+
+#### Exercise
+
+### In pairs make a list of atoms, molecules and organisms
+
+---
