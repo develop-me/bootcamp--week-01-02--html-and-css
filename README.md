@@ -93,7 +93,7 @@ Order in the repo is as per category, not as per order in which you teach.
 |  |  | Accessibility | [Lesson](slides/web-theory/10_accessibility/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/10_accessibility#/) | [No exercise yet](exercises/web-theory/10_accessibility) | web-theory.pdf 3.2 |
 |  |  | OOCSS | [Lesson](slides/CSS/17_OOCSS/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/17_OOCSS) | [Exercises](exercises/CSS/17_OOCSS) | css.pdf 4.3 |
 |  |  | CSS Effects | [Lesson](slides/CSS/18_effects/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/18_effects#/6) | [Exercises](exercises/CSS/18_effects) | css.pdf 1.5 |
-|  |  |  |  |  |  |  |
+|  |  | BEM | [Lesson](slides/CSS/19_BEM/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/19_BEM#/) | [Exercises](exercises/CSS/19_BEM) | css.pdf 4.4 |
 |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |
@@ -136,12 +136,6 @@ Order in the repo is as per category, not as per order in which you teach.
 	- [Exercises](exercises/CSS/14_positioning)
 
 
-- CSS: Effects
-	-
-	-
-- CSS: BEM
-	- [Slides](slides/CSS/19_BEM/PITCHME.md)
-	- [Exercises](exercises/CSS/19_BEM)
 - CSS: Complex Selectors
 	- [Slides](slides/CSS/20_complex-selectors/PITCHME.md)
 	- [Exercises](exercises/CSS/20_complex-selectors)
