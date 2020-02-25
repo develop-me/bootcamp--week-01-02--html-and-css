@@ -92,7 +92,7 @@ Order in the repo is as per category, not as per order in which you teach.
 |  |  | Variables | [Lesson](slides/CSS/16_variables/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/16_variables#/4) | [Exercises](exercises/CSS/16_variables) | css.pdf 4.2 |
 |  |  | Accessibility | [Lesson](slides/web-theory/10_accessibility/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/10_accessibility#/) | [No exercise yet](exercises/web-theory/10_accessibility) | web-theory.pdf 3.2 |
 |  |  | OOCSS | [Lesson](slides/CSS/17_OOCSS/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/17_OOCSS) | [Exercises](exercises/CSS/17_OOCSS) | css.pdf 4.3 |
-|  |  | CSS Effects |  |  |  |  |
+|  |  | CSS Effects | [Lesson](slides/CSS/18_effects/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/18_effects#/6) | [Exercises](exercises/CSS/18_effects) | css.pdf 1.5 |
 |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |
@@ -137,8 +137,8 @@ Order in the repo is as per category, not as per order in which you teach.
 
 
 - CSS: Effects
-	- [Slides](slides/CSS/18_effects/PITCHME.md)
-	- [Exercises](exercises/CSS/18_effects)
+	-
+	-
 - CSS: BEM
 	- [Slides](slides/CSS/19_BEM/PITCHME.md)
 	- [Exercises](exercises/CSS/19_BEM)

@@ -75,7 +75,7 @@ p {
 
 ### CSS Shapes
 
-![CSS shape example](day08/02coolCSS/cssShape.png)
+![CSS shape example](slides/CSS/18_effects/cssShape.png)
 
 ---
 

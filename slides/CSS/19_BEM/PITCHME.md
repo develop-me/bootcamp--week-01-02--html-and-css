@@ -1,70 +1,14 @@
-# CSS Methodologies
+# BEM
 
 ---
+@snap[north-west span-40]
+### BEM (Block Element Modifier)
 
-### Some things to know
+Class naming convention
 
-- OOCSS
-- Atomic Design
-- BEM
-- SMACSS
+@snapend
 
----
-
-# OOCSS: Object Orientated CSS
-
----
-
-Encourages reuseable, scalable CSS
-
-Example: button used on site, regardless of code surrounding it
-
----
-
-### Separates structure from skin
-
----
-
-```css
-button {
-	width: 100px;
-	margin: 0px auto;
-}
-a.button {
-	display: block;
-	width: 200px;
-}
-.skin {
-	background-color: green;
-	border: 1px solid blue;
-}
-```
----
-
-# Atomic Design
-
----
-
-### Way of thinking about structure:
-
-**Atoms:** Elements (input, p, button etc...)
-
-**Molecules:** Set of elements (search form)
-
-**Organism:** Set of Molecules (site header)
-
-**Templates:** Set of Organisms (repeated)
-
-**Pages:** Final site
-
----
-
-# BEM (Block Element Modifier)
-
----
-
-### Class naming convention
-
+@snap[east span-70]
 ```css
 /* This is the Block */
 .block {}
@@ -75,48 +19,47 @@ a.button {
 /* This modifies the element or a block*/
 .block--modifier {}
 ```
+@snapend
 
 ---
 
-### Example
+@snap[north-west span-40]
 
+Modifications could be `card--noimage`
+
+@snapend
+
+@snap[east span-70]
+```html
+<article class="card">
+
+	<header class="card__head">
+		<h2 class="card__head__text">Card heading</h2>
+	</header>
+
+	<figure class="card__img">
+		<img src="" alt="" />
+	</figure>
+
+	<p class="card__blurb">Some text here</p>
+
+	<a href="" class="card__link">A link</a>
+
+</article>
 ```
-<ul class="menu">
-  <li class="menu__item">
-    <a class="menu__link">
-      <span class="menu__text"></span>
-    </a>
-  </li>
-</ul>
-
-.menu {}
-.menu__item {}
-.menu__link {}
-.menu__text {}
-```
+@snapend
 
 ---
 
-# SMACSS (Scalable and Modular Architecture for CSS)
+### It may seem long winded
+
+But we have already seen the benefits of the button class, you can use it on any element and it will adopt the styles.
+
+It also helps other developers understand what CSS is doing what
 
 ---
 
-Way of structuring/organising CSS with conventions
-
-- Base rules
-- Layout rules
-- Module rules
-- State rules
-- Theme rules
-
----
-
-### Further reading
-
-- [http://oocss.org/](http://oocss.org/)
-- [http://atomicdesign.bradfrost.com/](http://atomicdesign.bradfrost.com/)
 - [http://getbem.com/](http://getbem.com/)
-- [https://smacss.com/](https://smacss.com/)
 
 
 
