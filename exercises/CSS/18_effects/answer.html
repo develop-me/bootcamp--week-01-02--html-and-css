@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="description" content="This is a test page ruth wrote for the class containing effects">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- favicon.ico -->
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+	<title>My Great Website</title>
+
+	<style>
+		figure {
+			width: 70%; margin: 0;
+		}
+		figure img {
+			display: block; width: 100%;
+		}
+		#hero figure {
+			background-color: darkblue;
+			background-image:linear-gradient(90deg, darkblue, darkgray);
+		}
+		#hero img {
+			mix-blend-mode: hard-light;
+			filter: saturate(50%);
+			opacity: 0.8;
+		}
+	</style>
+</head>
+
+<body>
+
+	<article>
+		<h2>Original</h2>
+		<figure>
+			<img src="hero.png" alt="a portrait of a girl sitting with her arms up" />
+		</figure>
+	</article>
+
+	<article id="hero">
+		<h2>With effects</h2>
+		<figure>
+			<img src="hero.png" alt="a portrait of a girl sitting with her arms up" />
+		</figure>
+	</article>
+
+</body>
+
+
+</html>

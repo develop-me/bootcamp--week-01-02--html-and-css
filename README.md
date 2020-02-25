@@ -92,7 +92,7 @@ Order in the repo is as per category, not as per order in which you teach.
 |  |  | Variables | [Lesson](slides/CSS/16_variables/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/16_variables#/4) | [Exercises](exercises/CSS/16_variables) | css.pdf 4.2 |
 |  |  | Accessibility | [Lesson](slides/web-theory/10_accessibility/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/10_accessibility#/) | [No exercise yet](exercises/web-theory/10_accessibility) | web-theory.pdf 3.2 |
 |  |  | OOCSS | [Lesson](slides/CSS/17_OOCSS/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/17_OOCSS) | [Exercises](exercises/CSS/17_OOCSS) | css.pdf 4.3 |
-|  |  |  |  |  |  |  |
+|  |  | CSS Effects |  |  |  |  |
 |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |

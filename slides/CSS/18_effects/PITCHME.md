@@ -1,136 +1,75 @@
-# Some CSS I haven't mentioned
+# CSS Effects
 
 ---
 
-### Cursor
+### CSS can do some pretty cool things
 
+- Gradients
+- Filters
+- Blend modes
+- Image masking
+- Shapes
+
+---
+
+@snap[north-west span-40]
+#### Gradients
+
+Linear, radial or conic functions
+@snapend
+
+@snap[east span-70]
 ```css
-/* little hand 👆 */
-button {
-	cursor: pointer;
+article {
+	background-image: linear-gradient(90deg, red, blue);
 }
 ```
-
-There a quite a few different ones [https://developer.mozilla.org/en-US/docs/Web/CSS/cursor](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor)
-
-You can put an image in
+@snapend
 
 ---
 
-### List style
+Use with multiple background images & background size to create cool patterns [https://leaverou.github.io/css3patterns/](https://leaverou.github.io/css3patterns/)
 
-Shorthand 🤗
+![Pattern Gallery](slides/CSS/18_effects/pattern.png)
 
+---
+
+@snap[north-west span-40]
+#### Filters
+
+Media (images & video)
+@snapend
+
+@snap[east span-70]
 ```css
-ul {
-	list-style: none;
+/* can be blur, brightness, contrast, drop-shadow, grayscale, hue-rotate, invert, opacity, saturate, sepia */
+img {
+	filter: saturate(50%) hue-rotate(30deg);
 }
 ```
-
-For
-- `list-style-type`
-- `list-style-position`
-- `list-style-image`
-
-Easier to use a background image on list items for bullets
+@snapend
 
 ---
 
-# Some Cool CSS
+@snap[north-west span-40]
+#### Blend modes
 
----
+See through (blend) elements
+@snapend
 
-### Transforms
-
+@snap[east span-70]
 ```css
-transform: translate(10px,10px);
-transform: translateX(10px);
-transform: scale(x,y);
-transform: rotate(30deg) skewX(25deg);
-```
-
----
-
-# Transitions & Animations
-
----
-
-### Transitions
-
-```css
-a {
-	color: white;
-	transition: color 0.2s ease;
+/* difference between element & background */
+article {
+	mix-blend-mode: soft-light;
 }
-a:hover {
-	color: grey;
-}
-```
-
-Further reading CSS Tricks: [https://css-tricks.com/almanac/properties/t/transition/](https://css-tricks.com/almanac/properties/t/transition/)
-
----
-
-### Animations
-
-Declare your animation (can be done anywhere in a CSS file)
-
-```css
-@keyframes move {
-	0% {
-		transform: translate(0px, 0px);
-	}
-	100% {
-		transform: translate(50px, 50px);
-	}
-}
-```
-
-Use anywhere
-
-```css
-button {
-	animation: move 1s ease-in-out infinite;
-}
-```
-
----
-
-### Blend modes
-
-Background images
-
-```css
-section {
+p {
 	background-color: purple;
 	background-image: url(image.jpg);
 	background-blend-mode: multiply;
 }
 ```
-
-Elements
-
-```css
-h1 {
-	mix-blend-mode: screen;
-}
-```
-
-Further reading CSS Tricks: [https://css-tricks.com/basics-css-blend-modes/](https://css-tricks.com/basics-css-blend-modes/)
-
----
-
-### Filters
-
-For media (images & video)
-
-```css
-/* can be blur, brightness, contrast, drop-shadow, grayscale, hue-rotate, invert, opacity, saturate, sepia */
-
-image {
-	filter: blur(1px) hue-rotate(90deg);
-}
-```
+@snapend
 
 ---
 
@@ -140,61 +79,41 @@ image {
 
 ---
 
-I want to mention them but not well supported yet.
+@snap[north-west span-40]
+#### Shapes
 
-[https://www.html5rocks.com/en/tutorials/shapes/getting-started/](https://www.html5rocks.com/en/tutorials/shapes/getting-started/)
+@snapend
 
-[https://www.sarasoueidan.com/blog/css-shapes/](https://www.sarasoueidan.com/blog/css-shapes/)
-
-
----
-
-### Custom properties
-
-(Sort of) variables in CSS - the spec is just about to expand...
-
+@snap[east span-70]
 ```css
-:root {
-	--brandCol: red;
-}
-
-p {
-	color: var(--brandCol);
+img {
+  float: left;
+  shape-outside: circle(50%);
 }
 ```
+@snapend
 
-More to be said [https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables)
 
 ---
 
-### Maths
+### Masks
 
+[Mask example on codepen](https://codepen.io/Rumyra/pen/xxGKzwp)
+
+---
+
+@snap[north-west span-40]
+#### Masks
+
+Gradients/images create mask of an element
+@snapend
+
+@snap[east span-70]
 ```css
-body {
-	padding: 20px;
-}
 section {
-	width: calc(100vw - 40px);
+  mask-image: linear-gradient(90deg, black, transparent 90%);
 }
 ```
+@snapend
 
 ---
-
-### All those links!
-
-I know there were loads of them, [you can find them here](day08/02coolCSS/README.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

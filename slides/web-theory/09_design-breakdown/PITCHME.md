@@ -64,6 +64,11 @@ Sketch out and annotate, note dimensions, colours, repeated styles, fonts, namin
 
 Good idea to choose one size
 
+---
+
+![Blueprint Example](slides/web-theory/09_design-breakdown/blueprint.JPG)
+
+---
 
 
 
