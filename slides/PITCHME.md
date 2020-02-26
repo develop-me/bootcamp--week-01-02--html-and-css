@@ -82,7 +82,7 @@ Now I know you all have lives, but what you put into this course you get out
 
 - To teach you how to HTML & CSS at an industry standard |
 	- Code reviews |
-	- Quizs & feedback |
+	- Quizzes & feedback |
 	- Resources |
 
 Note:
