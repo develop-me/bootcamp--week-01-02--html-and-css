@@ -10,6 +10,6 @@ Say what you see. Create a new HTML file and write the HTML for this picture:
 
 If you finish that, start another new HTML file and write the HTML for this picture:
 
-![Second Exercise](exercises/HTML/06_text-els/02/02.png)
+![Second Exercise](02/02.png)
 
 
