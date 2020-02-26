@@ -142,6 +142,10 @@ Order in the repo is as per category, not as per order in which you teach.
 - Web Theory: Testing your website
 	- [Slides](slides/web-theory/12_testing/PITCHME.md)
 	- [Exercises](exercises/web-theory/12_testing)
+- Web Theory: DevTools
+	- [Slides](slides/web-theory/03_devtools/PITCHME.md)
+	- [Exercises](exercises/web-theory/03_devtools/README.md)
+
 - CSS: CSS Animation
 	- [Slides](slides/CSS/22_animation/PITCHME.md)
 	- [Exercises](exercises/CSS/22_animation)
