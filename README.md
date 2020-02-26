@@ -13,7 +13,7 @@ There are three categories taught in this course: HTML, CSS & Web Theory. The la
 ### Folder structure
 
 - exercises
-	Each lesson contains exercises, here you will either find the code or the instructions for the students
+	Each lesson contains exercises, here you will either find the code or the instructions for the students. After the first day the exercises build on from each other.
 - notes
 	These are the students notes - see []() to run LaTeX to generate the pdfs for the students
 - quiz
