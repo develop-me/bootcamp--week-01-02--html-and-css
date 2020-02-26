@@ -4,7 +4,7 @@
 
 ---
 
-@snap[west span-70]
+@snap[west span-80]
 ## Introductions
 @snapend
 
