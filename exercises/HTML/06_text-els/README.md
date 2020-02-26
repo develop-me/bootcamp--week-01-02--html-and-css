@@ -4,7 +4,7 @@
 
 Say what you see. Create a new HTML file and write the HTML for this picture:
 
-![First Exercise](exercises/HTML/06_text-els/01/01.png)
+![First Exercise](01/01.png)
 
 ### Exercise 2
 
