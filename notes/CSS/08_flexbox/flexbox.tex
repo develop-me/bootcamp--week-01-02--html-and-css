@@ -1,80 +1,23 @@
-\section{A Section}
+Is used to distribute items along an axis .The browser is in control of the distribution
 
-This is a paragraph. You need to end each one with two backslashes on the following line, otherwise you won't get a line break. I can't remember why I set it up like that.
-\\
-
-You can do \textbf{bold} text and \textit{italic} text. You can also do \texttt{monospace} text.
-\\
-
-If you want to but smart quotes around something you can use ``two backticks to start and two apostrophes to finish''.
-\\
-
-If you want to include a big block of code then you use the \texttt{minted} command:
-
-% second curlies say what language to use for syntax highlighting
-% you should probably indent everything inside a minted section
-\begin{minted}{js}
-    let x = 10;
-    const z = n => n * n;
-
-    z(10); // blah blah blah
-\end{minted}
-
-Sometimes you'll want to put code in a separate file. This will automatically link to the file on GitHub as copying from a PDF is a bit awful.
-
-% \inputminted{js}{resources/example.js}
-
-% sometimes page breaks are necessary
-\pagebreak
-
-There's a special one for PHP, which starts on line 3 to remove the \texttt{<?php} tag from the top:
-
-% \phpinputminted{resources/example}
-
-\subsection{A Sub Section}
-
-You can also do sub-sections. Sub-sections will be included in the table of contents. And sub-sub-sections.
-
-\subsubsection{A Sub Sub Section}
-
-See. These won't be in the table of contents.
-\\
-
-I've also included a horizontal rule if you need a break of some sort.
-
-\hr
-
-Have a list:
+\subsubsection{Container Properties}
 
 \begin{itemize}
-    \item Blah
-    \item \textit{Blah}
-    \item \textbf{Blah}
+    \item \texttt{display: flex;}
+    \item \texttt{flex-direction} row | row-reverse | column | column-reverse
+    \item \texttt{justify-content} flex-start | flex-end | center | space-around | space-between | space-evenly
+    \item \texttt{flex-wrap} if you want to wrap
+    \item \texttt{align-items} on cross axis;
+    \item \texttt{align-content} cross axis space in container
 \end{itemize}
 
-And a numbered one:
+\subsubsection{Child Properties}
 
-\begin{enumerate}
-    \item Blah
-    \item \textit{Blah}
-    \item \textbf{Blah}
-\end{enumerate}
+\begin{itemize}
+    \item \texttt{order} default 0, change to order
+    \item \texttt{flex-grow} default 0, change to give item more room
+    \item \texttt{flex-shrink} default 0, change to give item less room
+\end{itemize}
 
-\href{https://duckduckgo.com}{Links} can be useful. As can footnotes\footnote{Look at me, I'm a footnote!}
-\\
 
-\pagebreak
-
-Sometimes it's useful to pull out some information:
-
-\begin{infobox}{I'm an Infobox}
-    Here's some side information about a thing. Maybe some historical context or a rant.
-\end{infobox}
-
-\quoteinline{Sometimes it's nice to include a quote from someone}{Someone, 1985}
-
-It's also possible to include images:
-
-% width first, then filename, then bottom margin, then caption text
-% you can use most image types - vector based ones based for diagrams
-\img{12cm}{resources/diagram.eps}{1em}{A very handy caption}
+\href{https://css-tricks.com/snippets/css/a-guide-to-flexbox/}{Flexbox on CSS Tricks}. This is an incredibly good guide. It is recommended over anything we can put in these notes. It is also the most hit page on the whole of the website, we all use it all the time!
