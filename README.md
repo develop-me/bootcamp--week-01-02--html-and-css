@@ -65,6 +65,7 @@ Order in the repo is as per category, not as per order in which you teach.
 | * |  |<td colspan="5">Flexbox Froggy & Form Exercise
 |  |  | CSS Flexbox | [Lesson](slides/CSS/08_flexbox/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/08_flexbox#/) | [Exercises](exercises/CSS/08_flexbox) | css.pdf |
 |  |  | Responsive Design | [Lesson](slides/CSS/09_media-queries/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/09_media-queries#/) | [Exercises](exercises/CSS/09_media-queries) | css.pdf |
+<tr><td></td><td></td><td colspan="5">Finish flexbox & media query exercises.</td></tr>
 | * |  <td colspan="5">Finish flexbox & media query exercises. |
 |  | * <td colspan="5">Play Grid Garden |
 |  |  | CSS Grid Part 1 | [Lesson](slides/CSS/10-grid-1/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/10-grid-1#/) | [Exercises](exercises/CSS/10-grid-1) | css.pdf |
