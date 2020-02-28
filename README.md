@@ -54,16 +54,16 @@ Order in the repo is as per category, not as per order in which you teach.
 | * | * |<td colspan="5">Go over everything we have done, organise your files and notes, remember to shut down your text editor when you do. Sit somewhere different tomorrow</td>
 |  |  | HTML: Text Elements | [Lesson](slides/HTML/06_text-els/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/HTML/06_text-els#/) | [Exercises](exercises/HTML/06_text-els) | html.pdf 2.4 |
 |  |  | CSS: Web Fonts | [Lessons](slides/CSS/03_web-fonts/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/03_web-fonts#/) | [Exercises](exercises/CSS/03_web-fonts) | css.pdf 2.3 |
-|  |  | CSS: Box Model |  |  |  |  |
+|  |  | CSS: Box Model | [Lesson](slides/CSS/04_box-model/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/04_box-model#/) | [Exercises](exercises/CSS/04_box-model) | css.pdf |
 |  |  | Web Theory: Devtools | [Lesson](slides/web-theory/03_devtools/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/03_devtools#/) | [Exercises](exercises/HTML/05_devtools) | web-theory.pdf |
 |  |  | CSS Colours | [Lesson](slides/CSS/05_colours/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/05_colours#/9) | [Exercises](exercises/CSS/05_colours) | css.pdf 2.2 |
 | * |  |<td colspan="5">The button exercise</td>
-|  |  | CSS Floats |  |  |  |  |
+|  |  | CSS Floats | [Lesson](slides/CSS/06_floats/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/06_floats#/) | [Exercises](exercises/CSS/06_floats) | css.pdf |
 |  |  | CSS Units | [Lesson](slides/CSS/07_units/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/07_units#/) | [Exercises](exercises/CSS/07_units) |  |
 |  | * |<td colspan="5">Flexbox Froggy</td>
-|  |  | HTML Forms |  |  |  |  |
-| * |  |<td colspan="5">Flexbox Froggy & Form Exercise</td>
-|  |  | CSS Flexbox |  |  |  |  |
+|  |  | HTML Forms | [Lesson](slides/HTML/07_forms/PITCHME.md) | [Slides]() | [Exercises](exercises/HTML/07_forms) | html.pdf |
+| * |  |<td colspan="5">Flexbox Froggy & Form Exercise
+|  |  | CSS Flexbox | [Lesson](slides/CSS/08_flexbox/PITCHME.md) | [Slides]() | [Exercises](exercises/CSS/08_flexbox) | css.pdf |
 |  |  | Responsive Design |  |  |  |  |
 | * |  |<td colspan="5">Finish flexbox & media query exercises.</td>
 |  | * |<td colspan="5">Play Grid Garden</td>
@@ -71,12 +71,34 @@ Order in the repo is as per category, not as per order in which you teach.
 |  |  | CSS Grid Part 2 |  |  |  |  |
 |  | * |<td colspan="5">Revise for quiz tomorrow</td>
 |  |  | Requirements Gathering | [Lesson] | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/04_requirements#/) | [Exercises](exercises/web-theory/04_requirements) | web-theory.pdf 4.1 |
-|  |  | Sitemaps | [Lesson](slides/web-theory/05_sitemap/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/05_sitemap#/) | [Exercises](exercises/web-theory/05_sitemap) | web-theory.pdf 4.2 | 
+|  |  | Sitemaps | [Lesson](slides/web-theory/05_sitemap/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/05_sitemap#/) | [Exercises](exercises/web-theory/05_sitemap) | web-theory.pdf 4.2 |
 |  |  | Scamps | [Lesson](slides/web-theory/06_scamping/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/06_scamping#/) | [Exercises](exercises/web-theory/06_scamping) | web-theory 4.3 |
 |  | * |<td colspan="5">Quiz & 1-1s</td>
 |  |  | Wireframes | [Lesson](slides/web-theory/07_wireframing/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/07_wireframing#/) | [Exercises](exercises/web-theory/07_wireframing) | web-theory 4.4 |
 | x |  | CSS Framworks | [Lesson](slides/CSS/11_frameworks/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/11_frameworks#/) | [Exercise](exercises/CSS/11_frameworks) | css.pdf 4.4 |
 |  | * |<td colspan="5">Homework: Prototype with Bootstrap</td>
+
+- CSS: Box Model
+	-
+	-
+- CSS: Floats
+	-
+	-
+- HTML: Forms
+	-
+	-
+- CSS: Flexbox
+	-
+	-
+- CSS: Media Queries
+	- [Slides](slides/CSS/09_media-queries/PITCHME.md)
+	- [Exercises](exercises/CSS/09_media-queries)
+- CSS: Grid Part One
+	- [Slides](slides/CSS/10-grid-1/PITCHME.md)
+	- [Exercises](exercises/CSS/10-grid-1)
+- CSS: Grid Part Two*
+	- [Slides](slides/CSS/10-grid-2/PITCHME.md)
+	- [Exercises](exercises/CSS/10-grid-2)
 
 #### Part Two
 
@@ -95,11 +117,11 @@ Order in the repo is as per category, not as per order in which you teach.
 |  |  | BEM | [Lesson](slides/CSS/19_BEM/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/19_BEM#/) | [Exercises](exercises/CSS/19_BEM) | css.pdf 4.4 |
 |  |  | Complex Selectors | [Lesson](slides/CSS/20_complex-selectors/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/20_complex-selectors#/) | [Exercises](exercises/CSS/20_complex-selectors) | css.pdf |
 |  |  | Specificity | [Lesson](slides/CSS/21_specificity/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/21_specificity#/) | [Exercises](exercises/CSS/21_specificity) | css.pdf |
-|  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |
+|  |  | Upload to server |  |  |  |  |
+|  |  | Testing |  |  |  |  |
+|  |  | Devtools |  |  |  |  |
+|  |  | CSS Animation |  |  |  |  |
+|  |  | Extra CSS |  |  |  |  |
 |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |
@@ -109,27 +131,7 @@ Order in the repo is as per category, not as per order in which you teach.
 - `x` Can be ommitted
 - `*` This course only
 
-- CSS: Box Model
-	- [Slides](slides/CSS/04_box-model/PITCHME.md)
-	- [Exercises](exercises/CSS/04_box-model)
-- CSS: Floats
-	- [Slides](slides/CSS/06_floats/PITCHME.md)
-	- [Exercises](exercises/CSS/06_floats)
-- HTML: Forms
-	- [Slides](slides/HTML/07_forms/PITCHME.md)
-	- [Exercises](exercises/HTML/07_forms)
-- CSS: Flexbox
-	- [Slides](slides/CSS/08_flexbox/PITCHME.md)
-	- [Exercises](exercises/CSS/08_flexbox)
-- CSS: Media Queries
-	- [Slides](slides/CSS/09_media-queries/PITCHME.md)
-	- [Exercises](exercises/CSS/09_media-queries)
-- CSS: Grid Part One
-	- [Slides](slides/CSS/10-grid-1/PITCHME.md)
-	- [Exercises](exercises/CSS/10-grid-1)
-- CSS: Grid Part Two*
-	- [Slides](slides/CSS/10-grid-2/PITCHME.md)
-	- [Exercises](exercises/CSS/10-grid-2)
+
 - CSS: Positioning & Transforms
 	- [Slides](slides/CSS/14_positioning/PITCHME.md)
 	- [Exercises](exercises/CSS/14_positioning)

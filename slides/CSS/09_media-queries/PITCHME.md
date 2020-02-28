@@ -2,7 +2,7 @@
 
 ---
 
-![Lots and lots of devices](day02/04responsive/devices.png)
+![Lots and lots of devices](slides/CSS/09_media-queries/devices.png)
 
 ---
 
@@ -34,7 +34,7 @@ I'm sure you seen 'mobile' sites - this is adaptive. We'll be looking into respo
 
 ---
 
-<video src="https://github.com/develop-me/fellowship-wk1-beg-html-css/blob/master/day02/04responsive/guardian.mp4"></video>
+<video src="slides/CSS/09_media-queries/guardian.mp4"></video>
 
 ---
 
@@ -42,7 +42,7 @@ I'm sure you seen 'mobile' sites - this is adaptive. We'll be looking into respo
 
 - Use relative not absolute CSS units
 - CSS Media Queries |
-- JavaScript feature and device detection |
+- Is also JavaScript feature and device detection |
 - Speedtesting is hard |
 
 ---
@@ -66,7 +66,7 @@ Different types of media, like print
 
 ```css
 /* phone */
-@media only screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
 
 	#left-column {
 		display: none;
@@ -79,79 +79,52 @@ Different types of media, like print
 
 ```css
 /* Extra small devices (phones, less than 768px) */
-@media (max-width: 767px) { ... }
+@media screen and (max-width: 767px) { ... }
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991px) { ... }
+@media screen and (min-width: 768px) and (max-width: 991px) { ... }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199px) { ... }
+@media screen and (min-width: 992px) and (max-width: 1199px) { ... }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { ... }
+@media screen and (min-width: 1200px) { ... }
 ```
 ---
 
-## Targeting Devices
+### How do I see it?
+
+You can move the screen width when devtools is open. There is also a mobile/tablet icon at the top, if you select this you can choose a number of screen sizes.
 
 ---
 
-### JavaScript libraries to detect:
+### Media
 
-- device type
-- touchscreen or desktop
-- operating system
-- browser
+There's no point loading large images for small screens. Also how do you keep the aspect ratio you want and not the images?
 
-Can add class to body with JavaScript:
+---
 
+#### Loading different pictures
+
+You can use the `picture` element to load different image types and also different files based on screen size
+
+```html
+<picture>
+	<source srcset="surfer.png" media="(min-width: 800px)">
+	<img src="surfer.jpg" />
+</picture>
 ```
-<body class=“touchscreen tablet windows8 w1024”>
+
+---
+
+#### Object fit
+
+You can use the `object-fit` property to display how the image appears in it's container.
+
+```css
+img {
+	height: 100%; width: 100%;
+	display: block;
+	object-fit: contain;
+}
 ```
----
-
-### Can even detect orientation
-
-```
-<body class=“dim-short-600 dim-long-1024 portrait”>
-```
-```
-<body class=“dim-short-600 dim-long-1024 landscape”>
-```
-https://modernizr.com/
-
----
-
-### Use CSS where possible
-
-Cleaner, faster and easier to maintain using CSS-only approach and media queries.
-
-New devices come out all the time, and with 1000s of devices out there, unlikely to be able to accurately determine all types.
-
----
-
-## Planning responsive layout
-
----
-
-### Consider hierarchy and navigation
-
-- What content is most important? What should come first?
-- How can we navigate?
-- Is some content worth losing for a simplified mobile experience? E.g. video, slideshow.
-
----
-
-### Exercise
-
-Add responsive CSS to your layout
-
----
-
-### Further reading
-
-- [https://responsivedesign.is/](https://responsivedesign.is/)
-- [https://en.wikipedia.org/wiki/Responsive_web_design](https://en.wikipedia.org/wiki/Responsive_web_design)
-
----
-

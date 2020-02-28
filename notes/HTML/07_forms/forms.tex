@@ -1,80 +1,106 @@
-\section{A Section}
+Forms are really important on the web, as they are used to pass data from the user to the server. Every time you log in to a service and when you \textit{google} you may not realise it but you are using a form.
 
-This is a paragraph. You need to end each one with two backslashes on the following line, otherwise you won't get a line break. I can't remember why I set it up like that.
-\\
-
-You can do \textbf{bold} text and \textit{italic} text. You can also do \texttt{monospace} text.
-\\
-
-If you want to but smart quotes around something you can use ``two backticks to start and two apostrophes to finish''.
-\\
-
-If you want to include a big block of code then you use the \texttt{minted} command:
-
-% second curlies say what language to use for syntax highlighting
-% you should probably indent everything inside a minted section
-\begin{minted}{js}
-    let x = 10;
-    const z = n => n * n;
-
-    z(10); // blah blah blah
-\end{minted}
-
-Sometimes you'll want to put code in a separate file. This will automatically link to the file on GitHub as copying from a PDF is a bit awful.
-
-% \inputminted{js}{resources/example.js}
-
-% sometimes page breaks are necessary
-\pagebreak
-
-There's a special one for PHP, which starts on line 3 to remove the \texttt{<?php} tag from the top:
-
-% \phpinputminted{resources/example}
-
-\subsection{A Sub Section}
-
-You can also do sub-sections. Sub-sections will be included in the table of contents. And sub-sub-sections.
-
-\subsubsection{A Sub Sub Section}
-
-See. These won't be in the table of contents.
-\\
-
-I've also included a horizontal rule if you need a break of some sort.
-
-\hr
-
-Have a list:
+\section{Basic Structure}
 
 \begin{itemize}
-    \item Blah
-    \item \textit{Blah}
-    \item \textbf{Blah}
+    \item \texttt{<form method="" action="">} Parent container, encapsulates entire form
+    \item \texttt{<fieldset>} Sections within a big form
+    \item \texttt{<legend>} Label for a fieldset
 \end{itemize}
 
-And a numbered one:
+\section{Labels}
 
-\begin{enumerate}
-    \item Blah
-    \item \textit{Blah}
-    \item \textbf{Blah}
-\end{enumerate}
+\begin{itemize}
+    \item \texttt{<label for="">} Label for each input (apart from submit) needs for attribute to match id of input
+\end{itemize}
 
-\href{https://duckduckgo.com}{Links} can be useful. As can footnotes\footnote{Look at me, I'm a footnote!}
-\\
+\section{Input}
 
-\pagebreak
+\begin{itemize}
+    \item \texttt{<input type="" name="" id="" />} Self closing. Necessary attributes are type (see below) name (passed with data) and id (links to label for)
+\end{itemize}
 
-Sometimes it's useful to pull out some information:
 
-\begin{infobox}{I'm an Infobox}
-    Here's some side information about a thing. Maybe some historical context or a rant.
-\end{infobox}
+\subsection{Common Inputs Types}
 
-\quoteinline{Sometimes it's nice to include a quote from someone}{Someone, 1985}
+\begin{itemize}
+    \item \texttt{text} Default, generic text box
+    \item \texttt{email} Email address
+    \item \texttt{password} Shows dots or stars instead of letters
+    \item \texttt{number} integer only
+    \item \texttt{tel} telephone number
+    \item \texttt{url} web address format
+    \item \texttt{checkbox} displays a tick box
+    \item \texttt{file} upload a file
+    \item \texttt{search} if it's a search
+    \item \texttt{hidden} to pass data with no user input
+\end{itemize}
 
-It's also possible to include images:
+\subsubsection{Radio buttons}
 
-% width first, then filename, then bottom margin, then caption text
-% you can use most image types - vector based ones based for diagrams
-\img{12cm}{resources/diagram.eps}{1em}{A very handy caption}
+\begin{minted}{html}
+<div>
+    <label for="inradio">Radio</label>
+    <input type="radio" name="radioin" value="optone" id="inradio" /><span>Option one</span>
+    <input type="radio" name="radioin" value="optwo" /><span>Option Two</span>
+</div>
+\end{minted}
+
+\subsubsection{Date and Time}
+
+\begin{itemize}
+    \item \texttt{date} Just date
+    \item \texttt{datetime-local} Date and time
+    \item \texttt{week} Week number
+    \item \texttt{month} Month
+    \item \texttt{time} Time
+\end{itemize}
+
+
+\subsection{Not written as input}
+
+\subsubsection{Dropdowns}
+
+\begin{minted}{html}
+<label for="dropdown">Select</label>
+<select id="dropdown" name="dropdown">
+    <option value="opone">opt one</option>
+    <option value="optwo">opt two</option>
+    <option value="opthr">opt three</option>
+</select>
+\end{minted}
+
+\subsubsection{Textareas}
+
+\begin{minted}{html}
+    <label for="message">Textarea</label>
+    <textarea id="message"></textarea>
+\end{minted}
+
+
+\subsection{Buttons}
+
+\subsubsection{Inputs}
+
+Use the \texttt{value} attribute to change text
+
+\begin{itemize}
+    \item \texttt{button} No default behaviour
+    \item \texttt{reset} Clears the form, better not use it
+    \item \texttt{submit} Submits the form
+\end{itemize}
+
+\begin{minted}{html}
+    <button type="submit">Also submits form</button>
+\end{minted}
+
+\subsection{More input types}
+
+\begin{itemize}
+    \item \texttt{range} Value, allows for min, max and step
+    \item \texttt{color} Select a colour
+\end{itemize}
+
+
+This is not a definitive list, \href{https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input}{you can find a definitive list and more information here}
+

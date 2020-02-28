@@ -1,80 +1,89 @@
-\section{A Section}
-
-This is a paragraph. You need to end each one with two backslashes on the following line, otherwise you won't get a line break. I can't remember why I set it up like that.
+There are lots and lots of different ways you can consume websites and webapps these days. Monitors, phones, TVs, game consoles and watches to name a few.
 \\
-
-You can do \textbf{bold} text and \textit{italic} text. You can also do \texttt{monospace} text.
+We have only been looking at our web pages on a screen so far. We need to make sure they look good at all sizes.
 \\
+To do this we will use responsive design techniques. This is different from adaptive design which means serving a whole different site or app for different devices.
 
-If you want to but smart quotes around something you can use ``two backticks to start and two apostrophes to finish''.
-\\
-
-If you want to include a big block of code then you use the \texttt{minted} command:
-
-% second curlies say what language to use for syntax highlighting
-% you should probably indent everything inside a minted section
-\begin{minted}{js}
-    let x = 10;
-    const z = n => n * n;
-
-    z(10); // blah blah blah
-\end{minted}
-
-Sometimes you'll want to put code in a separate file. This will automatically link to the file on GitHub as copying from a PDF is a bit awful.
-
-% \inputminted{js}{resources/example.js}
-
-% sometimes page breaks are necessary
-\pagebreak
-
-There's a special one for PHP, which starts on line 3 to remove the \texttt{<?php} tag from the top:
-
-% \phpinputminted{resources/example}
-
-\subsection{A Sub Section}
-
-You can also do sub-sections. Sub-sections will be included in the table of contents. And sub-sub-sections.
-
-\subsubsection{A Sub Sub Section}
-
-See. These won't be in the table of contents.
-\\
-
-I've also included a horizontal rule if you need a break of some sort.
-
-\hr
-
-Have a list:
-
-\begin{itemize}
-    \item Blah
-    \item \textit{Blah}
-    \item \textbf{Blah}
-\end{itemize}
-
-And a numbered one:
-
-\begin{enumerate}
-    \item Blah
-    \item \textit{Blah}
-    \item \textbf{Blah}
-\end{enumerate}
-
-\href{https://duckduckgo.com}{Links} can be useful. As can footnotes\footnote{Look at me, I'm a footnote!}
-\\
-
-\pagebreak
-
-Sometimes it's useful to pull out some information:
-
-\begin{infobox}{I'm an Infobox}
-    Here's some side information about a thing. Maybe some historical context or a rant.
+\begin{infobox}{All environments}
+    Responsive design isn't just about making sure things look good at different screen size. It should also take into account the environment the user is in when using your site or app, like how noisy things are or what data connection they have.
 \end{infobox}
 
-\quoteinline{Sometimes it's nice to include a quote from someone}{Someone, 1985}
+\subsection{How?}
 
-It's also possible to include images:
+- Use relative not absolute CSS units
+- CSS Media Queries |
+- Is also JavaScript feature and device detection |
 
-% width first, then filename, then bottom margin, then caption text
-% you can use most image types - vector based ones based for diagrams
-\img{12cm}{resources/diagram.eps}{1em}{A very handy caption}
+
+\subsubsection{Media queries}
+
+Different types of media, like print
+
+\begin{minted}{css}
+@media print {
+
+	* {
+		background-color: transparent;
+	}
+
+}
+\end{minted}
+
+Breakpoints (viewport width)
+
+\begin{minted}{css}
+/* phone */
+@media screen and (max-width: 500px) {
+
+	#left-column {
+		display: none;
+	}
+
+}
+\end{minted}
+
+
+\begin{minted}{css}
+/* Extra small devices (phones, less than 768px) */
+@media screen and (max-width: 767px) { ... }
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) and (max-width: 991px) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) and (max-width: 1199px) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) { ... }
+\end{minted}
+
+
+\begin{infobox}{Testing}
+    You can move the screen width when devtools is open. There is also a mobile/tablet icon at the top, if you select this you can choose a number of screen sizes.
+\end{infobox}
+
+\subsection{Loading different pictures}
+
+You can use the \texttt{picture} element to load different image types and also different files based on screen size
+
+\begin{minted}{html}
+<picture>
+	<source srcset="surfer.png" media="(min-width: 800px)">
+	<img src="surfer.jpg" />
+</picture>
+\end{minted}
+
+
+\subsubsection{Object fit}
+
+You can use the `object-fit` property to display how the image appears in it's container.
+
+\begin{minted}{css}
+img {
+	height: 100%; width: 100%;
+	display: block;
+	object-fit: contain;
+}
+\end{minted}
+
+\href{https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture}{Further reading}
