@@ -87,7 +87,7 @@ Order in the repo is as per category, not as per order in which you teach.
 |  |  | Atomic Design | [Lesson](slides/CSS/13_atomic-design/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/13_atomic-design#/) |  | [Exercise](exercises/CSS/13_atomic-design) |
 |  |  | Design Handover | [Lesson](slides/web-theory/08_design-handover/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/08_design-handover#/) | [Exercises](exercises/web-theory/08_design-handover) | web-theory.pdf 3.5 |
 |  |  | Design Breakdown | [Lesson](slides/web-theory/09_design-breakdown/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/09_design-breakdown#/) | [Exercises](exercises/web-theory/09_design-breakdown) | web-theory.pdf 3.6 |
-|  |  | Positioning & Transforms |  |  |  |  |
+|  |  | Positioning & Transforms | [Lesson](slides/CSS/14_positioning/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/14_positioning#/) | [Exercises](exercises/CSS/14_positioning) | css.pdf |
 |  |  | Imports | [Lesson](slides/CSS/15_imports/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/15_imports#/2) | [Exercises](exercises/CSS/15_imports) | css.pdf 4.1 |
 |  |  | Variables | [Lesson](slides/CSS/16_variables/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/16_variables#/4) | [Exercises](exercises/CSS/16_variables) | css.pdf 4.2 |
 |  |  | Accessibility | [Lesson](slides/web-theory/10_accessibility/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/10_accessibility#/) | [No exercise yet](exercises/web-theory/10_accessibility) | web-theory.pdf 3.2 |
@@ -98,7 +98,7 @@ Order in the repo is as per category, not as per order in which you teach.
 |  |  | Specificity | [Lesson](slides/CSS/21_specificity/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/21_specificity#/) | [Exercises](exercises/CSS/21_specificity) | css.pdf |
 |  |  | Upload to server |  |  |  |  |
 |  |  | Testing |  |  |  |  |
-|  |  | Devtools |  |  |  |  |
+|  |  | Web Theory: Devtools | [Lesson](slides/web-theory/03_devtools/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/03_devtools#/) | [Exercises](exercises/web-theory/03_devtools/README.md) | web-theory.pdf |
 |  |  | CSS Animation |  |  |  |  |
 |  |  | Extra CSS |  |  |  |  |
 
@@ -107,21 +107,13 @@ Order in the repo is as per category, not as per order in which you teach.
 - `x` Can be ommitted
 - `*` This course only
 
-
-- CSS: Positioning & Transforms
-	- [Slides](slides/CSS/14_positioning/PITCHME.md)
-	- [Exercises](exercises/CSS/14_positioning)
-
-
+#### Not quite there yet (last day)
 - Web Theory: Upload to a server
 	- [Slides](slides/web-theory/11_upload/PITCHME.md)
 	- [Exercises](exercises/web-theory/11_upload)
 - Web Theory: Testing your website
 	- [Slides](slides/web-theory/12_testing/PITCHME.md)
 	- [Exercises](exercises/web-theory/12_testing)
-- Web Theory: DevTools
-	- [Slides](slides/web-theory/03_devtools/PITCHME.md)
-	- [Exercises](exercises/web-theory/03_devtools/README.md)
 
 - CSS: CSS Animation
 	- [Slides](slides/CSS/22_animation/PITCHME.md)
