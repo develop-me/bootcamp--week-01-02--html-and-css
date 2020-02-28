@@ -61,14 +61,14 @@ Order in the repo is as per category, not as per order in which you teach.
 |  |  | CSS Floats | [Lesson](slides/CSS/06_floats/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/06_floats#/) | [Exercises](exercises/CSS/06_floats) | css.pdf |
 |  |  | CSS Units | [Lesson](slides/CSS/07_units/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/07_units#/) | [Exercises](exercises/CSS/07_units) |  |
 |  | * |<td colspan="5">Flexbox Froggy</td>
-|  |  | HTML Forms | [Lesson](slides/HTML/07_forms/PITCHME.md) | [Slides]() | [Exercises](exercises/HTML/07_forms) | html.pdf |
+|  |  | HTML Forms | [Lesson](slides/HTML/07_forms/PITCHME.md) | [Notes](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/HTML/07_forms#/) | [Exercises](exercises/HTML/07_forms) | html.pdf |
 | * |  |<td colspan="5">Flexbox Froggy & Form Exercise
-|  |  | CSS Flexbox | [Lesson](slides/CSS/08_flexbox/PITCHME.md) | [Slides]() | [Exercises](exercises/CSS/08_flexbox) | css.pdf |
-|  |  | Responsive Design |  |  |  |  |
-| * |  |<td colspan="5">Finish flexbox & media query exercises.</td>
-|  | * |<td colspan="5">Play Grid Garden</td>
-|  |  | CSS Grid Part 1 |  |  |  |  |
-|  |  | CSS Grid Part 2 |  |  |  |  |
+|  |  | CSS Flexbox | [Lesson](slides/CSS/08_flexbox/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/08_flexbox#/) | [Exercises](exercises/CSS/08_flexbox) | css.pdf |
+|  |  | Responsive Design | [Lesson](slides/CSS/09_media-queries/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/09_media-queries#/) | [Exercises](exercises/CSS/09_media-queries) | css.pdf |
+| * |  |<td colspan="5">Finish flexbox & media query exercises.
+|  | * |<td colspan="5">Play Grid Garden
+|  |  | CSS Grid Part 1 | [Lesson](slides/CSS/10-grid-1/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/10-grid-1#/) | [Exercises](exercises/CSS/10-grid-1) | css.pdf |
+|  |  | CSS Grid Part 2 | [Lesson](slides/CSS/10-grid-2/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/10-grid-2#/) | [Exercises](exercises/CSS/10-grid-2) | css.pdf |
 |  | * |<td colspan="5">Revise for quiz tomorrow</td>
 |  |  | Requirements Gathering | [Lesson] | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/04_requirements#/) | [Exercises](exercises/web-theory/04_requirements) | web-theory.pdf 4.1 |
 |  |  | Sitemaps | [Lesson](slides/web-theory/05_sitemap/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/05_sitemap#/) | [Exercises](exercises/web-theory/05_sitemap) | web-theory.pdf 4.2 |
@@ -78,27 +78,6 @@ Order in the repo is as per category, not as per order in which you teach.
 | x |  | CSS Framworks | [Lesson](slides/CSS/11_frameworks/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/11_frameworks#/) | [Exercise](exercises/CSS/11_frameworks) | css.pdf 4.4 |
 |  | * |<td colspan="5">Homework: Prototype with Bootstrap</td>
 
-- CSS: Box Model
-	-
-	-
-- CSS: Floats
-	-
-	-
-- HTML: Forms
-	-
-	-
-- CSS: Flexbox
-	-
-	-
-- CSS: Media Queries
-	- [Slides](slides/CSS/09_media-queries/PITCHME.md)
-	- [Exercises](exercises/CSS/09_media-queries)
-- CSS: Grid Part One
-	- [Slides](slides/CSS/10-grid-1/PITCHME.md)
-	- [Exercises](exercises/CSS/10-grid-1)
-- CSS: Grid Part Two*
-	- [Slides](slides/CSS/10-grid-2/PITCHME.md)
-	- [Exercises](exercises/CSS/10-grid-2)
 
 #### Part Two
 
@@ -122,9 +101,6 @@ Order in the repo is as per category, not as per order in which you teach.
 |  |  | Devtools |  |  |  |  |
 |  |  | CSS Animation |  |  |  |  |
 |  |  | Extra CSS |  |  |  |  |
-|  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |
 
 #### Key
 
