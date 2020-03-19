@@ -4,7 +4,7 @@
 
 ---
 
-@snap[west span-70]
+@snap[west span-80]
 ## Introductions
 @snapend
 
@@ -12,19 +12,16 @@ Note:
 Introduce yourself: who, what, why
 Get class to introduce themselves
 
-
 ---
 
 #### Before We Begin: Class Rules
 
-- This is essentially a workplace
-	- Be respectful & kind |
-	- Keep it clean |
+- This is essentially a workplace 
+	- Be respectful & kind | 
+	- Keep it clean | 
 	- Timekeeping |
-- Daily |
 - Please take your breaks |
-- Please let me take my breaks. |
-
+- Please let me take my breaks |
 
 Note:
 If you have any problems we are all here. That includes with any of us. Speak in turn.
@@ -65,11 +62,11 @@ Notes: they will be provided but your format is the best format.
 
 #### Learning is weird
 
-- Remember that this week |
-- To not be able to do everything |
+Remember that this week:
+- You will not be able to do everything |
+- You will need to push yourself at times |
 - Try for yourself - it's about you |
-- Not to finish everything |
-- There is homework |
+- You will be given homework |
 
 Note:
 it's super duper ok. Honestly! Don't panic, let's think about what you're just about to undertake.
@@ -82,7 +79,7 @@ Now I know you all have lives, but what you put into this course you get out
 
 - To teach you how to HTML & CSS at an industry standard |
 	- Code reviews |
-	- Quizs & feedback |
+	- Quizzes & feedback |
 	- Resources |
 
 Note:
@@ -108,6 +105,5 @@ No one does. If anyone tells you they do, they're not really the kind of people 
 ---
 
 # Let's go!
-
 
 

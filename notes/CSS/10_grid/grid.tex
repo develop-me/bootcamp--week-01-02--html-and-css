@@ -1,80 +1,186 @@
-\section{A Section}
-
-This is a paragraph. You need to end each one with two backslashes on the following line, otherwise you won't get a line break. I can't remember why I set it up like that.
+Designers have been using grids for a very long time in print - magazine and newspapers.
 \\
-
-You can do \textbf{bold} text and \textit{italic} text. You can also do \texttt{monospace} text.
+This transferred over to web design. Specifically when we were working with fix width sites, we didn't have flexbox or grid back then.
 \\
+So we created our own grid systems: CSS you added to your website which helped put elements in the right place. They were usually 12 columns and you added classes to your HTML (a bit like bootstrap today, but just for layout).
 
-If you want to but smart quotes around something you can use ``two backticks to start and two apostrophes to finish''.
-\\
 
-If you want to include a big block of code then you use the \texttt{minted} command:
+\subsubsection{CSS Grid is here}
 
-% second curlies say what language to use for syntax highlighting
-% you should probably indent everything inside a minted section
-\begin{minted}{js}
-    let x = 10;
-    const z = n => n * n;
+Bonuses include:
+- Not tied into a system
+- No addons needed
+- No added classes
 
-    z(10); // blah blah blah
+
+We use it for laying out a page, it's easy to put content in the right place. Think both horizontal and vertical axis, rather than flexbox's one. It's DOM dependent.
+
+
+\subsection{How to use grid}
+
+\begin{minted}{css}
+.page__home {
+	display: grid;
+}
 \end{minted}
 
-Sometimes you'll want to put code in a separate file. This will automatically link to the file on GitHub as copying from a PDF is a bit awful.
 
-% \inputminted{js}{resources/example.js}
+\subsubsection{Specify the amount of cols \& rows}
 
-% sometimes page breaks are necessary
-\pagebreak
+\begin{minted}{css}
+.page__home {
+	display: grid;
+	grid-template-rows: repeat(3, auto);
+	grid-template-columns: 20vw 1fr 1fr 10vw;
+}
+\end{minted}
 
-There's a special one for PHP, which starts on line 3 to remove the \texttt{<?php} tag from the top:
 
-% \phpinputminted{resources/example}
+\subsubsection{How do we get things in places?}
 
-\subsection{A Sub Section}
+We can name the areas we have created
 
-You can also do sub-sections. Sub-sections will be included in the table of contents. And sub-sub-sections.
+\begin{minted}{css}
+.page__home {
+	display: grid;
+	grid-template-rows: 20vh 1fr 1fr 16vh;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-areas:
+		"top top top"
+		"middle middle side"
+		"middle middle ."
+		". bottom ."
+	;
+}
+\end{minted}
 
-\subsubsection{A Sub Sub Section}
+Then we can reference those names when we're styling the child sections
 
-See. These won't be in the table of contents.
-\\
+\begin{minted}{css}
+.header-main {
+	grid-area: top;
+}
+\end{minted}
 
-I've also included a horizontal rule if you need a break of some sort.
+\subsubsection{Or}
 
-\hr
+Grids have number lines automatically, we can use those
 
-Have a list:
+\begin{minted}{css}
+.header-main {
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+\end{minted}
 
-\begin{itemize}
-    \item Blah
-    \item \textit{Blah}
-    \item \textbf{Blah}
-\end{itemize}
+\subsubsection{Shorthand}
 
-And a numbered one:
+\begin{minted}{css}
+.header-main {
+	grid-row: 1 / 2;
+	grid-column: 1 / 4;
+}
+\end{minted}
 
-\begin{enumerate}
-    \item Blah
-    \item \textit{Blah}
-    \item \textbf{Blah}
-\end{enumerate}
+\begin{minted}{css}
+.header-main {
+	grid-area: 1 / 1 / 2 / 4;
+}
+\end{minted}
 
-\href{https://duckduckgo.com}{Links} can be useful. As can footnotes\footnote{Look at me, I'm a footnote!}
-\\
 
-\pagebreak
+\subsubsection{Explicit and implicit grids}
 
-Sometimes it's useful to pull out some information:
+Explicit is what you know, implicit is what you don't know. When we specify rows and columns and names as above we create an \textit{explicit} grid. If we didn't CSS grid would place items automatically for us and be an \textit{implicit} grid
 
-\begin{infobox}{I'm an Infobox}
-    Here's some side information about a thing. Maybe some historical context or a rant.
+
+\begin{minted}{css}
+section {
+	display: grid;
+	/* how big the rows are */
+	grid-auto-rows: 140px;
+	/* Direction */
+	grid-auto-flow: column;
+}
+\end{minted}
+
+
+\subsubsection{The `fr` unit}
+
+The `fr` unit is only available for grid
+(We are considering it as a global unit \o/)
+
+\subsubsection{Grid Gap}
+
+Adds gaps in-between cells
+
+\begin{minted}{css}
+section {
+	display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    /* or */
+	grid-gap: 1rem;
+}
+\end{minted}
+
+\subsubsection{`minmax()`}
+
+Like min/max width/height. Specifies how big or small something can be
+
+\begin{minted}{css}
+section {
+	display: grid;
+	grid-template-row: minmax(100px, auto);
+}
+\end{minted}
+
+
+\subsubsection{You can name grid lines}
+
+\begin{minted}{css}
+section {
+	display: grid;
+	grid-template-columns: [first] 40px [line2] 50px [line3] auto [col4-start] 50px [five] 40px [end];
+}
+\end{minted}
+
+
+\subsection{Children}
+
+Alignment
+
+\begin{minted}{css}
+/* on parent */
+section {
+	justify-items: start;
+	align-items: stretch;
+}
+
+/* on individual child */
+section p {
+	justify-self: end;
+	align-self: center;
+}
+\end{minted}
+
+\subsubsection{Span keyword}
+
+\begin{minted}{css}
+section p {
+	grid-row-start: 1;
+	grid-row-end: span(2);
+}
+\end{minted}
+
+\subsection{Further help}
+
+\href{}{Guide on CSS Tricks}
+
+\begin{infobox}{Firefox}
+    Firefox is the best browser for debugging your grid. It has a great deal of tools in it's devtools which are extremely helpful for viewing the grid you have created and it's information.
 \end{infobox}
 
-\quoteinline{Sometimes it's nice to include a quote from someone}{Someone, 1985}
-
-It's also possible to include images:
-
-% width first, then filename, then bottom margin, then caption text
-% you can use most image types - vector based ones based for diagrams
-\img{12cm}{resources/diagram.eps}{1em}{A very handy caption}

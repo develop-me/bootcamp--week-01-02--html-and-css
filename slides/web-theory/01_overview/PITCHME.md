@@ -35,16 +35,15 @@ Usually HTML and the browser then shows the page, along side any css and js
 
 ### Client Languages aka Frontend
 
-- Frontend
-	- HTML |
-	- CSS |
-	- JavaScript |
+- HTML |
+- CSS |
+- JavaScript |
 
 ---
 
-### These Define Roles
+### These Defined Roles
 
-- Designer
+- Designer |
 - Front End Developers (Front End Designers, UI Developers) |
 - Back End Developers |
 - System Administrators |

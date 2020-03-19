@@ -1,0 +1,55 @@
+/* or you can import the font files here with @font-face */
+@font-face {
+	font-family: 'Alex Brush';
+	src: url('../fonts/AlexBrush-Regular.ttf') format('truetype');
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(50, 50, 100);
+}
+
+.wrapper {
+	max-width: 900px;
+	margin: 0px auto;
+}
+
+header {
+	padding: 1rem 2rem;
+	box-sizing: border-box;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 1rem;
+	margin-left: 0.5rem;
+	border: 1px solid deeppink;
+}
+
+h1, h2, h3 {
+	font-family: 'Alex Brush', cursive;
+}
+
+article {
+	width: 80%;
+	padding: 1rem 2rem;
+	background-color: #F2EBCE;
+	box-sizing: border-box;
+	font-size: 1.2rem;
+	line-height: 1.4;
+}
+
+footer p {
+	margin: 0px auto;
+}
+
+button {
+	display: inline-block;
+	padding: 1rem 2rem;
+	border: 2px solid darkseagreen;
+	background-color: seagreen;
+	box-shadow: 0px 0px 1px 0px seagreen;
+	border-radius: 2px;
+	color: white;
+	font-size: 100%;
+}

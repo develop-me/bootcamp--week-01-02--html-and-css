@@ -1,0 +1,16 @@
+body {
+	font-family: 'Josefin Slab', sans-serif;
+	line-height: 1.4;
+
+}
+
+.grey {color: grey;}
+.blue {color: lightseagreen;}
+
+p {
+	font-size: 1.3rem;
+}
+
+p span {
+	font-family: 'Poiret One', sans-serif;
+}

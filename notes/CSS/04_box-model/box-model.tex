@@ -1,80 +1,48 @@
-\section{A Section}
+\subsubsection{Every element on a webpage is basically a rectangle.}
 
-This is a paragraph. You need to end each one with two backslashes on the following line, otherwise you won't get a line break. I can't remember why I set it up like that.
+This is it's box - when we talk about the box model, we're talking about this box.
 \\
-
-You can do \textbf{bold} text and \textit{italic} text. You can also do \texttt{monospace} text.
+Pretty much all the layout properties affect this box, the size of it and where it is positioned.
 \\
+Let's start with the basics.
 
-If you want to but smart quotes around something you can use ``two backticks to start and two apostrophes to finish''.
+\subsubsection{Every HTML element has a default set of styles}
+
+You can check them in devtools
+
+\subsection{Every element has a display property}
+
+One such style is the \texttt{display} property
 \\
-
-If you want to include a big block of code then you use the \texttt{minted} command:
-
-% second curlies say what language to use for syntax highlighting
-% you should probably indent everything inside a minted section
-\begin{minted}{js}
-    let x = 10;
-    const z = n => n * n;
-
-    z(10); // blah blah blah
-\end{minted}
-
-Sometimes you'll want to put code in a separate file. This will automatically link to the file on GitHub as copying from a PDF is a bit awful.
-
-% \inputminted{js}{resources/example.js}
-
-% sometimes page breaks are necessary
-\pagebreak
-
-There's a special one for PHP, which starts on line 3 to remove the \texttt{<?php} tag from the top:
-
-% \phpinputminted{resources/example}
-
-\subsection{A Sub Section}
-
-You can also do sub-sections. Sub-sections will be included in the table of contents. And sub-sub-sections.
-
-\subsubsection{A Sub Sub Section}
-
-See. These won't be in the table of contents.
+Common default \texttt{display} values are \texttt{block} \& \texttt{inline}
 \\
+Blocks are boxes which take up all the width of the parent. Inline elements sit inline next to each other.
+\\
+Check out media, lists and tables for some others.
+\\
+The display property changes how the element behaves
 
-I've also included a horizontal rule if you need a break of some sort.
-
-\hr
-
-Have a list:
+\subsubsection{Common display values}
 
 \begin{itemize}
-    \item Blah
-    \item \textit{Blah}
-    \item \textbf{Blah}
+    \item \texttt{block} box
+    \item \texttt{inline} sits inline
+    \item \texttt{inline-block} box that sits inlne (padding and margin work as expected)
 \end{itemize}
 
-And a numbered one:
 
-\begin{enumerate}
-    \item Blah
-    \item \textit{Blah}
-    \item \textbf{Blah}
-\end{enumerate}
+\subsection{Layout properties}
 
-\href{https://duckduckgo.com}{Links} can be useful. As can footnotes\footnote{Look at me, I'm a footnote!}
-\\
+\begin{itemize}
+    \item \texttt{padding} Unit, can use shorthand or add side specifically (eg padding-top)
+    \item \texttt{margin} Unit, can use shorthand or add side specifically (eg margin-bottom)
+    \item \texttt{width} Unit or auto keyword
+    \item \texttt{height} Unit or auto keyword
+    \item both \texttt{min-} \& \texttt{max-} on width and height. Can't go smaller or bigger than
+    \item \texttt{box-sizing} default is content-box which means dimensions affect content. Padding \& border is added. border-box include padding and border into dimensions.
+\end{itemize}
 
-\pagebreak
-
-Sometimes it's useful to pull out some information:
-
-\begin{infobox}{I'm an Infobox}
-    Here's some side information about a thing. Maybe some historical context or a rant.
+\begin{infobox}{No heights needed}
+    When working with content it's always a good idea not to specify height on elements. Content gets changed, browsers get smaller. You want to allow the content to flow down the page.
 \end{infobox}
 
-\quoteinline{Sometimes it's nice to include a quote from someone}{Someone, 1985}
-
-It's also possible to include images:
-
-% width first, then filename, then bottom margin, then caption text
-% you can use most image types - vector based ones based for diagrams
-\img{12cm}{resources/diagram.eps}{1em}{A very handy caption}

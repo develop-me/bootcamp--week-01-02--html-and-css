@@ -2,17 +2,19 @@
 
 ---
 
-# Why grids?
-
----
-
 ### Designers have been using grids for a very long time
 
 ![New York Times Grid](day07/01CSSgrid/newsGrid.png)
 
+Note: In print - magazine and newspapera
+
 ---
 
-# This transferred over to web design
+### This transferred over to web design
+
+Specifically when we were working with fix width sites.
+
+Note: we didn't have flexbox or grid back then
 
 ---
 
@@ -36,11 +38,11 @@
 
 ---
 
-# But...
+## But...
 
 ---
 
-# CSS Grid is here
+## CSS Grid is here
 
 ---
 
@@ -53,12 +55,12 @@
 ### Used for laying out a page
 
 - Popping content in the right place
-- It's pretty new
+- On 2 axis
 - It's DOM dependent
 
 ---
 
-### How to use
+#### How to use
 
 ```css
 .page__home {
@@ -68,51 +70,19 @@
 
 ---
 
-### OK it's a bit more complicated than that
-
----
-
-### Specify the amount of cols & rows
+#### Specify the amount of cols & rows
 
 ```css
 .page__home {
 	display: grid;
-	grid-template-rows: 20vh 1fr 1fr 16vh;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, auto);
+	grid-template-columns: 20vw 1fr 1fr 10vw;
 }
 ```
 
 ---
 
-This is an explicit grid:
-
-We specify the grid areas.
-
-If we didn't set cols & rows the grid would do it for us and be an _implicit_ grid
-
----
-
-### A couple of notes
-
-The `fr` unit is only available for grid
-
-(We are considering it as a global unit \o/)
-
-There's also a minmax() function
-
-And you can put a gap between these areas
-
-```css
-grid-template-rows: 20vh 1fr 1fr 16vh;
-grid-template-columns: repeat(3, 1fr);
-grid-gap: 1rem;
-```
-
----
-
-# How do we get things in places
-
----
+#### How do we get things in places
 
 We can name the areas we have created
 
@@ -122,10 +92,10 @@ We can name the areas we have created
 	grid-template-rows: 20vh 1fr 1fr 16vh;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-areas:
-		"header header header"
-		"main main aside"
-		"main main ."
-		". footer ."
+		"top top top"
+		"middle middle side"
+		"middle middle ."
+		". bottom ."
 	;
 }
 ```
@@ -136,23 +106,28 @@ We can name the areas we have created
 
 ```css
 .header-main {
-	grid-area: header;
+	grid-area: top;
 }
 ```
 
 ---
 
-# Or
+#### Or
+
+Grids have number lines automatically, we can use those
+
+```css
+.header-main {
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+```
 
 ---
 
-### We don't have to do that at all
-
-Grids have number lines automatically
-
-![Bootstrap Grid](day07/01CSSgrid/gridNum.png)
-
----
+#### Shorthand
 
 ```css
 .header-main {
@@ -161,8 +136,6 @@ Grids have number lines automatically
 }
 ```
 
-Shorthand
-
 ```css
 .header-main {
 	grid-area: 1 / 1 / 2 / 4;
@@ -170,71 +143,4 @@ Shorthand
 ```
 
 ---
-
-Note there is more, you can name grid lines, there's a `span` keyword, and `minmax()` function
-
----
-
-### Setting size on implicit grid
-
-Explicit is what you know, implicit is what you don't know
-
-```css
-.page__home {
-	grid-auto-rows: 140px;
-	grid-auto-flow: column;
-}
-```
-
----
-
-### Aligning children
-
-```css
-/* on parent */
-.page__home {
-	justify-items: start;
-	align-items: stretch;
-}
-
-/* on individual child */
-.header-main {
-	justify-self: end;
-	align-self: center;
-}
-```
----
-
-### Support
-
-Polyfills: (you don't need one)
-
-[https://www.smashingmagazine.com/2017/11/css-grid-supporting-browsers-without-grid/](https://www.smashingmagazine.com/2017/11/css-grid-supporting-browsers-without-grid/)
-
-[https://caniuse.com/#search=grid](https://caniuse.com/#search=grid)
-
----
-
-# Todays task
-
-Mark up all the pages and lay them out with CSS grid
-
-NO STYLING TODAY
-
-We're using Sass tomorrow for this
-
-Focus on HTML and grid - USE FIREFOX
-
----
-
-### HELP!
-
-[https://mozilladevelopers.github.io/playground/css-grid](https://mozilladevelopers.github.io/playground/css-grid)
-
-[http://learncssgrid.com/](http://learncssgrid.com/)
-
-
-
-
-
 
