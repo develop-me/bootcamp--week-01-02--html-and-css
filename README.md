@@ -96,8 +96,8 @@ Order in the repo is as per category, not as per order in which you teach.
 |  |  | BEM | [Lesson](slides/CSS/19_BEM/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/19_BEM#/) | [Exercises](exercises/CSS/19_BEM) | css.pdf 4.4 |
 |  |  | Complex Selectors | [Lesson](slides/CSS/20_complex-selectors/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/20_complex-selectors#/) | [Exercises](exercises/CSS/20_complex-selectors) | css.pdf |
 |  |  | Specificity | [Lesson](slides/CSS/21_specificity/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/21_specificity#/) | [Exercises](exercises/CSS/21_specificity) | css.pdf |
-|  |  | Upload to server |  |  |  |  |
-|  |  | Testing |  |  |  |  |
+|  |  | Upload to server | [Lesson](slides/web-theory/11_upload/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/11_upload#/) | [Exercises](exercises/web-theory/11_upload) |  |
+|  |  | Testing | [Lesson](slides/web-theory/12_testing/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/12_testing#/) | [Exercises](exercises/web-theory/12_testing) |  |
 |  |  | Web Theory: Devtools | [Lesson](slides/web-theory/03_devtools/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/03_devtools#/) | [Exercises](exercises/web-theory/03_devtools/README.md) | web-theory.pdf |
 |  |  | CSS Animation |  |  |  |  |
 |  |  | Extra CSS |  |  |  |  |
@@ -106,14 +106,6 @@ Order in the repo is as per category, not as per order in which you teach.
 
 - `x` Can be ommitted
 - `*` This course only
-
-#### Not quite there yet (last day)
-- Web Theory: Upload to a server
-	- [Slides](slides/web-theory/11_upload/PITCHME.md)
-	- [Exercises](exercises/web-theory/11_upload)
-- Web Theory: Testing your website
-	- [Slides](slides/web-theory/12_testing/PITCHME.md)
-	- [Exercises](exercises/web-theory/12_testing)
 
 - CSS: CSS Animation
 	- [Slides](slides/CSS/22_animation/PITCHME.md)
