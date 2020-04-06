@@ -81,6 +81,8 @@ Order in the repo is as per category, not as per order in which you teach.
 
 #### Part Two
 
+Figma Student Master for Part Two - https://www.figma.com/file/6TdVNL837VjTI7yvmiyKXf/Photography-Site-Student-Master?node-id=0%3A1
+
 | PT | FT | Title | Lesson | Slides | Exercise | Notes |
 |---|---|---|---|---|---|---|
 |  |  | Design Systems | [Lesson](slides/CSS/12_design-systems/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/12_design-systems#/) | [Exercise](exercises/CSS/12_design-systems) | css.pdf 5.1 |
