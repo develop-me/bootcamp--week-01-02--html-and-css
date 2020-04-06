@@ -27,3 +27,7 @@ Create the grid for the design below. Use line numbers and the span keyword to p
 Go back to the numbered list HTML page and replicate the design below using CSS Grid.
 
 ![numbers](03/03.png)
+
+### Exercise 4 (extension)
+
+Recreate the designs found in the mini-project folder with both Grid and Flexbox.
