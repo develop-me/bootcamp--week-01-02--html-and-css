@@ -29,3 +29,5 @@ Hint: The best way to do this is to add an element
 ### Exercise 4
 
 Add a button to the bottom of your article. Use everything you have leant to make it look like this image:
+
+![Forth](04/04.png)
