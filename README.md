@@ -6,9 +6,11 @@ HTML &amp; CSS Syllabus for Developme: This covers both the first two weeks of t
 
 The first part is mainly based on theory lessons, learning HTML & CSS. Syntax, elements, style & layout, with supported exercises.
 
+>If exercises are not held in directories, they are on codepen (this is a much easier set up for students in the early days). Codepen account is @devmeexamples
+
 The second part is writing the templates for a multipage site. Theory includes how to approach a project, design handover, CSS methodology to structure your HTML & CSS well; we support the theory of component design and reuseable CSS
 
-There are three categories taught in this course: HTML, CSS & Web Theory. The latter is for notes & lessons on accessiblity, preformance, testing, project planning & design theory.
+There are three categories taught in this course: HTML, CSS & Web Theory. The latter is for notes & lessons on accessibility, performance, testing, project planning & design theory.
 
 ### Folder structure
 
