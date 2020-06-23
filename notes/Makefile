@@ -7,6 +7,8 @@ tex := $(shell find . -type f -name "*.tex")
 # the resources (js, php, eps, etc.)
 # source := $(shell find ./resources -type f)
 
+all: html.pdf css.pdf web-theory.pdf
+
 # build notes.pdf whenever any of the above have changed
 # make sure to use a tab (not spaces) for the commands below
 html.pdf: $(templates) $(tex) $(source)
