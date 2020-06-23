@@ -22,9 +22,9 @@ Different types of media, like print
 \begin{minted}{css}
 @media print {
 
-	* {
-		background-color: transparent;
-	}
+    * {
+        background-color: transparent;
+    }
 
 }
 \end{minted}
@@ -35,9 +35,9 @@ Breakpoints (viewport width)
 /* phone */
 @media screen and (max-width: 500px) {
 
-	#left-column {
-		display: none;
-	}
+    #left-column {
+        display: none;
+    }
 
 }
 \end{minted}
@@ -68,8 +68,8 @@ You can use the \texttt{picture} element to load different image types and also 
 
 \begin{minted}{html}
 <picture>
-	<source srcset="surfer.png" media="(min-width: 800px)">
-	<img src="surfer.jpg" />
+    <source srcset="surfer.png" media="(min-width: 800px)">
+    <img src="surfer.jpg" />
 </picture>
 \end{minted}
 
@@ -80,9 +80,9 @@ You can use the `object-fit` property to display how the image appears in it's c
 
 \begin{minted}{css}
 img {
-	height: 100%; width: 100%;
-	display: block;
-	object-fit: contain;
+    height: 100%; width: 100%;
+    display: block;
+    object-fit: contain;
 }
 \end{minted}
 

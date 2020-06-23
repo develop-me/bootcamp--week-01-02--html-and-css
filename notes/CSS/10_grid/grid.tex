@@ -20,7 +20,7 @@ We use it for laying out a page, it's easy to put content in the right place. Th
 
 \begin{minted}{css}
 .page__home {
-	display: grid;
+    display: grid;
 }
 \end{minted}
 
@@ -29,9 +29,9 @@ We use it for laying out a page, it's easy to put content in the right place. Th
 
 \begin{minted}{css}
 .page__home {
-	display: grid;
-	grid-template-rows: repeat(3, auto);
-	grid-template-columns: 20vw 1fr 1fr 10vw;
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: 20vw 1fr 1fr 10vw;
 }
 \end{minted}
 
@@ -42,15 +42,15 @@ We can name the areas we have created
 
 \begin{minted}{css}
 .page__home {
-	display: grid;
-	grid-template-rows: 20vh 1fr 1fr 16vh;
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-areas:
-		"top top top"
-		"middle middle side"
-		"middle middle ."
-		". bottom ."
-	;
+    display: grid;
+    grid-template-rows: 20vh 1fr 1fr 16vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+        "top top top"
+        "middle middle side"
+        "middle middle ."
+        ". bottom ."
+    ;
 }
 \end{minted}
 
@@ -58,7 +58,7 @@ Then we can reference those names when we're styling the child sections
 
 \begin{minted}{css}
 .header-main {
-	grid-area: top;
+    grid-area: top;
 }
 \end{minted}
 
@@ -68,10 +68,10 @@ Grids have number lines automatically, we can use those
 
 \begin{minted}{css}
 .header-main {
-	grid-row-start: 1;
-	grid-row-end: 2;
-	grid-column-start: 1;
-	grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
 \end{minted}
 
@@ -79,14 +79,14 @@ Grids have number lines automatically, we can use those
 
 \begin{minted}{css}
 .header-main {
-	grid-row: 1 / 2;
-	grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    grid-column: 1 / 4;
 }
 \end{minted}
 
 \begin{minted}{css}
 .header-main {
-	grid-area: 1 / 1 / 2 / 4;
+    grid-area: 1 / 1 / 2 / 4;
 }
 \end{minted}
 
@@ -98,11 +98,11 @@ Explicit is what you know, implicit is what you don't know. When we specify rows
 
 \begin{minted}{css}
 section {
-	display: grid;
-	/* how big the rows are */
-	grid-auto-rows: 140px;
-	/* Direction */
-	grid-auto-flow: column;
+    display: grid;
+    /* how big the rows are */
+    grid-auto-rows: 140px;
+    /* Direction */
+    grid-auto-flow: column;
 }
 \end{minted}
 
@@ -118,12 +118,12 @@ Adds gaps in-between cells
 
 \begin{minted}{css}
 section {
-	display: grid;
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 1rem;
     grid-row-gap: 1rem;
     /* or */
-	grid-gap: 1rem;
+    grid-gap: 1rem;
 }
 \end{minted}
 
@@ -133,8 +133,8 @@ Like min/max width/height. Specifies how big or small something can be
 
 \begin{minted}{css}
 section {
-	display: grid;
-	grid-template-row: minmax(100px, auto);
+    display: grid;
+    grid-template-row: minmax(100px, auto);
 }
 \end{minted}
 
@@ -143,8 +143,8 @@ section {
 
 \begin{minted}{css}
 section {
-	display: grid;
-	grid-template-columns: [first] 40px [line2] 50px [line3] auto [col4-start] 50px [five] 40px [end];
+    display: grid;
+    grid-template-columns: [first] 40px [line2] 50px [line3] auto [col4-start] 50px [five] 40px [end];
 }
 \end{minted}
 
@@ -156,14 +156,14 @@ Alignment
 \begin{minted}{css}
 /* on parent */
 section {
-	justify-items: start;
-	align-items: stretch;
+    justify-items: start;
+    align-items: stretch;
 }
 
 /* on individual child */
 section p {
-	justify-self: end;
-	align-self: center;
+    justify-self: end;
+    align-self: center;
 }
 \end{minted}
 
@@ -171,8 +171,8 @@ section p {
 
 \begin{minted}{css}
 section p {
-	grid-row-start: 1;
-	grid-row-end: span(2);
+    grid-row-start: 1;
+    grid-row-end: span(2);
 }
 \end{minted}
 
