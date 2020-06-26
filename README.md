@@ -6,7 +6,7 @@ HTML &amp; CSS Syllabus for Developme: This covers both the first two weeks of t
 
 The first part is mainly based on theory lessons, learning HTML & CSS. Syntax, elements, style & layout, with supported exercises.
 
->If exercises are not held in directories, they are on codepen (this is a much easier set up for students in the early days). Codepen account is @devmeexamples
+>If exercises are not held in directories, they are on codepen (this is a much easier set up for students in the early days). Codepen account is @devmeexamples. It's worth looking through this account as there are plenty of other useful examples!
 
 The second part is writing the templates for a multipage site. Theory includes how to approach a project, design handover, CSS methodology to structure your HTML & CSS well; we support the theory of component design and reuseable CSS
 
@@ -19,7 +19,7 @@ There are three categories taught in this course: HTML, CSS & Web Theory. The la
 - notes
 	These are the students notes - see []() to run LaTeX to generate the pdfs for the students
 - quiz
-	There is one for each week/part, but they are held in google docs - see the notes in the readme for where & how to distribute
+	There is one for each week/part, but they are held in google docs, under the instructor account. Archive any previous quiz answers and then remove them from the form before distributing to new students
 - slides
 	These are also the tutors notes. We encourage live coding over slides, however all these notes use [PITCHME](https://github.com/gitpitch/in-60-seconds) markdown files, so you can view as plain markdown, or run on github as a presentation (good for new tutors).
 
