@@ -2,7 +2,7 @@
 
 ### Exercise 1
 
-[Fork this codepen](https://codepen.io/Rumyra/pen/MxgyrO?editors=1100). Get the three boxes to all sit next to each other by changing their widths and using floats.
+[Fork this codepen](https://codepen.io/devmeexamples/pen/QWydMRZ). Get the three boxes to all sit next to each other by changing their widths and using floats.
 
 ### Exercise 2
 

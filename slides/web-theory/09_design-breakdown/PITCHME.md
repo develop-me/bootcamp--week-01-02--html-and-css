@@ -4,7 +4,7 @@
 
 ### Figma
 
-Let's take a look at [Our Design](https://www.figma.com/file/LU4puKqzi3fPmWyTvvuLqk/Photography-Site?node-id=0%3A1)
+Let's take a look at [Our Design](https://www.figma.com/file/6TdVNL837VjTI7yvmiyKXf/Photography-Site-Student-Master?node-id=0%3A1)
 
 ---
 
