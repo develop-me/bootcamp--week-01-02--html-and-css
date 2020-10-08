@@ -38,6 +38,8 @@ Order in the repo is as per category, not as per order in which you teach.
 
 >I recommend printing off the table and making notes as you go as to what you have taught & amends
 
+If you are splitting weeks with another tutor, make sure you make them aware of any material omitted from suggested 'Part One'. 'Part Two' depends on all theory being covered in the first part.
+
 #### Part One
 
 | PT | FT | Title | Lesson | Slides | Exercise | Notes |
@@ -106,6 +108,11 @@ Figma Student Master for Part Two - https://www.figma.com/file/6TdVNL837VjTI7yvm
 |  |  | Web Theory: Devtools | [Lesson](slides/web-theory/03_devtools/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/03_devtools#/) | [Exercises](exercises/web-theory/03_devtools/README.md) | web-theory.pdf |
 |  |  | CSS Animation |  |  |  |  |
 |  |  | Extra CSS |  |  |  |  |
+
+
+#### Extra Tasks
+
+Should the students finish the project in *Part Two* there is a readme containing [extra exercises which should keep them busy here.](/exercises/extra-tasks/README.md)
 
 #### Key
 
