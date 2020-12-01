@@ -18,6 +18,8 @@
 - HTML [https://validator.w3.org/](https://validator.w3.org/)
 - CSS [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
 
+For the CSS Validator, select CSS level 3 from the *Profile* drop down under *More Options*
+
 ---
 
 ### Accessibility

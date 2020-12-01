@@ -2,13 +2,13 @@
 
 ### Exercise 1
 
-Practise your flexbox! [Fork this codepen](https://codepen.io/Rumyra/pen/fcd56e2b718aa07262cd6373a818d10e?editors=0100) and use flexbox to make it look like the below image.
+Practise your flexbox! [Fork this codepen](https://codepen.io/devmeexamples/pen/PoZWKLO) and use flexbox to make it look like the below image.
 
 Hint: You need to use flexbox on more than one element
 
 ![first](01.png)
 
-[Answer](https://codepen.io/Rumyra/pen/mKYyeG?editors=1100)
+[Answer](https://codepen.io/devmeexamples/pen/NWxdvZB)
 
 ### Exercise 2
 
@@ -22,9 +22,9 @@ Is there anywhere else on this page you think flexbox would be more suitable tha
 
 ### Exercise 3
 
-Practise your flexbox! [Fork this codepen](https://codepen.io/Rumyra/pen/RwPVPpy) and use flexbox to make it look like the below image.
+Practise your flexbox! [Fork this codepen](https://codepen.io/devmeexamples/pen/zYrNdbO) and use flexbox to make it look like the below image.
 
 ![third](03.png)
 
 
-[Answer](https://codepen.io/Rumyra/pen/abOWbgM?editors=0100)
+[Answer](https://codepen.io/devmeexamples/pen/GRorvev)

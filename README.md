@@ -6,7 +6,7 @@ HTML &amp; CSS Syllabus for Developme: This covers both the first two weeks of t
 
 The first part is mainly based on theory lessons, learning HTML & CSS. Syntax, elements, style & layout, with supported exercises.
 
->If exercises are not held in directories, they are on codepen (this is a much easier set up for students in the early days). Codepen account is @devmeexamples
+>If exercises are not held in directories, they are on codepen (this is a much easier set up for students in the early days). Codepen account is @devmeexamples. It's worth looking through this account as there are plenty of other useful examples!
 
 The second part is writing the templates for a multipage site. Theory includes how to approach a project, design handover, CSS methodology to structure your HTML & CSS well; we support the theory of component design and reuseable CSS
 
@@ -19,7 +19,7 @@ There are three categories taught in this course: HTML, CSS & Web Theory. The la
 - notes
 	These are the students notes - see []() to run LaTeX to generate the pdfs for the students
 - quiz
-	There is one for each week/part, but they are held in google docs - see the notes in the readme for where & how to distribute
+	There is one for each week/part, but they are held in google docs, under the instructor account. Archive any previous quiz answers and then remove them from the form before distributing to new students
 - slides
 	These are also the tutors notes. We encourage live coding over slides, however all these notes use [PITCHME](https://github.com/gitpitch/in-60-seconds) markdown files, so you can view as plain markdown, or run on github as a presentation (good for new tutors).
 
@@ -30,6 +30,8 @@ Go through the repo - the slides folder especially. We teach in increments so yo
 If you are adding content: Choose your unit, create/modify slides, notes & exercises content as per. Things you may find useful:
 - There is an example presentation in the [root directory here](PITCHME.md) I strongly recommend using that to create new presentations
 
+You are responsible for filling in the feedback for students (see Mark) and also marking the weekly quizzes.
+
 ## Suggested Course Structure
 
 Feel free to mix and match the syllabus order as you see fit. This is proposed so you can keep track of where you have been and where you go next.
@@ -37,6 +39,8 @@ Feel free to mix and match the syllabus order as you see fit. This is proposed s
 Order in the repo is as per category, not as per order in which you teach.
 
 >I recommend printing off the table and making notes as you go as to what you have taught & amends
+
+If you are splitting weeks with another tutor, make sure you make them aware of any material omitted from suggested 'Part One'. 'Part Two' depends on all theory being covered in the first part.
 
 #### Part One
 
@@ -80,10 +84,13 @@ Order in the repo is as per category, not as per order in which you teach.
 | x |  | CSS Framworks | [Lesson](slides/CSS/11_frameworks/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/11_frameworks#/) | [Exercise](exercises/CSS/11_frameworks) | css.pdf 4.4 |
 |  | * |<td colspan="5">Homework: Prototype with Bootstrap</td>
 
+NB For the full time students there is an ongoing 'portfolio' project, for which you can find the brief in Basecamp. Homework over the weekend would be to use the skills they learnt on Friday to wireframe their portfolio.
 
 #### Part Two
 
 Figma Student Master for Part Two - https://www.figma.com/file/6TdVNL837VjTI7yvmiyKXf/Photography-Site-Student-Master?node-id=0%3A1
+
+Once they get started on the weekly project it's a good idea to use some time during the days (Tues -> Thurs) to go over parts of the site with the class. I tend to pick out certain approaches or parts of the design they are struggling with. It varies for each class. You can [find the project on Glitch here](https://glitch.com/edit/#!/infrequent-sugared-concavenator), (Instructor google verified account), it's usually in a state of incomplete, but this is helpful as showing coding is better than showing code.
 
 | PT | FT | Title | Lesson | Slides | Exercise | Notes |
 |---|---|---|---|---|---|---|
@@ -93,18 +100,30 @@ Figma Student Master for Part Two - https://www.figma.com/file/6TdVNL837VjTI7yvm
 |  |  | Design Breakdown | [Lesson](slides/web-theory/09_design-breakdown/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/09_design-breakdown#/) | [Exercises](exercises/web-theory/09_design-breakdown) | web-theory.pdf 3.6 |
 |  |  | Positioning & Transforms | [Lesson](slides/CSS/14_positioning/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/14_positioning#/) | [Exercises](exercises/CSS/14_positioning) | css.pdf |
 |  |  | Imports | [Lesson](slides/CSS/15_imports/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/15_imports#/2) | [Exercises](exercises/CSS/15_imports) | css.pdf 4.1 |
+| | | | | | | |
 |  |  | Variables | [Lesson](slides/CSS/16_variables/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/16_variables#/4) | [Exercises](exercises/CSS/16_variables) | css.pdf 4.2 |
 |  |  | Accessibility | [Lesson](slides/web-theory/10_accessibility/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/10_accessibility#/) | [No exercise yet](exercises/web-theory/10_accessibility) | web-theory.pdf 3.2 |
 |  |  | OOCSS | [Lesson](slides/CSS/17_OOCSS/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/17_OOCSS) | [Exercises](exercises/CSS/17_OOCSS) | css.pdf 4.3 |
-|  |  | CSS Effects | [Lesson](slides/CSS/18_effects/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/18_effects#/6) | [Exercises](exercises/CSS/18_effects) | css.pdf 1.5 |
+| | | | | | | |
 |  |  | BEM | [Lesson](slides/CSS/19_BEM/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/19_BEM#/) | [Exercises](exercises/CSS/19_BEM) | css.pdf 4.4 |
+|  |  | CSS Effects | [Lesson](slides/CSS/18_effects/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/18_effects#/6) | [Further Reading](exercises/CSS/18_effects) | css.pdf 1.5 |
+| * | * |<td colspan="5">Homework: Research complex selectors</td>
+| | | | | | | |
 |  |  | Complex Selectors | [Lesson](slides/CSS/20_complex-selectors/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/20_complex-selectors#/) | [Exercises](exercises/CSS/20_complex-selectors) | css.pdf |
+|  |  | CSS Animation | There is a codepen for this lesson |  |  |  |
+| * | * |<td colspan="5">Homework: Try to upload to server using instructions if you can. Go over the past two weeks for an AMA session tomorrow afternoon</td>
 |  |  | Specificity | [Lesson](slides/CSS/21_specificity/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/21_specificity#/) | [Exercises](exercises/CSS/21_specificity) | css.pdf |
 |  |  | Upload to server | [Lesson](slides/web-theory/11_upload/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/11_upload#/) | [Exercises](exercises/web-theory/11_upload) |  |
 |  |  | Testing | [Lesson](slides/web-theory/12_testing/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/12_testing#/) | [Exercises](exercises/web-theory/12_testing) |  |
-|  |  | Web Theory: Devtools | [Lesson](slides/web-theory/03_devtools/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/03_devtools#/) | [Exercises](exercises/web-theory/03_devtools/README.md) | web-theory.pdf |
-|  |  | CSS Animation |  |  |  |  |
+| * | * |<td colspan="5">Week 2 Quiz: Can be found in the devme account (someone created a new one so there are two, depending on what you have taught pick your flavour)</td>
+| * | * |<td colspan="5">AMA Session: Have an open hour in the afternoon for the students to discuss anything from the past couple of weeks.</td>
+
 |  |  | Extra CSS |  |  |  |  |
+
+
+#### Extra Tasks
+
+Should the students finish the project in *Part Two* there is a readme containing [extra exercises which should keep them busy here.](/exercises/extra-tasks/README.md)
 
 #### Key
 
@@ -112,6 +131,7 @@ Figma Student Master for Part Two - https://www.figma.com/file/6TdVNL837VjTI7yvm
 - `*` This course only
 
 - CSS: CSS Animation
+	- See codepen for lesson https://codepen.io/devmeexamples/pen/OJMWxLv
 	- [Slides](slides/CSS/22_animation/PITCHME.md)
 	- [Exercises](exercises/CSS/22_animation)
 - CSS: Extra CSS

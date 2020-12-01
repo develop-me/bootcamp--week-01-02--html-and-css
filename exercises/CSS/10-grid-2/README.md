@@ -2,7 +2,7 @@
 
 ### Exercise 1
 
-[Fork this codepen](https://codepen.io/Rumyra/pen/BaNRGOj)
+[Fork this codepen](https://codepen.io/devmeexamples/pen/QWyMEmo)
 
 By only declaring columns, get the cards to sit in a 2 by 2 grid as per the image below.
 
@@ -10,17 +10,17 @@ See what happens if you add another card to the HTML.
 
 ![two by two](01.png)
 
-[Answer](https://codepen.io/Rumyra/pen/oNXWQQV)
+[Answer](https://codepen.io/devmeexamples/pen/dyGNzQX)
 
 ### Exercise 2
 
-[Fork this codepen](https://codepen.io/Rumyra/pen/JjdNezw)
+[Fork this codepen](https://codepen.io/devmeexamples/pen/rNxjzZg)
 
 Create the grid for the design below. Use line numbers and the span keyword to position the images.
 
 ![gallery](02.png)
 
-[Answer](https://codepen.io/Rumyra/pen/gOpaoNR)
+[Answer](https://codepen.io/devmeexamples/pen/pogRrxQ)
 
 ### Exercise 3
 
