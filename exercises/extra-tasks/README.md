@@ -18,7 +18,7 @@ If you are stuck for what to practise [check out this collection here](https://c
 ### Option Two
 #### Personal Project
 
-You should have already received the brief for your own personal site and started to think about content. Feel free to begin the page itself. If you've misplaced the brief [it's here with plenty of inspiration](https://www.notion.so/Personal-Site-Brief-315b9e552ea745beb5d5b36fbcfb90b5).
+You should have already received the brief for your own personal site and started to think about content. Feel free to begin the page itself. The brief can be found on BaseCamp.
 
 Again if you want to use Sass for this project, try starting it in Codepen, you can always export your code later once you decide on the tool you want to use for the site.
 
