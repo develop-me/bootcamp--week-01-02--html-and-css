@@ -32,7 +32,7 @@ article {
 ```
 
 
-Note: screens work in pixels
+screens work in pixels
 
 ---
 #### Percentage
@@ -72,6 +72,7 @@ article {
 
 ---
 #### em
+
 Font measurement - relative to parent
 
 
@@ -84,6 +85,7 @@ p a {font-size: 1.2em;} /* 16 x 1.2 x 1.2 */
 
 ---
 #### rem
+
 Like em but always relative to `root`
 
 

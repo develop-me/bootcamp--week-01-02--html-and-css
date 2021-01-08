@@ -18,7 +18,9 @@ We want to **focus on the function** of the site before we start thinking about 
 ### Think detail
 
 Give to client.
+
 Give to a designer.
+
 Give to developers & sys admins.
 
 All elements & functionality & Include notes and interaction.

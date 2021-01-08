@@ -10,7 +10,7 @@
 - Design Systems & Pattern Libraries
 - Advanced CSS
 
-Note: This next part is about how we approach a multipage site, so far we've just been writing css for one html page, but how do we change our techniques for more pages
+This next part is about how we approach a multipage site, so far we've just been writing css for one html page, but how do we change our techniques for more pages
 
 
 ---
@@ -61,8 +61,11 @@ It's quite bare, what are they trying to sell, will they be int he field. Do the
 >You are not your user
 
 Different people are different
+
 Different people will use your site differently and for different purposes
+
 You should try to understand what it is they will want to do, and how best to allow them to do it
+
 We have to make assumptions, but make sure you test those assumptions and modify acordingly
 
 ---

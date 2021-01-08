@@ -11,6 +11,7 @@ For styling the html. Style sheets, we'll cover the cascade more as we go throug
 - Give these properties a value
 
 About 438 properties & counting
+
 Maintained list here: [https://meiert.com/en/indices/css-properties/](https://meiert.com/en/indices/css-properties/)
 
 ---

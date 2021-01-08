@@ -27,6 +27,7 @@ See information on right. NB check sub-layers. Things are grouped.
 ### Exercise
 
 Get the colour of a component
+
 Get the font of the header text
 
 ---

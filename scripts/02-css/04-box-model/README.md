@@ -26,7 +26,8 @@ One such style is the `display` property
 
 Common default `display` values are `block` & `inline`
 
-Note: sectioning are block, text are inline
+sectioning are block, text are inline
+
 There are also media, table and list (item)
 
 ---
@@ -45,7 +46,9 @@ There are also media, table and list (item)
 - `box-sizing`
 
 Describe what each are - no need for height.
+
 Show some padding on the header/article and box-sizing
+
 Show these on inline
 
 ---

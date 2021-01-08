@@ -113,7 +113,7 @@ Thus it needs to be downloaded
     - Lazy loading
 - First paint
 
-Note: There are many many techniques to do with performance - you will learn a lot more of this over your career, but suffice to say start with good clean code
+There are many many techniques to do with performance - you will learn a lot more of this over your career, but suffice to say start with good clean code
 
 ---
 

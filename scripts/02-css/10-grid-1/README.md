@@ -6,7 +6,7 @@
 
 ![New York Times Grid](day07/01CSSgrid/newsGrid.png)
 
-Note: In print - magazine and newspapera
+In print - magazine and newspapera
 
 ---
 
@@ -14,7 +14,7 @@ Note: In print - magazine and newspapera
 
 Specifically when we were working with fix width sites.
 
-Note: we didn't have flexbox or grid back then
+we didn't have flexbox or grid back then
 
 ---
 
