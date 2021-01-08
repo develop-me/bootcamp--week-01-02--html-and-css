@@ -1,0 +1,33 @@
+body {
+  font-size: 120%;
+  font-family: sans-serif;
+  color: #666;
+}
+
+form {
+  width: 540px;
+}
+
+fieldset {
+  box-sizing: border-box;
+  margin:10px 10px 30px; padding:10px;
+}
+
+label, input {
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 10px; padding: 10px;
+}
+
+label {width:150px;}
+
+input, select, textarea {
+  width:300px;
+  font-size: 120%;
+}
+input[type="radio"] {width:30px;}
+
+input[type="submit"], input[type="reset"] {
+  border: 1px solid grey;
+  padding: 10px;
+}
