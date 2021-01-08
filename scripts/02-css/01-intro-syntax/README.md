@@ -77,7 +77,7 @@ article p {
 - in a `<style>` element
 - in a separate file
 
-Show all. We'll be putting it in a file. &lt;link rel="stylesheet" href="css/main.css">
+Show all. We'll be putting it in a file. `<link rel="stylesheet" href="css/main.css">`
 
 ---
 ## Whitespace matters in values

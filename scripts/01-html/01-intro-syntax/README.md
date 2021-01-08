@@ -75,7 +75,7 @@ Comments are parts of a code file that are ignored by the program running it.
 
 
 ```html
-&lt;!-- this is an HTML comment -->
+<!-- this is an HTML comment -->
 ```
 
 
