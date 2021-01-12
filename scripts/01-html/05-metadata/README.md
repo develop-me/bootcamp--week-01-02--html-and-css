@@ -6,25 +6,21 @@
 
 
 
----
 ```html
-<!doctype html>
-<html lang="">
-    <head>
-        <meta charset="utf-8">
-      <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title></title>
-        <meta name="description" content="">
+    <title></title>
+    <meta name="description" content="">
 
-        <link rel="apple-touch-icon" href="icon.png">
-        <!-- Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
 
-        <link rel="stylesheet" href="css/main.css">
-    </head>
+    <link rel="stylesheet" href="css/main.css">
+</head>
 ```
----
 
 ## HTML5 Boilerplate
 
@@ -42,29 +38,6 @@ Character set of file - different types
 ```html
 <meta charset="utf-8">
 ```
-
-
----
-
-#### Use IE Edge in available
-
-
-
-```html
-<meta http-equiv="x-ua-compatible" content="ie=edge">
-```
-
-
----
-
-#### Ignore retina screens
-
-
-
-```html
-<meta name="viewport" content="width=device-width, initial-scale=1">
-```
-
 
 ---
 
@@ -102,11 +75,28 @@ There are lots of these
 ```html
 <link rel="stylesheet" href="css/main.css">
 
-<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+<script defer src="js/vendor/modernizr-2.8.3.min.js"></script>
+```
+
+
+
+---
+
+#### Use IE Edge in available
+
+
+
+```html
+<meta http-equiv="x-ua-compatible" content="ie=edge">
 ```
 
 
 ---
 
+#### Ignore retina screens
 
 
+
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1">
+```

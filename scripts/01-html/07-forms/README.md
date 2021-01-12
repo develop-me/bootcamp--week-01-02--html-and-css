@@ -2,10 +2,42 @@
 
 ---
 
-There is no presentation as of yet, there never was.
-
-Live code using the html file found in this directory
-
-Explain how important forms are (all data passing) and how with just html & css you can only go so far (no interactivity)
-
-Go over form structure, legends & fieldsets. Go through groups of form fields, paying special attention to attributes.
+- Concept
+    - Submitting data
+- Limitations of HTML & CSS:
+    - Need server-side code or JS
+- The Form tag
+    - action
+        - empty (same page)
+        - different URL
+    - method
+        - `POST`
+        - `GET`
+- Input & labels
+    - name
+    - value
+    - `<label>`
+    - id
+- Checkboxes and Radio Buttons
+    - checkbox
+    - radio
+- Numbers and Dates
+    - number
+    - range
+    - date
+    - datetime-local
+    - month
+    - time
+    - week
+- Misc. inputs
+    - file
+    - search
+    - color
+- Hidden inputs
+- Select
+- Text Area
+- Fieldset & Legends
+- Submitting
+    - input submit/button/reset attributes
+    - button
+        - type: submit by default

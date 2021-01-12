@@ -4,22 +4,30 @@ Found in html.pdf, 2.2
 
 ---
 
+## Types
+
+- Header
+- Footer
+- Main
+- Aside
+- Nav
+- Article
+- Section
+- Div
+
+
 #### Header
 
-Header of the part of the document
+- Header of the part of the document:
 
 
-```html
-<header>
-    <h1>Heading level 1</h1>
-</header>
-```
+    ```html
+    <header>
+        <h1>Heading level 1</h1>
+    </header>
+    ```
 
 
-article: a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). Examples include: a forum post, a magazine or newspaper article, or a blog entry.
-aside: a portion of a document whose content is only indirectly related to the document's main content.
-section: a standalone section — which doesn't have a more specific semantic element to represent it
-div: generic container for flow content. It has no effect on the content or layout until styled using CSS
 
 ---
 
@@ -58,6 +66,7 @@ Related, but not main, content.
 <aside>...</aside>
 ```
 
+aside: a portion of a document whose content is only indirectly related to the document's main content.
 
 ---
 
@@ -92,6 +101,8 @@ A standalone piece of content (always has header)
 <article>...</article>
 ```
 
+- article: a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). Examples include: a forum post, a magazine or newspaper article, or a blog entry.
+
 
 ---
 #### Section
@@ -103,6 +114,7 @@ Part of a piece of content
 <section>...</section>
 ```
 
+section: a standalone section — which doesn't have a more specific semantic element to represent it
 
 ---
 
@@ -115,6 +127,6 @@ For design purposes only
 <div>...</div>
 ```
 
+div: generic container for flow content. It has no effect on the content or layout until styled using CSS
 
 ---
-

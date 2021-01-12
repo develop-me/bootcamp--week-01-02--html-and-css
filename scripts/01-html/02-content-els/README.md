@@ -6,7 +6,8 @@ Found in html.pdf, 2.1
 
 #### Headings
 
-Contain heading text. Can have multiple per document, weight of heading not order.
+- Contain heading text.
+- Can have multiple per document, weight of heading not order.
 
 
 ```html
@@ -21,7 +22,7 @@ Contain heading text. Can have multiple per document, weight of heading not orde
 
 #### Paragraphs
 
-For all lines & blocks of text
+- For all lines & blocks of text
 
 
 ```html
@@ -34,34 +35,37 @@ For all lines & blocks of text
 
 #### Lists
 
-ordered, unordered & description
+- Ordered, unordered & description
+- List items can only be the direct children of `ol` & `ul`:
 
-List items can only be the direct children of ol & ul
 
+    ```html
+    <ol>
+        <li>First list item</li>
+        <li>List item two</li>
+        <li>Another list item</li>
+    </ol>
+    ```
 
-```html
-<ol>
-    <li>First list item</li>
-    <li>List item two</li>
-    <li>Another list item</li>
-</ol>
+    ```html
+    <ul>
+        <li>First list item</li>
+        <li>List item two</li>
+        <li>Another list item</li>
+    </ul>
+    ```
 
-<ul>
-    <li>First list item</li>
-    <li>List item two</li>
-    <li>Another list item</li>
-</ul>
+    ```html
+    <dl>
+        <dt>Description term</dt>
+        <dd>Description definition</dd>
 
-<dl>
-    <dt>Description term</dt>
-    <dd>Description definition</dd>
+        <dt>Description term</dt>
+        <dd>Description definition</dd>
+        <dd>Another definition</dd>
+    </dl>
 
-    <dt>Description term</dt>
-    <dd>Description definition</dd>
-    <dd>Another definition</dd>
-</dl>
-
-```
+    ```
 
 
 ---
@@ -166,4 +170,3 @@ Display data
 
 
 ---
-
