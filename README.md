@@ -1,12 +1,12 @@
-# Develop Me HTML & CSS Syllabus
+# HTML & CSS 1 & 2
 
-HTML &amp; CSS Syllabus for Developme: This covers both the first two weeks of the fellowship and the part time evening course.
+HTML & CSS Syllabus for Develop Me: This covers both the first two modules of the fellowship.
 
 ### Overview
 
 The first part is mainly based on theory lessons, learning HTML & CSS. Syntax, elements, style & layout, with supported exercises.
 
->If exercises are not held in directories, they are on codepen (this is a much easier set up for students in the early days). Codepen account is @devmeexamples. It's worth looking through this account as there are plenty of other useful examples!
+> If exercises are not held in directories, they are on codepen (this is a much easier set up for students in the early days). Codepen account is @devmeexamples (see BaseCamp -> Curriculum & Course Materials -> Docs & Files -> Weeks 1 & 2: HTML & CSS for login). It's worth looking through this account as there are plenty of other useful examples!
 
 The second part is writing the templates for a multipage site. Theory includes how to approach a project, design handover, CSS methodology to structure your HTML & CSS well; we support the theory of component design and reuseable CSS
 
@@ -15,22 +15,21 @@ There are three categories taught in this course: HTML, CSS & Web Theory. The la
 ### Folder structure
 
 - exercises
-	Each lesson contains exercises, here you will either find the code or the instructions for the students. After the first day the exercises build on from each other.
+    Each lesson contains exercises, here you will either find the code or the instructions for the students. After the first day the exercises build on from each other.
 - notes
-	These are the students notes - see []() to run LaTeX to generate the pdfs for the students
+    These are the students notes - run LaTeX to generate the pdfs for the students
 - quiz
-	There is one for each week/part, but they are held in google docs, under the instructor account. Archive any previous quiz answers and then remove them from the form before distributing to new students
-- slides
-	These are also the tutors notes. We encourage live coding over slides, however all these notes use [PITCHME](https://github.com/gitpitch/in-60-seconds) markdown files, so you can view as plain markdown, or run on github as a presentation (good for new tutors).
+    There is one for each week/part, but they are held in google docs, under the instructor account. Archive any previous quiz answers and then remove them from the form before distributing to new students
+- scripts
+    The tutors notes. We encourage live coding over slides.
 
 ### Notes for new tutors
 
 Go through the repo - the slides folder especially. We teach in increments so you may feel valuable info is being omitted only to find it's being taught at a later stage. Don't overwhelm your students - remember you will have to lie until you can tell the truth.
 
 If you are adding content: Choose your unit, create/modify slides, notes & exercises content as per. Things you may find useful:
-- There is an example presentation in the [root directory here](PITCHME.md) I strongly recommend using that to create new presentations
 
-You are responsible for filling in the feedback for students (see Mark) and also marking the weekly quizzes.
+You are responsible for marking the weekly quizzes.
 
 ## Suggested Course Structure
 
@@ -38,53 +37,52 @@ Feel free to mix and match the syllabus order as you see fit. This is proposed s
 
 Order in the repo is as per category, not as per order in which you teach.
 
->I recommend printing off the table and making notes as you go as to what you have taught & amends
+> I recommend printing off the table and making notes as you go as to what you have taught & amends
 
 If you are splitting weeks with another tutor, make sure you make them aware of any material omitted from suggested 'Part One'. 'Part Two' depends on all theory being covered in the first part.
 
 #### Part One
 
-| PT | FT | Title | Lesson | Slides | Exercise | Notes |
-|---|---|---|---|---|---|---|
-|  |  | Intro & Class Rules | [Lesson](https://gitpitch.com/develop-me/bootcamp--week--01-02--html-and-css/master/slides/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides#/) |   |   |
-|  |  | Web Theory: General Overview | [Lesson](slides/web-theory/01_overview/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/01_overview/#/) |  | web-theory.pdf 1.1 |
-|  |  | HTML: Intro & Syntax | [Lesson](slides/HTML/01_intro-syntax/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/HTML/01_intro-syntax#/) | [Exercise](exercises/01-html/01-intro-syntax) | html.pdf 1.1 |
-|  |  | HTML: Content Elements | [Lesson](slides/HTML/02_content-els/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/HTML/02_content-els#/) | [Exercises](exercises/01-html/02-content-els) | html.pdf 2.1 |
-|  |  | Web Theory: Assistive Technologies |  | [Lesson](slides/web-theory/02_assistive/PITCHME.md) |  |  |
-|  |  | HTML: Sectioning Elements | [Lesson](slides/HTML/03_sectioning-els/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/HTML/03_sectioning-els#/) | [Exercises](exercises/01-html/03-sectioning-els) | html.pdf 2.2 |
-|  |  | Web Theory: Devtools | [Lesson](slides/web-theory/03_devtools/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/03_devtools#/) | [Exercises](exercises/03-web-theory/03-devtools/README.md) | web-theory.pdf |
-|  |  | HTML: Media Elements | [Lesson](slides/HTML/04_media-els/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/HTML/04_media-els#/) | [Exercises](exercises/01-html/04-media-els) |  |
-|  |  | CSS: Intro & Syntax | [Lesson](slides/CSS/01_intro-syntax/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/01_intro-syntax#/) | [Exercise](exercises/02-css/01-intro-syntax) | css.pdf 1.1 |
-|  |  | CSS: Basic Styles | [Lesson](slides/CSS/02_basic-styles/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/02_basic-styles#/) | [Exercises](exercises/02-css/02-basic-styles) | css.pdf 2.1 |
-|  |  | HTML: Metadata | [Lesson](slides/HTML/05_metadata/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/HTML/05_metadata#/) | [Exercises](exercises/01-html/05-metadata) | html.pdf 1.2 |
-| * | * |<td colspan="5">Go over everything we have done, organise your files and notes, remember to shut down your text editor when you do. Sit somewhere different tomorrow</td>
-|  |  | HTML: Text Elements | [Lesson](slides/HTML/06_text-els/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/HTML/06_text-els#/) | [Exercises](exercises/01-html/06-text-els) | html.pdf 2.4 |
-|  |  | CSS: Web Fonts | [Lessons](slides/CSS/03_web-fonts/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/03_web-fonts#/) | [Exercises](exercises/02-css/03-web-fonts) | css.pdf 2.3 |
-|  |  | CSS: Box Model | [Lesson](slides/CSS/04_box-model/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/04_box-model#/) | [Exercises](exercises/02-css/04-box-model) | css.pdf |
-|  |  | Web Theory: Devtools | [Lesson](slides/web-theory/03_devtools/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/03_devtools#/) | [Exercises](exercises/01-html/05-devtools) | web-theory.pdf |
-|  |  | CSS Colours | [Lesson](slides/CSS/05_colours/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/05_colours#/9) | [Exercises](exercises/02-css/05-colours) | css.pdf 2.2 |
-| * |  |<td colspan="5">The button exercise</td>
-|  |  | CSS Floats | [Lesson](slides/CSS/06_floats/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/06_floats#/) | [Exercises](exercises/02-css/06-floats) | css.pdf |
-|  |  | CSS Units | [Lesson](slides/CSS/07_units/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/07_units#/) | [Exercises](exercises/02-css/07-units) |  |
-|  | * |<td colspan="5">Flexbox Froggy</td>
-|  |  | HTML Forms | [Lesson](slides/HTML/07_forms/PITCHME.md) | [Notes](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/HTML/07_forms#/) | [Exercises](exercises/01-html/07-forms) | html.pdf |
-| * |  |<td colspan="5">Flexbox Froggy & Form Exercise
-|  |  | CSS Flexbox | [Lesson](slides/CSS/08_flexbox/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/08_flexbox#/) | [Exercises](exercises/02-css/08-flexbox) | css.pdf |
-|  |  | Responsive Design | [Lesson](slides/CSS/09_media-queries/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/09_media-queries#/) | [Exercises](exercises/02-css/09-media-queries) | css.pdf |
-| * |  <td colspan="5">Finish flexbox & media query exercises. |
-|  | * <td colspan="5">Play Grid Garden |
-|  |  | CSS Grid Part 1 | [Lesson](slides/CSS/10-grid-1/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/10-grid-1#/) | [Exercises](exercises/02-css/10-grid-1) | css.pdf |
-|  |  | CSS Grid Part 2 | [Lesson](slides/CSS/10-grid-2/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/10-grid-2#/) | [Exercises](exercises/02-css/10-grid-2) | css.pdf |
-|  | * |<td colspan="5">Revise for quiz tomorrow</td>
-|  |  | Requirements Gathering | [Lesson](slides/web-theory/04_requirements/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/04_requirements#/) | [Exercises](exercises/03-web-theory/04-requirements) | web-theory.pdf 4.1 |
-|  |  | Sitemaps | [Lesson](slides/web-theory/05_sitemap/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/05_sitemap#/) | [Exercises](exercises/03-web-theory/05-sitemap) | web-theory.pdf 4.2 |
-|  |  | Scamps | [Lesson](slides/web-theory/06_scamping/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/06_scamping#/) | [Exercises](exercises/03-web-theory/06-scamping) | web-theory 4.3 |
-|  | * |<td colspan="5">Quiz & 1-1s</td>
-|  |  | Wireframes | [Lesson](slides/web-theory/07_wireframing/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/07_wireframing#/) | [Exercises](exercises/03-web-theory/07-wireframing) | web-theory 4.4 |
-| x |  | CSS Framworks | [Lesson](slides/CSS/11_frameworks/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/11_frameworks#/) | [Exercise](exercises/02-css/11-frameworks) | css.pdf 4.4 |
-|  | * |<td colspan="5">Homework: Prototype with Bootstrap</td>
+| Title  | Notes |
+|---|---|
+| Web Theory: General Overview |  web-theory.pdf 1.1 |
+| HTML: Intro & Syntax |  html.pdf 1.1 |
+| HTML: Content Elements |  html.pdf 2.1 |
+| Web Theory: Assistive Technologies |
+| HTML: Sectioning Elements |  html.pdf 2.2 |
+| Web Theory: Devtools |  web-theory.pdf |
+| HTML: Media Elements |   |
+| CSS: Intro & Syntax | css.pdf 1.1 |
+| CSS: Basic Styles | css.pdf 2.1 |
+| HTML: Metadata | html.pdf 1.2 |
+| **Go over everything we have done, organise your files and notes, remember to shut down your text editor when you do. Sit somewhere different tomorrow** | |
+| HTML: Text Elements |  html.pdf 2.4 |
+| CSS: Web Fonts |  css.pdf 2.3 |
+| CSS: Box Model |  css.pdf |
+| Web Theory: Devtools |  web-theory.pdf |
+| CSS Colours |  css.pdf 2.2 |
+| **The button exercise** | |
+| CSS Floats |  css.pdf |
+| CSS Units |   |
+| **Flexbox Froggy** | |
+| HTML Forms |  html.pdf |
+| **Flexbox Froggy & Form Exercise** | |
+| CSS Flexbox |  css.pdf |
+| Responsive Design |  css.pdf |
+| **Finish flexbox & media query exercises.** | |
+| **Play Grid Garden** ||
+| CSS Grid Part 1 |  css.pdf |
+| CSS Grid Part 2 |  css.pdf |
+| **Revise for quiz tomorrow** | |
+| Requirements Gathering |  web-theory.pdf 4.1 |
+| Sitemaps |  web-theory.pdf 4.2 |
+| Scamps |  web-theory 4.3 |
+| **Quiz & 1-1s** | |
+| Wireframes |  web-theory 4.4 |
+| Optional: CSS Framworks |  css.pdf 4.4 |
+| **Homework: Prototype with Bootstrap** | |
 
-NB For the full time students there is an ongoing 'portfolio' project, for which you can find the brief in Basecamp. Homework over the weekend would be to use the skills they learnt on Friday to wireframe their portfolio.
+There is an ongoing 'portfolio' project, for which you can find the brief in Basecamp. Homework over the weekend would be to use the skills they learnt on Friday to wireframe their portfolio.
 
 #### Part Two
 
@@ -92,48 +90,31 @@ Figma Student Master for Part Two - https://www.figma.com/file/6TdVNL837VjTI7yvm
 
 Once they get started on the weekly project it's a good idea to use some time during the days (Tues -> Thurs) to go over parts of the site with the class. I tend to pick out certain approaches or parts of the design they are struggling with. It varies for each class. You can [find the project on Glitch here](https://glitch.com/edit/#!/infrequent-sugared-concavenator), (Instructor google verified account), it's usually in a state of incomplete, but this is helpful as showing coding is better than showing code.
 
-| PT | FT | Title | Lesson | Slides | Exercise | Notes |
-|---|---|---|---|---|---|---|
-|  |  | Design Systems | [Lesson](slides/CSS/12_design-systems/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/12_design-systems#/) | [Exercise](exercises/02-css/12-design-systems) | css.pdf 5.1 |
-|  |  | Atomic Design | [Lesson](slides/CSS/13_atomic-design/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/13_atomic-design#/) |  | [Exercise](exercises/02-css/13-atomic-design) |
-|  |  | Design Handover | [Lesson](slides/web-theory/08_design-handover/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/08_design-handover#/) | [Exercises](exercises/03-web-theory/08-design-handover) | web-theory.pdf 3.5 |
-|  |  | Design Breakdown | [Lesson](slides/web-theory/09_design-breakdown/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/09_design-breakdown#/) | [Exercises](exercises/03-web-theory/09-design-breakdown) | web-theory.pdf 3.6 |
-|  |  | Positioning & Transforms | [Lesson](slides/CSS/14_positioning/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/14_positioning#/) | [Exercises](exercises/02-css/14-positioning) | css.pdf |
-|  |  | Imports | [Lesson](slides/CSS/15_imports/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/15_imports#/2) | [Exercises](exercises/02-css/15-imports) | css.pdf 4.1 |
-| | | | | | | |
-|  |  | Variables | [Lesson](slides/CSS/16_variables/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/16_variables#/4) | [Exercises](exercises/02-css/16-variables) | css.pdf 4.2 |
-|  |  | Accessibility | [Lesson](slides/web-theory/10_accessibility/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/10_accessibility#/) | [No exercise yet](exercises/03-web-theory/10-accessibility) | web-theory.pdf 3.2 |
-|  |  | OOCSS | [Lesson](slides/CSS/17_OOCSS/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/17_OOCSS) | [Exercises](exercises/02-css/17-OOCSS) | css.pdf 4.3 |
-| | | | | | | |
-|  |  | BEM | [Lesson](slides/CSS/19_BEM/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/19_BEM#/) | [Exercises](exercises/02-css/19-BEM) | css.pdf 4.4 |
-|  |  | CSS Effects | [Lesson](slides/CSS/18_effects/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/18_effects#/6) | [Further Reading](exercises/02-css/18-effects) | css.pdf 1.5 |
-| * | * |<td colspan="5">Homework: Research complex selectors</td>
-| | | | | | | |
-|  |  | Complex Selectors | [Lesson](slides/CSS/20_complex-selectors/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/20_complex-selectors#/) | [Exercises](exercises/02-css/20-complex-selectors) | css.pdf |
-|  |  | CSS Animation | There is a codepen for this lesson |  |  |  |
-| * | * |<td colspan="5">Homework: Try to upload to server using instructions if you can. Go over the past two weeks for an AMA session tomorrow afternoon</td>
-|  |  | Specificity | [Lesson](slides/CSS/21_specificity/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/CSS/21_specificity#/) | [Exercises](exercises/02-css/21-specificity) | css.pdf |
-|  |  | Upload to server | [Lesson](slides/web-theory/11_upload/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/11_upload#/) | [Exercises](exercises/03-web-theory/11-upload) |  |
-|  |  | Testing | [Lesson](slides/web-theory/12_testing/PITCHME.md) | [Slides](https://gitpitch.com/develop-me/bootcamp--week-01-02--html-and-css/master?p=slides/web-theory/12_testing#/) | [Exercises](exercises/03-web-theory/12-testing) |  |
-| * | * |<td colspan="5">Week 2 Quiz: Can be found in the devme account (someone created a new one so there are two, depending on what you have taught pick your flavour)</td>
-| * | * |<td colspan="5">AMA Session: Have an open hour in the afternoon for the students to discuss anything from the past couple of weeks.</td>
-
-|  |  | Extra CSS |  |  |  |  |
+| Title | Notes |
+|---|---|
+| Design Systems |  css.pdf 5.1 |
+| Atomic Design |  |
+| Design Handover |  web-theory.pdf 3.5 |
+| Design Breakdown |  web-theory.pdf 3.6 |
+| Positioning & Transforms |  css.pdf |
+| Imports |  css.pdf 4.1 |
+| Variables |  css.pdf 4.2 |
+| Accessibility |  web-theory.pdf 3.2 |
+| OOCSS |  css.pdf 4.3 |
+| BEM |  css.pdf 4.4 |
+| CSS Effects |  css.pdf 1.5 |
+| **Homework: Research complex selectors** | |
+| Complex Selectors |  css.pdf |
+| CSS Animation | There is a codepen for this lesson |  |
+| **Homework: Try to upload to server using instructions if you can. Go over the past two weeks for an AMA session tomorrow afternoon** | |
+| Specificity |  css.pdf |
+| Upload to server |   |
+| Testing |   |
+| **Week 2 Quiz: Can be found in the devme account (someone created a new one so there are two, depending on what you have taught pick your flavour)** | |
+| **AMA Session: Have an open hour in the afternoon for the students to discuss anything from the past couple of weeks.** | |
+| Extra CSS |  |
 
 
 #### Extra Tasks
 
 Should the students finish the project in *Part Two* there is a readme containing [extra exercises which should keep them busy here.](/exercises/04-extra-tasks/README.md)
-
-#### Key
-
-- `x` Can be ommitted
-- `*` This course only
-
-- CSS: CSS Animation
-    - See codepen for lesson https://codepen.io/devmeexamples/pen/OJMWxLv
-    - [Slides](slides/CSS/22_animation/PITCHME.md)
-    - [Exercises](exercises/02-css/22-animation)
-- CSS: Extra CSS
-    - [Slides](slides/CSS/23_extra/PITCHME.md)
-    - [Exercises](exercises/02-css/23-extra)
