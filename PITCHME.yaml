@@ -1,5 +1,0 @@
-theme: white
-logo : slides/assets/devme.png
-footnote : "© 2020 Ruth John for DevelopMe_"
-theme-override : slides/assets/presentation.css
-transition : fade
