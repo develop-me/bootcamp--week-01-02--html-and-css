@@ -110,6 +110,7 @@ Once they get started on the weekly project it's a good idea to use some time du
 | Specificity |  css.pdf |
 | Upload to server |   |
 | Testing |   |
+| SASS (with CodePen) |   |
 | **Week 2 Quiz: Can be found in the devme account (someone created a new one so there are two, depending on what you have taught pick your flavour)** | |
 | **AMA Session: Have an open hour in the afternoon for the students to discuss anything from the past couple of weeks.** | |
 | Extra CSS |  |
