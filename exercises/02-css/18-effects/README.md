@@ -20,4 +20,4 @@ Links to further reading
 ### Masking
 
 [Clipping and masking on CSS Tricks](https://css-tricks.com/clipping-masking-css/)
-[Example of image mask](https://codepen.io/Rumyra/pen/xxGKzwp)
+[Example of image mask](https://codepen.io/devmeexamples/pen/gOwBEXo)

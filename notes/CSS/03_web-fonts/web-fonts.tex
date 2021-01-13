@@ -20,9 +20,9 @@ We need to make sure the font used in the design loads with the website. We need
 
 \begin{minted}{css}
     @font-face {
-        font-family: 'Gotham';
+        font-family: 'Raleway';
         font-weight: normal;
-        src: url("fonts/gotham-book.otf") format("opentype");
+        src: url("fonts/raleway.otf") format("opentype");
     }
 \end{minted}
 
@@ -31,7 +31,7 @@ Remember if the font has different styles to include them under the same name wi
 \subsubsection{Webfont service}
 
 \begin{minted}{html}
-<link href="https://fonts.googleapis.com/css?family=Gotham" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 \end{minted}
 
 \subsection{Font Styling}
@@ -42,7 +42,7 @@ Common:
 
 \begin{minted}{css}
     body {
-        font-family: 'Gotham', "Arial", sans-serif;
+        font-family: 'Raleway', "Arial", sans-serif;
         font-size: 1em;
         color: #666;
         text-align: right;
@@ -77,4 +77,3 @@ Worth noting:
 \href{https://css-tricks.com/fout-foit-foft/}{Loading fonts performantly}
 
 \href{https://css-tricks.com/snippets/css/system-font-stack/}{System fonts}
-
