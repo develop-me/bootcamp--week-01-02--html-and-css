@@ -1,5 +1,17 @@
 # Content Elements
 
-Write what you see:
+Say what you see.
 
-Code the HTML for the picture
+
+### Exercise 1
+
+Code the HTML for the picture:
+
+![01](01/01ss.png)
+
+
+### Exercise 2
+
+Code the HTML for the picture:
+
+![02](02/02ss.png)
