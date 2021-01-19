@@ -42,40 +42,85 @@ body {
 
 ---
 
-#### Styling
+#### Font Styling - common propertiees
 
-Go mad!
+Demonstrate the common CSS properties used when styling fonts.
 
+##### Basic font styling
+
+Ensure that you have a `<h1>` and `<p>` in your markup when demonstrating.
+
+Add a font size to the body, explain how 16px is the default body font size.
+
+Each element has it's own starting font style, inspect the `<h1>` and look at user agent styling.
 
 ```css
-body {
-    font-family: 'Raleway', "Arial", sans-serif;
-    font-size: 1em;
+h1 {
+    /* It's possible that color values haven't been mentioned yet, stick to hex */
     color: #666;
-    text-align: right;
 
-    line-height: 1.6;
-    letter-spacing: 1px;
-    text-decoration: underline;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 1px black;
+    /* It's possible that units haven't been mentioned yet, stick to pixels */
+    font-size: 32px;
+
+    /* Font weight can accept keywords or specific weight values, 100-900 */
+    font-weight: bold;
+
+    /* left,right,center */
+    text-align: center;
 }
 ```
 
-- Worth a mention
+```css
+p {
+    /* Spacing between lines of text, note that this not the same as margin spacing which is between elements */
+    /* Demonstrate incrementing the value in DevTools */
+    line-height: 1.6;
+}
 
+h1 {
+    /* Often used in headings, can be used to increase or reduce space between letters */
+    letter-spacing: 1px;
+
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration */
+    /* Accepts multiple keywords, underline is the most common */
+    text-decoration: underline;
+
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform */
+    text-transform: uppercase;
+
+    /* offset-x | offset-y | blur-radius | color */
+    /* blur-radius is optional  */
+    /* color is optional  */
+    text-shadow: 1px 1px 1px black;
+
+    /* Accepts positive and negative values */
+    text-indent: 2em;
+}
+```
+
+##### Less commonly used font styles
 
 ```css
 body {
-    text-indent: 2em;
-    text-overflow: fade(10px);
+    /* How the browser handles text that spills outside of it's element */
+    /* clip, ellipsis, */
+    /* requires both of the below properties set
+        white-space: nowrap;
+        overflow: hidden;
+     */
+    text-overflow: ellipsis;
 
     word-spacing: 5px;
 
+    /* Determines how an element should handle words that would otherwise spill outside of the it's boundary */
     word-break: break-all;
-    overflow-wrap: break-word;
-    white-space: nowrap;
 
+    /* whether the browser should insert line breaks within an otherwise unbreakable string */
+    /* normal, anywhere, break-word */
+    overflow-wrap: break-word;
+
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/white-space */
+    white-space: nowrap;
 }
 ```
 
