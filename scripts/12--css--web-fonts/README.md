@@ -128,8 +128,11 @@ body {
 
 ## But what if the user doesn't have that font file?
 
+*Create an article with some lorem ipsum content for the demonstration. Already have a font downloaded to import*
 
-Fonts that come installed on your system - system fonts - websites usually have different fonts
+Fonts that come installed on your system - system fonts. Talk about Helvetica, Arial.
+
+Websites usually have different fonts, web fonts. Talk about Google Fonts briefly.
 
 ---
 
@@ -149,23 +152,27 @@ Fonts that come installed on your system - system fonts - websites usually have 
 
 #### Load fonts into CSS
 
-
-
 ```css
 @font-face {
     font-family: 'Raleway';
-  font-weight: normal;
-  src: url("fonts/raleway.otf") format("opentype");
+    font-weight: normal;
+    src: url("fonts/raleway.otf") format("opentype");
 }
 ```
-
 
 ---
 
 ## Same font, different style?
 
-
 Load them all in with the same name and specify the style, like weight bold and style italic
+
+```css
+@font-face {
+    font-family: 'Raleway';
+    font-weight: bold;
+    src: url("fonts/raleway-bold.otf") format("opentype");
+}
+```
 
 ---
 
@@ -178,40 +185,33 @@ Load them all in with the same name and specify the style, like weight bold and 
 
 ## Web Font Services
 
-
 Google fonts example
 
 ---
 
 #### Load fonts as per
 
-
-
 ```html
 <!-- Google font example -->
 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 ```
-
 
 ---
 
 ### Using a third party
 
 - Pro: Less hassle
-- Con: You are not in control
+- Con: You are not in control, the third party server can go down (font stack fallback)
 
 ---
 
 #### Same CSS
-
-
 
 ```css
 body {
     font-family: 'Raleway', "Arial", sans-serif;
 }
 ```
-
 
 ---
 
