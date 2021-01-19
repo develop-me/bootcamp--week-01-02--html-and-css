@@ -1,8 +1,22 @@
 When a website loads it needs to show the same fonts as the design.
 
+\subsection{Changing your site's font}
+
+The font-family property is often used on the body so that it's font is inherited by all of the elements throughout a web page.
+
 \begin{minted}{css}
     body {
-        font-family: 'Helvetica', "Arial", sans-serif;
+        font-family: 'Helvetica';
+    }
+\end{minted}
+
+\subsubsection{Font Stacks}
+
+Providing a font stack to the font-family property is considered best practice. Font stacks, as shown below, allow you to provide fallback fonts in the event that your primary font is unavailable. Your fonts can become unavailable if the font file has been moved or deleted or the font's server is down.
+
+\begin{minted}{css}
+    body {
+        font-family: 'Helvetica', 'Arial', sans-serif;
     }
 \end{minted}
 
