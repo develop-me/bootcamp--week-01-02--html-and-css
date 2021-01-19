@@ -2,18 +2,43 @@
 
 ---
 
-#### Change a font in CSS
+#### Font Family
 
+CSS property used for changing the font on a web page
 
+Write font family with a single value
+```css
+h1 {
+    font-family: 'Helvetica';
+}
+```
+
+This finds a font file matching that name.
+
+Talk about quotation marks. We use them if the font has spaces between it's name so best practice to always use them.
+
+##### Font stack
+
+Write font family with a font stack.
+```css
+h1 {
+    font-family: 'Helvetica', "Arial", sans-serif;
+}
+```
+Remove Helvetica to show the effects of a font-stack.
+
+Talk about how the fallback works, font is unavailable e.g. our website is unable to request the font file so browser will back to the next available font
+
+##### Child elements
+Font family affects child elements
+
+Move font-family declaration to body, see how it now affects it's child elements.
 
 ```css
 body {
     font-family: 'Helvetica', "Arial", sans-serif;
 }
 ```
-
-
-Go through syntax - fonts affect child elements - this goes & finds a font file. Font's are files just like images, there are different formats
 
 ---
 
