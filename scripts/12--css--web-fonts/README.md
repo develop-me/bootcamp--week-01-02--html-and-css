@@ -121,8 +121,32 @@ p {
 
 ##### Less commonly used font styles
 
+For this demonstration, it helps to add some base styling before (or during if it helps demonstrate the concept) the lesson.
+
+```css
+p {
+    border: 1px solid red;
+    width: 200px;
+    overflow: hidden;
+}
+```
+
 ```css
 body {
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/white-space */
+    /* pre - preserve any whitespace found in your elements contents */
+    /*
+    normal
+        Sequences of white space are collapsed. Newline characters in the source are handled the same as other white space. Lines are broken as necessary to fill line boxes.
+    nowrap
+        Collapses white space as for normal, but suppresses line breaks (text wrapping) within the source.
+    pre
+        Sequences of white space are preserved. Lines are only broken at newline characters in the source and at <br> elements.
+    pre-wrap
+        Sequences of white space are preserved. Lines are broken at newline characters, at <br>, and as necessary to fill line boxes.
+     */
+    white-space: nowrap;
+
     /* How the browser handles text that spills outside of it's element */
     /* clip, ellipsis, */
     /* requires both of the below properties set
@@ -139,9 +163,6 @@ body {
     /* whether the browser should insert line breaks within an otherwise unbreakable string */
     /* normal, anywhere, break-word */
     overflow-wrap: break-word;
-
-    /* https://developer.mozilla.org/en-US/docs/Web/CSS/white-space */
-    white-space: nowrap;
 }
 ```
 
