@@ -167,14 +167,15 @@ body {
 ```
 
 ---
-
 ## But what if the user doesn't have that font file?
 
 *Create an article with some lorem ipsum content for the demonstration. Already have a font downloaded to import*
 
 Fonts that come installed on your system - system fonts. Talk about Helvetica, Arial.
 
-Websites usually have different fonts, web fonts. Talk about Google Fonts briefly.
+*Show fonts installed on your system, perhaps using Font Book?*
+
+Websites usually have different fonts, web fonts.
 
 ---
 
@@ -182,7 +183,9 @@ Websites usually have different fonts, web fonts. Talk about Google Fonts briefl
 
 ---
 
-### You need
+### Third Party Web Fonts
+
+#### You need
 
 - Font files
 - Find those fonts:
@@ -191,6 +194,38 @@ Websites usually have different fonts, web fonts. Talk about Google Fonts briefl
     - [What The Font](https://www.myfonts.com/WhatTheFont/)
 
 ---
+
+#### Web Font Services
+
+Google fonts example
+
+---
+
+#### Load fonts as per
+
+```html
+<!-- Google font example -->
+{# Establish network connection early #}
+<link rel="preconnect" href="https://fonts.gstatic.com">
+{# Request specific font #}
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap" rel="stylesheet">
+```
+
+```css
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap');
+```
+
+---
+
+#### Pros/Cons - Using a third party
+Pro: Less hassle
+Con: You are not in control, the third party server can go down (font stack fallback)
+
+---
+
+### Hosting your own
+
+Ensure that you already have a font downloaded and saved in an appropriate folder within your workspace. Demonstrate the file structure.
 
 #### Load fonts into CSS
 
@@ -204,7 +239,7 @@ Websites usually have different fonts, web fonts. Talk about Google Fonts briefl
 
 ---
 
-## Same font, different style?
+#### Same font, different style?
 
 Load them all in with the same name and specify the style, like weight bold and style italic
 
@@ -218,36 +253,15 @@ Load them all in with the same name and specify the style, like weight bold and 
 
 ---
 
-### Serving yourself
+#### Pros/Cons - Serving yourself
 
 - Pro: You are in control
 - Con: It's a hassle
 
 ---
+### Font Family for Web Fonts
 
-## Web Font Services
-
-Google fonts example
-
----
-
-#### Load fonts as per
-
-```html
-<!-- Google font example -->
-<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-```
-
----
-
-### Using a third party
-
-- Pro: Less hassle
-- Con: You are not in control, the third party server can go down (font stack fallback)
-
----
-
-#### Same CSS
+Same as a system font.
 
 ```css
 body {
