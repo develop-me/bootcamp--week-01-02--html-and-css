@@ -46,6 +46,10 @@ body {
 
 Demonstrate the common CSS properties used when styling fonts.
 
+#### Font Styling - common propertiees
+
+Demonstrate the common CSS properties used when styling fonts.
+
 ##### Basic font styling
 
 Ensure that you have a `<h1>` and `<p>` in your markup when demonstrating.
@@ -56,13 +60,15 @@ Each element has it's own starting font style, inspect the `<h1>` and look at us
 
 ```css
 h1 {
-    /* It's possible that color values haven't been mentioned yet, stick to hex */
+    /* Can accept any of CSS' possible color values */
     color: #666;
 
     /* It's possible that units haven't been mentioned yet, stick to pixels */
+    /* Can accept percentages, length values and keywords */
     font-size: 32px;
 
     /* Font weight can accept keywords or specific weight values, 100-900 */
+    /* Not all of the fonts that you are working with will have a bold, 500 etc */
     font-weight: bold;
 
     /* left,right,center */
@@ -74,27 +80,42 @@ h1 {
 p {
     /* Spacing between lines of text, note that this not the same as margin spacing which is between elements */
     /* Demonstrate incrementing the value in DevTools */
-    line-height: 1.6;
+    /* Number below is a multiplier of the font-size */
+    /* e.g. font size of 16px * 1.5 = 24px */
+    line-height: 1.5;
+    /* we can also explicitly set line height with px, rem etc */
+    /* multiplier is good as it is then relative to the font size */
 }
 
-h1 {
-    /* Often used in headings, can be used to increase or reduce space between letters */
-    letter-spacing: 1px;
-
-    /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration */
-    /* Accepts multiple keywords, underline is the most common */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration */
+.underline {
     text-decoration: underline;
+}
 
-    /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform */
+h2 {
+    /* Apply to the h1 */
+    letter-spacing: 1px;
+    /* Often used in headings, can be used to increase or reduce space between letters */
+
+    /* Accepts multiple keywords, underline is the most common */
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration */
+
+    /* Apply to the <h1> */
     text-transform: uppercase;
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform */
 
+    /* Apply to the <h1> */
+    text-shadow: 1px 1px 1px black;
     /* offset-x | offset-y | blur-radius | color */
     /* blur-radius is optional  */
     /* color is optional  */
-    text-shadow: 1px 1px 1px black;
 
-    /* Accepts positive and negative values */
+
+}
+p {
+    /* Indent the <p> */
     text-indent: 2em;
+    /* Accepts positive and negative values */
 }
 ```
 
