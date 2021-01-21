@@ -120,6 +120,25 @@ Can also be used with other languages such as WebGL or JSON.
 
 Script tags are typically placed at the bottom of the body but can also be placed in the head. When placing script tags in the head of document it is recommended to use async defer attributes which prevent page load performance issues.
 
+\section{Use IE Edge if available}
+
+Internet Explorer often features heavily when discussing browser compatibility with your client or internal teams. Edge and IE allow you to change the browser version being used. For example, Edge can actually run IE11, although not to much benefit.
+\\
+
+This also means that we can enforce the user's browser to run Edge but only if Edge is available. We do this to ensure the best possible experience for the user when visiting our website.
+
+This meta tag (below) should be added as high as possible in the document head.
+
+\begin{minted}{html}
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+\end{minted}
+
+From Microsoft:
+
+\begin{quotation}
+    If you are using the X-UA-Compatible META tag you want to place it as close to the top of the page's HEAD as possible. Internet Explorer begins interpreting markup using the latest version. When Internet Explorer encounters the X-UA-Compatible META tag it starts over using the designated version's engine. This is a performance hit because the browser must stop and restart analyzing the content.
+\end{quotation}
+
 \section{Additional Resources}
 
 \begin{itemize}[leftmargin=*]
