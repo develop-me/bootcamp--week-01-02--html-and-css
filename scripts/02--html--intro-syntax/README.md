@@ -50,20 +50,23 @@
 
 ## Whitespace
 
-- This is what we call the spaces in code, like the regular space or tabs at the beginning.
-- Spaces matter when you write HTML elements because you want to make sure attributes don't merge into each other or the element.
+- sometimes it's important to think about the whitespace in your HTML, that is to say how you format your file.
+- whitespace in content: multiple spaces condensed down to only 1
+- whitespace between attributes doesn't make a difference but it's best for neatness to put 1 space between each attribute
+- whitespace after tag name is necessary or else the tag name and the first attribute get joined together
+- cannot put whitespace between the tag opening angle bracket and the tag name
+- new line characters: all elements could go on the same line, but it's hard to read
+- when there are very many attributes on an element, you can put each one on a new line so that they're easier to keep track of. Indent them one level further in than the tag open and close angle brackets.
 
 ---
 
 ## Comments
 
-- Comments are parts of a code file that are ignored:
-
-    ```html
-    <!-- this is an HTML comment -->
-    ```
-
-- Comments are useful to describe what the code is doing, or to remind yourself of things. They can even be used for documentation.
+- Comments are something used to put some text in a file that is ignored
+- Comments are useful to describe what the code is doing, or to remind yourself of things.
+- They can even be used for documentation.
+- Use `cmd` or `ctrl` + `/` to insert single line comment
+- Use `opt` or `alt` + `shift` + `a` to insert or remove a mulitiline comment
 
 ---
 
@@ -81,10 +84,16 @@
     </html>
     ```
 
-- There's a declaration at the top, then everything is inside `html` tags.
-- The `head` section *describes* the document: "metadata"
-- We add all the content to be shown inside the `body` element
-- There can only be one of each of these per HTML document
+
+- doctype declaration
+- html element
+- head element
+- body element
+- only one of these
+- what the head is for (additional information, fetching resources, etc.)
+- what the body is for (elements that display on the page)
+- what not to do (multiple head/body tags, things outside body, html)
+- indentation of the head and body tags
 
 ---
 
