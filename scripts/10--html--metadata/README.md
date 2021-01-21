@@ -49,8 +49,17 @@ Fill in some of the missing tags/attributes.
 
 #### Character Set
 
-Character set of file - different types
+Content is composed of a sequence of characters.
 
+Characters represent letters of the alphabet, punctuation, etc. But content is stored in a computer as a sequence of bytes, which are numeric values.
+
+The way that the sequence of bytes is converted to characters depends on what key was used to encode the text
+
+With a web page, it depends on which character set we're using.
+
+A HTML document requires a charset value, so that the browser understand to read the document.
+
+We use `utf-8` as this has multi-lingual support and provides backwards compatibility to more limited character sets such as ASCII.
 
 
 ```html
@@ -88,15 +97,52 @@ There are lots of these
 
 #### Include Files
 
+##### Link tag common usages
 
-
+**CSS**
+Can be a link to CSS we host or a URL to an external resource.
 ```html
-<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-<script defer src="js/vendor/modernizr-2.8.3.min.js"></script>
+<link rel="stylesheet" href="css/main.css">
 ```
 
+**Favicons**
+Icon displayed in browser tab.
+```html
+<link rel="icon" href="favicon.ico">
+```
 
+**Application icons iOS/Android**
+```html
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="apple-icon-114.png" type="image/png">
+```
+
+##### Link attributes
+
+- `href` - path to resource
+- `rel` - relationship between resource and our HTML document
+- `media` - accepts a CSS media query
+
+##### Script tag common usages
+
+**JS**
+Can be a link to JS we host or a URL to an external resource.
+
+Inline JS.
+
+Can also be used with other languages, WebGL and JSON.
+
+```html
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+<script src="js/main.js"></script>
+
+<script>
+    console.log('Hello World!');
+</script>
+```
 
 ---
 
