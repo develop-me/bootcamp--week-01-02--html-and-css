@@ -130,7 +130,9 @@ This also means that we can enforce the user's browser to run Edge but only if E
 This meta tag (below) should be added as high as possible in the document head.
 
 \begin{minted}{html}
+<head>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+</head>
 \end{minted}
 
 From Microsoft:
@@ -138,6 +140,23 @@ From Microsoft:
 \begin{quotation}
     If you are using the X-UA-Compatible META tag you want to place it as close to the top of the page's HEAD as possible. Internet Explorer begins interpreting markup using the latest version. When Internet Explorer encounters the X-UA-Compatible META tag it starts over using the designated version's engine. This is a performance hit because the browser must stop and restart analyzing the content.
 \end{quotation}
+
+\section{Viewport and High DPR Displays}
+
+There are a wide range of devices and browsers that have access to the internet. These devices will come with dimensions and with different Device Pixel Ratios.
+\\
+
+This creates challenges when trying to acheive a consistent design, but this is where the viewport tag comes in. We can specify the total width that our web page should consume within the available viewport and also the initial scale when the web page loads.
+\\
+
+The device-width is just a variable for the actual width of the device being used to access our web page. The initial-scale refers to the starting zoom level. The values below ensure consistency across devices that have varying DPRs such as retina displays.
+
+\begin{minted}{html}
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+\end{minted}
+
 
 \section{Additional Resources}
 
