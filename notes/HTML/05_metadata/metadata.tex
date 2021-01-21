@@ -25,7 +25,28 @@
 </head>
 \end{minted}
 
-Here is a \href{link to the code for HTML5 Boilerplate}{https://github.com/h5bp/html5-boilerplate/blob/master/src/index.html} which is maintained to the latest standard.
+\section{HTML5 Boilerplate}
+
+Here is a \href{link to the index.html for HTML5 Boilerplate}{https://github.com/h5bp/html5-boilerplate/blob/master/src/index.html} which is maintained to the latest standard.
+
+\section{Character sets}
+
+The content in our web pages is composed of a sequence of characters. Those characters are stored in a computer as a sequence of bytes, which are numeric values.
+\\
+
+The way that the sequence of bytes is converted to characters depends on which key was used to encode the text and with a web page, the key we are referring to is the charcter set. A HTML document requires a character set to be defined, so that the browser understands how to parse the document.
+\\
+
+The recommended character set for web pages at time of writing is \href{https://www.w3.org/International/questions/qa-choosing-encodings#useunicode}{UTF-8}. UTF-8 is extensive enough to provide multi-lingual support for web pages and provides backwards compatibility to the more limited character set, ASCII.
+\\
+
+We define the character set for our document like so:
+
+\begin{minted}{html}
+<head>
+    <meta charset="utf-8">
+</head>
+\end{minted}
 
 \section{Link and Script tags}
 
