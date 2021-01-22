@@ -1,5 +1,8 @@
 # Responsive & adaptive design
 
+- Vast majority of websites are accessed by different devices rather than just a desktop these days
+- How do we deal with this?
+
 ---
 
 ![Lots and lots of devices](resources/devices.png)
@@ -37,12 +40,64 @@ I'm sure you seen 'mobile' sites - this is adaptive. We'll be looking into respo
 
 ---
 
+
 ### How?
 
 - Use relative not absolute CSS units
 - CSS Media Queries
+
+#### There are other methods
 - Is also JavaScript feature and device detection
-- Speedtesting is hard
+    - https://modernizr.com/
+
+Quickly demonstrate the tools available using the below code. The idea here is to start with images spilling outside of their container and then use relative units to fix that and then a media query to change the image size at different screen sizes.
+
+```html
+ <section class="flex-container">
+    <figure class="img-container">
+      <img src="https://placekitten.com/200/300" alt="A cute kitten.">
+    </figure>
+    <figure class="img-container">
+      <img src="https://placekitten.com/200/300" alt="A cute kitten.">
+    </figure>
+    <figure class="img-container">
+      <img src="https://placekitten.com/200/300" alt="A cute kitten.">
+    </figure>
+  </section>
+```
+
+Starting CSS
+```css
+html {
+	font-size: 16px;
+	line-height: 1.4;
+	color: #333;
+}
+
+figure {
+	margin: 0;
+}
+
+.img-container {
+	border: 2px solid red;
+	padding: 1rem;
+	width: 10%;
+}
+```
+
+Ending CSS
+
+```css
+.img-container img {
+	width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+	.img-container {
+		width: 25%;
+	}
+}
+```
 
 ---
 

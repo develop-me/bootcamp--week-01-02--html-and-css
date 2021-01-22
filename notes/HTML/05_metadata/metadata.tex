@@ -25,5 +25,143 @@
 </head>
 \end{minted}
 
-Here is a \href{link to the code for HTML5 Boilerplate}{https://github.com/h5bp/html5-boilerplate/blob/master/src/index.html} which is maintained to the latest standard.
+\section{HTML5 Boilerplate}
 
+Here is a \href{link to the index.html for HTML5 Boilerplate}{https://github.com/h5bp/html5-boilerplate/blob/master/src/index.html} which is maintained to the latest standard.
+
+\section{Character sets}
+
+The content in our web pages is composed of a sequence of characters. Those characters are stored in a computer as a sequence of bytes, which are numeric values.
+\\
+
+The way that the sequence of bytes is converted to characters depends on which key was used to encode the text and with a web page, the key we are referring to is the charcter set. A HTML document requires a character set to be defined, so that the browser understands how to parse the document.
+\\
+
+The recommended character set for web pages at time of writing is \href{https://www.w3.org/International/questions/qa-choosing-encodings#useunicode}{UTF-8}. UTF-8 is extensive enough to provide multi-lingual support for web pages and provides backwards compatibility to the more limited character set, ASCII.
+\\
+
+We define the character set for our document like so:
+
+\begin{minted}{html}
+<head>
+    <meta charset="utf-8">
+</head>
+\end{minted}
+
+\section{Title and Description tags}
+
+Add content to the title tag which will be displayed in the user's browser tab.
+
+\begin{minted}{html}
+<head>
+    <title>DevelopMe | Coding Fellowship page</title>
+</head>
+\end{minted}
+
+The meta description tag is used to describe the web page content. It's most commonly used to provide a snippet that will be used by search engines when they index the page. This snippet appears in the search result which helps users find the information they need faster.
+
+\begin{minted}{html}
+<head>
+    <meta name="description" content="A 5 star rated Coding Bootcamp with extensive hiring partner network. Become a Software Engineer in as little as 16 weeks!">
+</head>
+\end{minted}
+
+\section{Link and Script tags}
+
+Used to add resources to our web page which enhance the user experience. Resources can either be files sourced locally or external resources such as a CSS or JS framework.
+
+\subsection{Link tag}
+
+Belong in the head of the document and are most commonly used to load a CSS file.
+
+\begin{minted}{html}
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/main.css"
+</head>
+\end{minted}
+
+Link tags can also be used to load icons.
+
+\begin{minted}{html}
+<head>
+    <link rel="icon" href="favicon.ico">
+
+    <link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="apple-icon-114.png" type="image/png">
+</head>
+\end{minted}
+
+The most commonly used attributes are:
+
+\begin{itemize}[leftmargin=*]
+    \item href - path to resource
+    \item rel - relationship between resource and our HTML document
+    \item media - accepts a CSS media query
+\end{itemize}
+
+\subsection{Script tag}
+
+Used to load a JavaScript file or to write 'inline' JavaScript within the HTML file itself.
+\\
+
+Can also be used with other languages such as WebGL or JSON.
+
+\begin{minted}{html}
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+<script src="js/main.js"></script>
+
+<script>
+    console.log('Hello World!');
+</script>
+\end{minted}
+
+Script tags are typically placed at the bottom of the body but can also be placed in the head. When placing script tags in the head of document it is recommended to use async defer attributes which prevent page load performance issues.
+
+\section{Use IE Edge if available}
+
+Internet Explorer often features heavily when discussing browser compatibility with your client or internal teams. Edge and IE allow you to change the browser version being used. For example, Edge can actually run IE11, although not to much benefit.
+\\
+
+This also means that we can enforce the user's browser to run Edge but only if Edge is available. We do this to ensure the best possible experience for the user when visiting our website.
+
+This meta tag (below) should be added as high as possible in the document head.
+
+\begin{minted}{html}
+<head>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+</head>
+\end{minted}
+
+From Microsoft:
+
+\begin{quotation}
+    If you are using the X-UA-Compatible META tag you want to place it as close to the top of the page's HEAD as possible. Internet Explorer begins interpreting markup using the latest version. When Internet Explorer encounters the X-UA-Compatible META tag it starts over using the designated version's engine. This is a performance hit because the browser must stop and restart analyzing the content.
+\end{quotation}
+
+\section{Viewport and High DPR Displays}
+
+There are a wide range of devices and browsers that have access to the internet. These devices will come with dimensions and with different Device Pixel Ratios.
+\\
+
+This creates challenges when trying to acheive a consistent design, but this is where the viewport tag comes in. We can specify the total width that our web page should consume within the available viewport and also the initial scale when the web page loads.
+\\
+
+The device-width is just a variable for the actual width of the device being used to access our web page. The initial-scale refers to the starting zoom level. The values below ensure consistency across devices that have varying DPRs such as retina displays.
+
+\begin{minted}{html}
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+\end{minted}
+
+
+\section{Additional Resources}
+
+\begin{itemize}[leftmargin=*]
+    \item \href{https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link}{MDN - the <link> tag}
+    \item \href{https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script}{MDN - the <script> tag}
+    \item \href{https://stackoverflow.com/questions/6771258/what-does-meta-http-equiv-x-ua-compatible-content-ie-edge-do}{StackOverflow post - IE Edge meta tag}
+\end{itemize}

@@ -274,14 +274,3 @@ body {
 > Don't forget a system backup & keyword!
 
 ---
-
-
-### It's actually a lot more complicated than that
-
-References for students that want to dig deeper into web fonts.
-
-[https://css-tricks.com/fout-foit-foft/](https://css-tricks.com/fout-foit-foft/)
-
-[https://css-tricks.com/snippets/css/system-font-stack/](https://css-tricks.com/snippets/css/system-font-stack/)
-
----
