@@ -5,7 +5,7 @@
 ### HTML is a data structure
 
 - HyperText Markup Language (sometimes referred to as just 'markup' or 'marking something up')
-- Based on XML
+- Based on SGML, many similarities with XML
 - Gives the browser (environment) data (information)
 - Content layer
     - CSS: Style layer
@@ -18,7 +18,7 @@
     ```
 
 - Element, attribute, contents
-- Open angle brackets, write element, write any attributes, close angle bracket, write content, open angle brackets, FORWARD SLASH, write element again
+- Open angle brackets, write tag name, write any attributes, close angle bracket, write content, open angle brackets, FORWARD SLASH, write tag name again
 
 - Another example: Self closing & multiple attributes:
 
@@ -45,6 +45,7 @@
 - We add indentation (tab key/VS Code shortcuts) to the inside element when we do this, so we can easily read it.
 - When we put an element inside another element the one inside is called the child and the one containing the other element is called the parent.
 - We can put as many elements inside as many elements as we like!
+    - Sometimes rules about what should go in what
 
 ---
 
@@ -90,8 +91,8 @@
 - head element
 - body element
 - only one of these
-- what the head is for (additional information, fetching resources, etc.)
-- what the body is for (elements that display on the page)
+- what the head is for: metadata (additional information, fetching resources, etc.)
+- what the body is for: elements that display on the page
 - what not to do (multiple head/body tags, things outside body, html)
 - indentation of the head and body tags
 
