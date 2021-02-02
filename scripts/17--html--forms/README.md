@@ -9,11 +9,11 @@
 - Therefore we can't do everything we want to with a form just in HTML and CSS
 - Even typing into Ecosia/Google search is using a form
 
-#### form tag
+#### Form tag
 
 - `<form>`
-- Formally and semantically defines your form, like a <section> or <article>
-- Attributes
+- formally and semantically defines your form, like a `<section>` or `<article>`
+- important attributes
     - **action**
         - defines the location (URL) where the form's collected data should be sent when it is submitted.
         - if empty defaults to same page
@@ -22,10 +22,10 @@
         - default is `GET`
         - also `POST`
 
-#### label tag
+#### Label tag
 
 - `<label>`
-- Important for accessibility. Always include a label for each input.
+- important for accessibility. Always include a label for each input.
 - the `for` attribute is important as it connects the label to the `id` of the associated input
 - this enables screenreaders to read the label when an input is selected
 
@@ -34,7 +34,7 @@
 <input type="text" name="name" id="firstName" />
 ```
 
-#### input tag
+#### Input tag
 
 - `<input>`
 - self-closing tag
@@ -43,7 +43,7 @@
 Important attributes:
 
 - `id` - to connect to the label
-- `name` - important for submitting data. Used as part of a name/value pair.
+- `name` - important for submitting data
 - `value` - add a default value for the input
 - `placeholder` - add a placeholder for the input. Better to do this than add a default value for UX purposes (don't have to delete it to type)
 - `type`
@@ -56,37 +56,38 @@ Important attributes:
 <input type="text" name="city" id="city" placeholder="United Kingdom" value="" />
 ```
 
+#### Input Types
 
-- Text types
+- Text Types
     - `password`: hides input
     - `email`
     - `url`
     - `tel`
 
 - Numbers and Dates
-    - number
-    - range
+    - `number`
+    - `range`
 
     ```html
     <label for="inrange">Range</label>
     <input type="range" name="rangein" id="inrange" min="0" max="10" step="1" />
     ```
 
-    - date
-    - datetime-local
-    - month
-    - time
-    - week
+    - `date`
+    - `datetime-local`
+    - `month`
+    - `time`
+    - `week`
 
 - Checkboxes and Radio Buttons
-    - checkbox
+    - `checkbox`
 
     ```html
     <label for="incheck">Checkbox</label>
     <input type="checkbox" name="checkin" id="incheck" checked />
     ```
 
-    - radio: same name, only one can be selected
+    - `radio`: same name, only one can be selected
 
     ```html
     <div>
@@ -96,15 +97,16 @@ Important attributes:
     </div>
     ```
 
-- Misc. inputs
-    - file: for selecting files
-    - search: rounded corners/clear field button
-    - color
+- Miscellaneous types
+    - `file`: for selecting files
+    - `search`: rounded corners/clear field button
+    - `color`
+    - `hidden`: data that needs submitting but not show to user
 
-- Hidden inputs
-    - Data that needs submitting but not show to user
+#### Select tag
 
-- Select
+- `<select>`
+- creates a dropdown menu
 
     ```html
     <label for="dropdown">Select</label>
@@ -115,50 +117,57 @@ Important attributes:
     </select>
     ```
 
-    - also `<optgroup>` for grouping options
-    - more advanced fake select boxes using JS
+- also `<optgroup>` for grouping options
+- more advanced fake select boxes using JS
 
-- Text Area
+#### Textarea tag
 
-    ```html
-    <label for="message">Textarea</label>
-    <textarea id="message" name="message"></textarea>
-    ```
+- `<textarea>`
+- not self-closing
+- can enter multi-line text for eg. a comment
+- uses all the same attributes as `<input>`
+- however `value` goes *between* tags
+- careful: *all* whitespace between tags is included
 
-    - "value"
-        - goes *between* tags
-        - careful: *all* whitespace between tags is included
+```html
+<label for="message">Text Area</label>
+<textarea id="message" name="message"></textarea>
+```
 
-- Fieldset & Legends
-    - For grouping inputs that are related
+#### Fieldset & Legends
 
-    ```html
-    <fieldset>
-      <legend>About You</legend>
+- `<fieldset>` and `<legend>`
+- For grouping inputs that are related
 
-      <label for="first-name">First Name</label>
-      <input type="text" name="first-name" id="first-name" />
+```html
+<fieldset>
+    <legend>About You</legend>
 
-      <label for="last-name">Last Name</label>
-      <input type="text" name="last-name" id="last-name" />
+    <label for="first-name">First Name</label>
+    <input type="text" name="first-name" id="first-name" />
 
-      <!-- more related inputs -->
-    </fieldset>
+    <label for="last-name">Last Name</label>
+    <input type="text" name="last-name" id="last-name" />
 
-    <fieldset>
-      <legend>Your Purchases</legend>
+    <!-- more related inputs -->
+</fieldset>
 
-      <!-- related inputs -->
-    </fieldset>
-    ```
+<fieldset>
+    <legend>Your Purchases</legend>
 
-- Submitting
-    - `<button type="...">`
-        - `submit`: submits forms
-        - `reset`: clears form (generally not that useful)
-        - `button`: creates a button that doesn't do anything - text is the `value` attribute
+    <!-- related inputs -->
+</fieldset>
+```
 
-    - Or with: `<input type="...">`
-        - `submit`: submits forms
-        - `reset`: clears form (generally not that useful)
-        - `button`: creates a button that doesn't do anything - text is the `value` attribute
+#### Submitting
+
+- Submitting with `<button>`
+- various `type` attributes to be aware of:
+    - `submit`: submits forms
+    - `reset`: clears form (generally not that useful)
+    - `button`: creates a button that doesn't do anything - text is the `value` attribute
+
+- Or with: `<input type="...">`
+    - `submit`: submits forms
+    - `reset`: clears form (generally not that useful)
+    - `button`: creates a button that doesn't do anything - text is the `value` attribute
