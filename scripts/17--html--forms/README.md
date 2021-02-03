@@ -38,7 +38,7 @@
 
 - `<input>`
 - self-closing tag
-- can be nested in the label so that their association is implicit but it is best practice to still use the `for` attribute on the label 
+- can be nested in the label so that their association is implicit but it is best practice to still use the `for` attribute on the label
 
 Important attributes:
 
@@ -46,6 +46,7 @@ Important attributes:
 - `name` - important for submitting data
 - `value` - add a default value for the input
 - `placeholder` - add a placeholder for the input. Better to do this than add a default value for UX purposes (don't have to delete it to type)
+- `required` - makes a field required
 - `type`
     - the most important attribute
     - defaults to `text`
@@ -138,6 +139,8 @@ Important attributes:
 
 - `<fieldset>` and `<legend>`
 - For grouping inputs that are related
+- Great for custom styling and for disabling a group of inputs at once
+- do not have to be nested inside the form element if `form` attribute is used
 
 ```html
 <fieldset>
@@ -161,13 +164,10 @@ Important attributes:
 
 #### Submitting
 
-- Submitting with `<button>`
-- various `type` attributes to be aware of:
-    - `submit`: submits forms
+You can submit using either a `<button>` or an `<input>`
+- various `type` attributes to be aware of apply to both
+    - `submit`: submits forms according to `action` attribute on form element
     - `reset`: clears form (generally not that useful)
-    - `button`: creates a button that doesn't do anything - text is the `value` attribute
+    - `button`: creates a button that doesn't do anything - great for custom functionality
 
-- Or with: `<input type="...">`
-    - `submit`: submits forms
-    - `reset`: clears form (generally not that useful)
-    - `button`: creates a button that doesn't do anything - text is the `value` attribute
+If using an `<input>` you can use the `value` attribute to add custom button text.
