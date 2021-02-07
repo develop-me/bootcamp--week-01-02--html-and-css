@@ -1,5 +1,33 @@
 # CSS Colour Formats
 
+Create an element for each CSS colour type, e.g. names, hex, rgb, hsl, rgba and hsla.
+
+Style each one using a different approach.
+
+Starter template:
+
+```html
+<div class="colour-boxes">
+    <div class="names"></div>
+    <div class="hex"></div>
+    <div class="rgb"></div>
+    <div class="hsl"></div>
+    <div class="rgba"></div>
+    <div class="hsla"></div>
+</div>
+```
+
+```css
+.colour-boxes {
+    display: flex;
+}
+
+.colour-boxes > div {
+    height: 100px;
+    width: 16.66%;
+}
+```
+
 ---
 #### Anywhere you use a colour
 
