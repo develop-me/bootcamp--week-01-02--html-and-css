@@ -50,53 +50,39 @@ I'm sure you seen 'mobile' sites - this is adaptive. We'll be looking into respo
 - Is also JavaScript feature and device detection
     - https://modernizr.com/
 
-Quickly demonstrate the tools available using the below code. The idea here is to start with images spilling outside of their container and then use relative units to fix that and then a media query to change the image size at different screen sizes.
+Quickly demonstrate the tools available using the below code. The idea here is to start with the markup of a full page that hasn't received layout styling and to adjust the layout for mobile/desktop. Articles will be across 3 cols on desktop and 1 col linear on mobile. Nav hidden on mobile but shown on desktop.
 
 ```html
- <section class="flex-container">
-    <figure class="img-container">
-      <img src="https://placekitten.com/200/300" alt="A cute kitten.">
-    </figure>
-    <figure class="img-container">
-      <img src="https://placekitten.com/200/300" alt="A cute kitten.">
-    </figure>
-    <figure class="img-container">
-      <img src="https://placekitten.com/200/300" alt="A cute kitten.">
-    </figure>
-  </section>
+<header>
+    <h1>SITE NAME</h1>
+    <nav>
+        <a href="">Home</a>
+        <a href="">Products</a>
+        <a href="">Blog</a>
+    </nav>
+</header>
+<main>
+    <section class="news-feed">
+        <article>ARTICLE 1</article>
+        <article>ARTICLE 2</article>
+        <article>ARTICLE 3</article>
+    </section>
+</main>
+<footer>FOOTER</footer>
 ```
 
 Starting CSS
 ```css
-html {
-	font-size: 16px;
-	line-height: 1.4;
-	color: #333;
-}
 
-figure {
-	margin: 0;
-}
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
 
-.img-container {
-	border: 2px solid red;
-	padding: 1rem;
-	width: 10%;
-}
-```
+  nav {
+    display: flex;
+  }
 
-Ending CSS
-
-```css
-.img-container img {
-	width: 100%;
-}
-
-@media screen and (min-width: 768px) {
-	.img-container {
-		width: 25%;
-	}
-}
 ```
 
 ---
