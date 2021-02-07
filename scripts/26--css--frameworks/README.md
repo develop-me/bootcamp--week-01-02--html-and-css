@@ -1,22 +1,13 @@
 # Prototyping
----
 
-### Wireframing is good
+> A _quick_ interactive workable solution
 
-- Send to client
-- Comments & Discussions
-- Adjustments
-- Problems
-- Versions
-- Visualise & planning
+Can also be helpful to test technology
+
+There is prototyping software to show interaction.
 
 ---
-
-## Problems?
-
----
-
-### Wireframing doesn't give you
+## Wireframing doesn't give you
 
 - Interactivity
 
@@ -24,19 +15,9 @@
 
 ---
 
-## Solution?
+## Prototyping with front-end frameworks
 
----
-
-### Prototypes!
-
-> A _quick_ interactive workable solution
-
-Can also be helpful to test technology
-
-There is prototyping software to show interaction. However we'll be talking about frameworks
----
-
+Writing the markup/CSS for a nav every time is consuming, if you need to get something out of the door quickly then a framework can save you the time and hassle.
 
 ### Frameworks, libraries, APIs
 
@@ -72,6 +53,12 @@ I'm sure you've realised by now you can re-use the code you're writing
 ### Bootstrap
 
 ![Bootstrap website](resources/bootstrap.png)
+
+---
+
+### Tailwind
+
+[Tailwind website](https://tailwindcss.com/)
 
 ---
 
