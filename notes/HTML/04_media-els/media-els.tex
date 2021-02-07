@@ -1,8 +1,115 @@
-\begin{description}
-    \item[video] \texttt{<video src="myvideo.mp4" poster="firstimage.jpg" controls></video>} Include a video
-    \item[audio] \texttt{<audio src="myaudio.mp3" controls></audio>} Include an audio track
-    \item[picture] \texttt{<picture>...</picture>} Use to load different image sizes and types (with source)
-    \item[source] \texttt{<source src="/media/examples/flower.mp4" type="video/mp4">} Add inside audio or video to load different file types
-    \item[figure] \texttt{<figure>...</figure>} Usually a figure is an image, illustration, diagram, code snippet.
-    \item[figcaption] \texttt{<figcaption>...</figcaption>} A caption or legend describing the rest of the figure contents.
-\end{description}
+Provide a means of embedding media files directly into a web page without having to include additional libraries or plugins.
+
+\subsection{Video}
+
+Embeds a video player into the HTML document.
+
+\begin{minted}{html}
+<video
+    src="myvideo.mp4"
+    poster="firstimage.jpg"
+    controls
+></video>
+\end{minted}
+
+Here are some (but not all) of the attributes that can be used with the video element.
+
+\begin{itemize}
+    \item[src] path to the file which is the source of the video element
+    \item[autoplay] whether the video should start playing when the video element is rendered
+    \item[controls] whether the browser should offer the user to control the video playback which includes play/pause, volume controls etc
+    \item[loop] whether the video restarts after it has finished playing
+    \item[poster] fallback image to display whilst the video is downloading
+\end{itemize}
+
+\subsection{Audio}
+
+Embeds an audio player into the HTML document.
+
+\begin{minted}{html}
+<audio
+    src="myaudio.mp3"
+    controls
+></audio>
+\end{minted}
+
+Here are some (but not all) of the attributes that can be used with the audio element.
+
+\begin{itemize}
+    \item[src] path to the file which is the source of the audio element
+    \item[autoplay] whether the audio should start playing when the audio element is rendered
+    \item[muted] whether the audio is muted on load, which can be overriden the user with the use of browser controls
+    \item[controls] whether the browser should offer the user to control the audio playback which includes play/pause, volume controls etc
+    \item[loop] whether the audio restarts after it has finished playing
+\end{itemize}
+
+\subsection{Source element}
+
+Can be used within a audio, video or picture element. It is used (alongside other source elements) to provide multiple media resources. It's most common use by far, is to provide the same media content but in multiple formats to provide a wide range of browser support.
+\\
+
+For example, providing a hero image in webp format for more modern browsers but also providing a jpg as a fallback. You can see another example below, where mp4 is the fallback offered to webm.
+
+\begin{minted}{html}
+<video
+    poster="firstimage.jpg"
+    controls
+    autoplay
+    <source src="/media/examples/flower.webm" type="video/webm">
+    <source src="/media/examples/flower.mp4" type="video/mp4">
+</video>
+\end{minted}
+
+\begin{infobox}{Browser Support}
+    One of the biggest challenges that we face as developers, is ensuring that our front-end code performs well across the vast number of browsers and devices which are used to access our websites and apps. It will come up in every project you work on and will be referred to a lot when building applications.
+\end{infobox}
+
+
+\subsection{Picture}
+
+Used to render an image, but makes use of an img tag and source elements to provide a wider range of browser support. Unlike the img tag on it's own, which uses a single media resource.
+\\
+
+If the browser supports the picture element, it will render the image from the source which has the best file format for that specific browser. If the picture element isn't supported or the source elements do not offer an appropriate image format for the browser, the img tag will be used.
+
+\begin{minted}{html}
+<picture>
+    <source srcset="/media/examples/surfer-240-200.jpg"
+            media="(min-width: 800px)">
+    <img src="/media/examples/painted-hand-298-332.jpg" />
+</picture>
+\end{minted}
+
+
+\begin{itemize}
+    \item[media] used on the source element only. Accepts a CSS media query as it's value and can be used to serve a different file based on the user's device
+\end{itemize}
+
+\subsection{Figure and Captions}
+
+Often used to render an content which represents an illustration, diagram or code snippet. A caption can be provided but this optional.
+\\
+
+The figure element is not limited to the use of HTML media elements and can also accept regular elements which include:
+
+\begin{itemize}
+    \item[code, pre] which are used to render code snippets in a web page
+    \item[blockquote] where the cite element, can be used in the figcaption
+\end{itemize}
+
+But this is not an exhaustive set of examples.
+
+\begin{minted}{html}
+<figure>
+    <img src="/media/examples/elephant-660-480.jpg"
+         alt="Elephant at sunset">
+    <figcaption>An elephant at sunset</figcaption>
+</figure>
+\end{minted}
+
+\subsection{Additional Resources}
+
+\begin{itemize}[leftmargin=*]
+    \item \href{https://syntax.fm/show/266/video-for-the-web-2020-and-beyond}{Syntax FM podcast on Video for 2020}
+    \item \href{https://html.com/media/}{Every way possible to embed media in HTML5}
+\end{itemize}
