@@ -20,11 +20,12 @@ Starter template:
 ```css
 .colour-boxes {
     display: flex;
+    justify-content: space-between;
 }
 
 .colour-boxes > div {
     height: 100px;
-    width: 16.66%;
+    width: calc(16.67% - 1rem);
 }
 ```
 
@@ -57,6 +58,10 @@ Transparent
 Three part hexadecimal format
 
 Each single or pair represent 0-255 in R, G, or B channel
+
+Each channel is represented by eight bits. Thus, there are 24 bits used to specify a web color
+
+Use hotpink hex code #ff69b4 for demo
 
 - `#FF0000` = R: FF, G: 00, B: 00
 - `#EEF4F1` = R: EE, G: F4, B: F1
